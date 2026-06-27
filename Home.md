@@ -15,10 +15,10 @@ Each chapter page follows the **same order as the book pages** and is broken int
 
 | # | Chapter | Book pages | Status |
 |---|---------|-----------|--------|
-| 1 | [Tere! (Hello!)](Chapter-01-Tere) | 10–13 | ✅ Done |
+| 1 | [Tere! (Hello!)](Chapter-01-Tere.md) | 10–13 | ✅ Done |
 | 2 | Maad ja keeled (Countries & languages) | 14–… | ⬜ To do |
 | … | … | … | ⬜ To do |
-| 6 | [Aastaajad (The seasons)](Chapter-06-Aastaajad) | 46–51 | ✅ Done |
+| 6 | [Aastaajad (The seasons)](Chapter-06-Aastaajad.md) | 46–51 | ✅ Done |
 
 *(More chapters will be added as we go.)*
 
@@ -32,4 +32,4 @@ Each chapter page follows the **same order as the book pages** and is broken int
 
 ---
 
-See [How to publish](Publishing) to put this wiki online on GitHub.
+See [How to publish](Publishing.md) to put this wiki online on GitHub.

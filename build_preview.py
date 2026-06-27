@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Generate a static, self-contained HTML preview of the GitHub-wiki .md files.
-No server needed: open preview/index.html in any browser."""
-import os, re, sys, glob, html
+"""Generate a static, self-contained HTML site from the wiki .md files.
+Output goes to ./docs (GitHub Pages: Settings -> Pages -> main /docs).
+Usage: python3 build_preview.py [REPO_DIR] [OUTPUT_DIR]
+No server needed: open docs/index.html in any browser."""
+import os, re, sys, glob
 import markdown
 
 WIKI = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(WIKI, "preview")
+OUT = os.path.join(WIKI, sys.argv[2] if len(sys.argv) > 2 else "docs")
 os.makedirs(OUT, exist_ok=True)
+# .nojekyll tells GitHub Pages to serve the HTML as-is (no Jekyll processing)
+open(os.path.join(OUT, ".nojekyll"), "w").close()
 
 def github_slug(value, sep='-'):
     value = value.strip().lower()
@@ -14,7 +18,6 @@ def github_slug(value, sep='-'):
     value = re.sub(r'\s', sep, value)                          # spaces -> hyphens (no collapse)
     return value
 
-# pages = all .md except the special sidebar/footer partials
 md_files = [f for f in glob.glob(os.path.join(WIKI, "*.md"))]
 page_names = {os.path.splitext(os.path.basename(f))[0] for f in md_files}
 
@@ -34,16 +37,17 @@ sidebar_html = render(read("_Sidebar")) if read("_Sidebar") else ""
 footer_html = render(read("_Footer")) if read("_Footer") else ""
 
 def fix_links(h):
-    # turn wiki links like href="Chapter-01-Tere" or "...#anchor" into ".html"
     def repl(m):
         href = m.group(1)
         if href.startswith(("http://", "https://", "#", "mailto:")):
             return m.group(0)
         base, _, anchor = href.partition("#")
+        if base.endswith(".md"):
+            base = base[:-3]            # accept links written with .md
         if base in page_names:
             base = base + ".html"
         elif base == "" and anchor:
-            return m.group(0)  # pure in-page anchor
+            return m.group(0)           # pure in-page anchor
         new = base + (("#" + anchor) if anchor else "")
         return f'href="{new}"'
     return re.sub(r'href="([^"]+)"', repl, h)
@@ -86,7 +90,7 @@ TPL = """<!doctype html><html lang="et"><head><meta charset="utf-8">
 
 for f in md_files:
     name = os.path.splitext(os.path.basename(f))[0]
-    if name in ("_Sidebar", "_Footer"):
+    if name in ("_Sidebar", "_Footer", "README"):
         continue
     body = fix_links(render(open(f, encoding="utf-8").read()))
     page = TPL.format(title=name.replace("-", " "), css=CSS,
@@ -96,4 +100,4 @@ for f in md_files:
     if name == "Home":
         open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(page)
 
-print("Built:", ", ".join(sorted(os.listdir(OUT))))
+print("Built site in", OUT, ":", ", ".join(sorted(os.listdir(OUT))))
