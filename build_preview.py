@@ -2,7 +2,7 @@
 """Generate a static, self-contained HTML site from the wiki .md files.
 Output goes to ./docs (GitHub Pages: Settings -> Pages -> main /docs).
 Usage: python3 build_preview.py [REPO_DIR] [OUTPUT_DIR]"""
-import os, re, sys, glob
+import os, re, sys, glob, html
 import markdown
 
 WIKI = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
@@ -34,7 +34,28 @@ def read(name):
     p = os.path.join(WIKI, name + ".md")
     return open(p, encoding="utf-8").read() if os.path.exists(p) else ""
 
-sidebar_html = render(read("_Sidebar")) if read("_Sidebar") else ""
+CHAPTERS = [  # (file base, short label, full label)
+    ("Chapter-01-Tere", "1 · Tere!", "Chapter 1 · Tere!"),
+    ("Chapter-06-Aastaajad", "6 · Aastaajad", "Chapter 6 · Aastaajad"),
+]
+
+def build_sidebar():
+    p = ['<h3>E Nagu Eesti</h3>',
+         '<p><strong><a href="Home.html">\U0001f3e0 Home</a></strong></p>',
+         '<p><strong>Chapters</strong></p><ul class="quick">']
+    for fn, short, _ in CHAPTERS:
+        p.append(f'<li><a href="{fn}.html">{html.escape(short)}</a></li>')
+    p.append('</ul>')
+    for fn, _, full in CHAPTERS:
+        md = read(fn)
+        heads = re.findall(r'^## (.+)$', md, flags=re.M)
+        def lab(h): return html.escape(re.sub(r'^\d+\.\s*', '', h).strip())
+        items = "".join(f'<li><a href="{fn}.html#{github_slug(h)}">{lab(h)}</a></li>' for h in heads)
+        p.append(f'<details class="nav-chap" data-page="{fn}"><summary>{html.escape(full)}</summary><ul>{items}</ul></details>')
+    p.append('<hr><p><a href="Publishing.html">How to publish</a></p>')
+    return "".join(p)
+
+sidebar_html = build_sidebar()
 footer_html = render(read("_Footer")) if read("_Footer") else ""
 
 def fix_links(h):
@@ -55,7 +76,7 @@ def fix_links(h):
 
 CSS = """
 :root{
-  --bg:#ffffff; --fg:#1c1e21; --muted:#5c6670; --line:#e3e6ea; --accent:#1a73e8;
+  --bg:#ffffff; --fg:#34495e; --muted:#7b8a9a; --line:#e3e6ea; --accent:#1a73e8;
   --code:#f3f4f6; --code-fg:#c7322d; --panel:#ffffff; --th-bg:#f5f6f7;
   --note-bg:#eaf3fb; --kt:#1565c0; --sidebar-bg:#fafbfc; --row:#ffffff;
 }
@@ -71,22 +92,34 @@ CSS = """
 }
 *{box-sizing:border-box}
 html,body{background:var(--bg)}
-body{margin:0;color:var(--fg);
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{margin:0;color:var(--fg);letter-spacing:0;overflow-x:hidden;
+  font-family:'Source Sans Pro','Helvetica Neue',Arial,sans-serif;
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .layout{display:flex;max-width:1220px;margin:0 auto;align-items:flex-start}
 .sidebar{position:sticky;top:0;flex:0 0 270px;height:100vh;overflow:auto;
   padding:20px 16px;border-right:1px solid var(--line);font-size:14px;background:var(--sidebar-bg)}
 .sidebar h3{margin:.1em 0 .8em;font-size:16px;font-weight:700}
-.sidebar p{margin:1.4em 0 .4em;font-weight:700;font-size:13.5px;color:var(--fg)}
+.sidebar p{margin:1.2em 0 .4em;font-weight:700;font-size:13.5px;color:var(--fg)}
 .sidebar ul{list-style:none;padding-left:0;margin:.2em 0}
-.sidebar li{margin:.18em 0;line-height:1.4}
+.sidebar li{margin:.12em 0;line-height:1.4}
 .sidebar li a{color:var(--muted);display:block;padding:3px 8px;border-radius:6px}
 .sidebar li a:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);text-decoration:none}
+.sidebar details.nav-chap{border:none;background:none;padding:0;margin:.15em 0}
+.sidebar details.nav-chap>summary{list-style:none;cursor:pointer;font-weight:700;font-size:13.5px;
+  color:var(--fg);padding:5px 8px;border-radius:6px;user-select:none}
+.sidebar details.nav-chap>summary::-webkit-details-marker{display:none}
+.sidebar details.nav-chap>summary::before{content:"\\25b8";display:inline-block;width:1em;margin-right:.2em;
+  color:var(--muted);transition:transform .15s}
+.sidebar details.nav-chap[open]>summary::before{transform:rotate(90deg)}
+.sidebar details.nav-chap>summary:hover{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.sidebar details.nav-chap>ul{margin:.1em 0 .5em .4em;border-left:1px solid var(--line);padding-left:.4em}
+.sidebar hr{margin:1em 0}
 .navsearch{width:100%;margin-bottom:12px;padding:7px 10px;border:1px solid var(--line);
   border-radius:8px;background:var(--bg);color:var(--fg);font-size:14px}
 .navsearch:focus{outline:none;border-color:var(--accent)}
 .content{flex:1;min-width:0;padding:36px 48px;max-width:880px}
+.content p,.content figure{margin:1.2em 0}
+.content ul,.content ol{line-height:1.6rem;word-spacing:.05rem}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 h1,h2,h3,h4{line-height:1.25;font-weight:700}
 h1{font-size:2em;border-bottom:1px solid var(--line);padding-bottom:.3em;margin-bottom:.6em}
@@ -120,15 +153,18 @@ hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 HEAD = """
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
 <script>
 (function(){try{var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 function setTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('theme',t);}catch(e){}
  document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});}
 function filterNav(q){q=q.toLowerCase();document.querySelectorAll('.sidebar li').forEach(function(li){
- li.style.display=li.textContent.toLowerCase().indexOf(q)>=0?'':'none';});}
+ li.style.display=li.textContent.toLowerCase().indexOf(q)>=0?'':'none';});
+ if(q){document.querySelectorAll('.sidebar details.nav-chap').forEach(function(d){d.open=true;});}}
 document.addEventListener('DOMContentLoaded',function(){var t=document.documentElement.getAttribute('data-theme')||'light';
- document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});});
+ document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});
+ var page=location.pathname.split('/').pop().replace('.html','');
+ document.querySelectorAll('.sidebar details.nav-chap').forEach(function(d){if(d.dataset.page===page){d.open=true;}});});
 </script>
 """
 
