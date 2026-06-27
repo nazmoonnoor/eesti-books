@@ -40,6 +40,7 @@ CHAPTERS = [  # (file base, short label, full label)
     ("Chapter-07-Pere-ja-kodu", "7 · Pere ja kodu", "Chapter 7 · Pere ja kodu"),
     ("Chapter-13-Üürime-korteri", "13 · Üürime korteri", "Chapter 13 · Üürime korteri"),
     ("Chapter-14-Uues-kodus", "14 · Uues kodus", "Chapter 14 · Uues kodus"),
+    ("Chapter-15-Tulge-kulla", "15 · Tulge külla!", "Chapter 15 · Tulge külla!"),
 ]
 
 def build_sidebar():
