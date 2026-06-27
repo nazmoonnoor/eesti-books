@@ -20,6 +20,8 @@ Each chapter page follows the **same order as the book pages** and is broken int
 | … | … | … | ⬜ To do |
 | 6 | [Aastaajad (The seasons)](Chapter-06-Aastaajad.md) | 46–51 | ✅ Done |
 | 7 | [Pere ja kodu (Family & home)](Chapter-07-Pere-ja-kodu.md) | 52–57 | ✅ Done |
+| 13 | [Üürime korteri (Renting a flat)](Chapter-13-Üürime-korteri.md) | 102–107 | ✅ Done |
+| 14 | [Uues kodus (In the new home)](Chapter-14-Uues-kodus.md) | 108–113 | ✅ Done |
 
 *(More chapters will be added as we go.)*
 

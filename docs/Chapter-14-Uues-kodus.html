@@ -1,0 +1,1040 @@
+<!doctype html><html lang="et"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chapter 14 Uues kodus — Nagu Eesti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script>
+(function(){try{var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+function setTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('theme',t);}catch(e){}
+ document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});}
+function filterNav(q){q=q.toLowerCase();document.querySelectorAll('.sidebar li').forEach(function(li){
+ li.style.display=li.textContent.toLowerCase().indexOf(q)>=0?'':'none';});
+ if(q){document.querySelectorAll('.sidebar details.nav-chap').forEach(function(d){d.open=true;});}}
+document.addEventListener('DOMContentLoaded',function(){var t=document.documentElement.getAttribute('data-theme')||'light';
+ document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});
+ var page=location.pathname.split('/').pop().replace('.html','');
+ document.querySelectorAll('.sidebar details.nav-chap').forEach(function(d){if(d.dataset.page===page){d.open=true;}});});
+</script>
+<style>
+:root{
+  --bg:#ffffff; --fg:#34495e; --muted:#7b8a9a; --line:#e3e6ea; --accent:#1a73e8;
+  --code:#f3f4f6; --code-fg:#c7322d; --panel:#ffffff; --th-bg:#f5f6f7;
+  --note-bg:#eaf3fb; --kt:#1565c0; --sidebar-bg:#fafbfc; --row:#ffffff;
+}
+:root[data-theme="dark"]{
+  --bg:#0f1419; --fg:#e6e8eb; --muted:#9aa4ad; --line:#2a313a; --accent:#5aa2ff;
+  --code:#161b22; --code-fg:#ff7b72; --panel:#161b22; --th-bg:#161b22;
+  --note-bg:#122231; --kt:#79b8ff; --sidebar-bg:#0c1116; --row:#0f1419;
+}
+:root[data-theme="sepia"]{
+  --bg:#f5f1e8; --fg:#3f3a31; --muted:#7a7060; --line:#e2d9c6; --accent:#9a6a3a;
+  --code:#ece4d3; --code-fg:#b04a2f; --panel:#efe8d8; --th-bg:#ece4d3;
+  --note-bg:#eef2e6; --kt:#2f6f9f; --sidebar-bg:#f1ebdc; --row:#f5f1e8;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--fg);letter-spacing:0;overflow-x:hidden;
+  font-family:'Source Sans Pro','Helvetica Neue',Arial,sans-serif;
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.layout{display:flex;max-width:1220px;margin:0 auto;align-items:flex-start}
+.sidebar{position:sticky;top:0;flex:0 0 270px;height:100vh;overflow:auto;
+  padding:20px 16px;border-right:1px solid var(--line);font-size:14px;background:var(--sidebar-bg)}
+.sidebar h3{margin:.1em 0 .8em;font-size:16px;font-weight:700}
+.sidebar p{margin:1.2em 0 .4em;font-weight:700;font-size:13.5px;color:var(--fg)}
+.sidebar ul{list-style:none;padding-left:0;margin:.2em 0}
+.sidebar li{margin:.12em 0;line-height:1.4}
+.sidebar li a{color:var(--muted);display:block;padding:3px 8px;border-radius:6px}
+.sidebar li a:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);text-decoration:none}
+.sidebar details.nav-chap{border:none;background:none;padding:0;margin:.15em 0}
+.sidebar details.nav-chap>summary{list-style:none;cursor:pointer;font-weight:700;font-size:13.5px;
+  color:var(--fg);padding:5px 8px;border-radius:6px;user-select:none}
+.sidebar details.nav-chap>summary::-webkit-details-marker{display:none}
+.sidebar details.nav-chap>summary::before{content:"\25b8";display:inline-block;width:1em;margin-right:.2em;
+  color:var(--muted);transition:transform .15s}
+.sidebar details.nav-chap[open]>summary::before{transform:rotate(90deg)}
+.sidebar details.nav-chap>summary:hover{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.sidebar details.nav-chap>ul{margin:.1em 0 .5em .4em;border-left:1px solid var(--line);padding-left:.4em}
+.sidebar hr{margin:1em 0}
+.navsearch{width:100%;margin-bottom:12px;padding:7px 10px;border:1px solid var(--line);
+  border-radius:8px;background:var(--bg);color:var(--fg);font-size:14px}
+.navsearch:focus{outline:none;border-color:var(--accent)}
+.content{flex:1;min-width:0;padding:36px 48px;max-width:880px}
+.content p,.content figure{margin:1.2em 0}
+.content ul,.content ol{line-height:1.6rem;word-spacing:.05rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.25;font-weight:700}
+h1{font-size:2em;border-bottom:1px solid var(--line);padding-bottom:.3em;margin-bottom:.6em}
+h2{font-size:1.5em;border-bottom:1px solid var(--line);padding-bottom:.3em;margin-top:1.8em}
+h2.keeletark{color:var(--kt);border-bottom-color:var(--kt)}
+h3{font-size:1.2em;margin-top:1.5em}
+p,li{font-size:1rem}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;display:block;overflow:auto;font-size:.96em}
+th,td{border:1px solid var(--line);padding:8px 14px;text-align:left;vertical-align:top}
+th{background:var(--th-bg);font-weight:700}
+td{background:var(--row)}
+blockquote{margin:1.1em 0;padding:.7em 1em;color:var(--fg);background:var(--note-bg);
+  border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px}
+blockquote p{margin:.3em 0}
+code{background:var(--code);color:var(--code-fg);padding:.12em .4em;border-radius:6px;
+  font-size:.88em;font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
+pre code{background:none;color:var(--fg);padding:0}
+details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.5em 1em;background:var(--panel)}
+summary{cursor:pointer;font-weight:600}
+details.tr{background:var(--note-bg);border-style:dashed}
+details.tr>summary{font-weight:600;font-size:.85em;color:var(--muted)}
+details.tr>*:not(summary){font-size:.9em;font-style:italic;color:var(--muted)}
+hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+.footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}
+.themebar button{font-size:15px;line-height:1;padding:6px 9px;border:1px solid var(--line);
+  background:var(--panel);color:var(--fg);border-radius:8px;cursor:pointer}
+.themebar button:hover{border-color:var(--accent)}
+.themebar button.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+@media(max-width:760px){.sidebar{display:none}.content{padding:20px 16px}}
+</style></head>
+<body><div class="themebar"><button data-t="light" onclick="setTheme('light')" title="Light">☀️</button><button data-t="sepia" onclick="setTheme('sepia')" title="Soft (eye-friendly)">🍵</button><button data-t="dark" onclick="setTheme('dark')" title="Dark">🌙</button></div><div class="layout">
+<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3>E Nagu Eesti</h3><p><strong><a href="Home.html">🏠 Home</a></strong></p><p><strong>Chapters</strong></p><ul class="quick"><li><a href="Chapter-01-Tere.html">1 · Tere!</a></li><li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li><li><a href="Chapter-07-Pere-ja-kodu.html">7 · Pere ja kodu</a></li><li><a href="Chapter-13-Üürime-korteri.html">13 · Üürime korteri</a></li><li><a href="Chapter-14-Uues-kodus.html">14 · Uues kodus</a></li></ul><details class="nav-chap" data-page="Chapter-01-Tere"><summary>Chapter 1 · Tere!</summary><ul><li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li><li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li><li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li><li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li><li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li><li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li><li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li><li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li><li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li><li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li><li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li><li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-06-Aastaajad"><summary>Chapter 6 · Aastaajad</summary><ul><li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li><li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li><li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li><li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li><li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li><li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li><li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li><li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li><li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li><li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li><li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li><li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li><li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li><li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li><li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li><li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li><li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-07-Pere-ja-kodu"><summary>Chapter 7 · Pere ja kodu</summary><ul><li><a href="Chapter-07-Pere-ja-kodu.html#1-kodu">Kodu</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#2-eino-heina-pere">Eino Heina pere</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#3-kas-teil-lapsi-on">Kas teil lapsi on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#4-eino-heina-maja">Eino Heina maja</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#5-kus-sa-elad">Kus sa elad?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#6-sugulased">Sugulased</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#7-dialoogid">Dialoogid</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#8-õhtul">Õhtul</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#9-mis-kell-on">Mis kell on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#10-robert-räägib-tädi-erikast">Robert räägib tädi Erikast</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#11-ts">TS</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#12-keeletark">Keeletark</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#13-harjutused">Harjutused</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#14-nb">NB!</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-13-Üürime-korteri"><summary>Chapter 13 · Üürime korteri</summary><ul><li><a href="Chapter-13-Üürime-korteri.html#1-maja">Maja</a></li><li><a href="Chapter-13-Üürime-korteri.html#2-kinnisvara-müügikuulutused">Kinnisvara müügikuulutused</a></li><li><a href="Chapter-13-Üürime-korteri.html#3-välja-üürida-korter">Välja üürida korter</a></li><li><a href="Chapter-13-Üürime-korteri.html#4-väike-nali">Väike nali</a></li><li><a href="Chapter-13-Üürime-korteri.html#5-mina-ja-mu-naabrid">Mina ja mu naabrid</a></li><li><a href="Chapter-13-Üürime-korteri.html#6-vana-kodu-ja-uus-kodu">Vana kodu ja uus kodu</a></li><li><a href="Chapter-13-Üürime-korteri.html#7-tomatitaimed">Tomatitaimed</a></li><li><a href="Chapter-13-Üürime-korteri.html#8-vanasõnad">Vanasõnad</a></li><li><a href="Chapter-13-Üürime-korteri.html#9-ts">TS</a></li><li><a href="Chapter-13-Üürime-korteri.html#10-keeletark">Keeletark</a></li><li><a href="Chapter-13-Üürime-korteri.html#12-nb">NB!</a></li><li><a href="Chapter-13-Üürime-korteri.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-14-Uues-kodus"><summary>Chapter 14 · Uues kodus</summary><ul><li><a href="Chapter-14-Uues-kodus.html#1-mööbel">Mööbel</a></li><li><a href="Chapter-14-Uues-kodus.html#2-milline-tuba-on-pildil">Milline tuba on pildil?</a></li><li><a href="Chapter-14-Uues-kodus.html#3-mu-vihmavari-on-kadunud">Mu vihmavari on kadunud</a></li><li><a href="Chapter-14-Uues-kodus.html#4-väikesed-naljad">Väikesed naljad</a></li><li><a href="Chapter-14-Uues-kodus.html#5-jänese-kodu">Jänese kodu</a></li><li><a href="Chapter-14-Uues-kodus.html#6-oma-tuba">Oma tuba</a></li><li><a href="Chapter-14-Uues-kodus.html#7-väikesed-kasulikud-asjad-kodus">Väikesed kasulikud asjad kodus</a></li><li><a href="Chapter-14-Uues-kodus.html#8-robert-räägib-oma-kodust">Robert räägib oma kodust</a></li><li><a href="Chapter-14-Uues-kodus.html#9-ts">TS</a></li><li><a href="Chapter-14-Uues-kodus.html#10-keeletark">Keeletark</a></li><li><a href="Chapter-14-Uues-kodus.html#11-harjutused">Harjutused</a></li><li><a href="Chapter-14-Uues-kodus.html#12-nb">NB!</a></li><li><a href="Chapter-14-Uues-kodus.html#sõnavara">Sõnavara</a></li></ul></details><hr><p><a href="Publishing.html">How to publish</a></p></nav>
+<main class="content"><h1 id="chapter-14--uues-kodus-in-the-new-home">Chapter 14 — Uues kodus (In the new home)</h1>
+<blockquote>
+<p><strong>Book pages 108–113.</strong> Sections follow the order of the book.</p>
+</blockquote>
+<p><strong>On this page:</strong> <a href="#1-mööbel">Mööbel</a> · <a href="#2-milline-tuba-on-pildil">Milline tuba on pildil?</a> · <a href="#3-mu-vihmavari-on-kadunud">Mu vihmavari on kadunud</a> · <a href="#4-väikesed-naljad">Väikesed naljad</a> · <a href="#5-jänese-kodu">Jänese kodu</a> · <a href="#6-oma-tuba">Oma tuba</a> · <a href="#7-väikesed-kasulikud-asjad-kodus">Väikesed kasulikud asjad kodus</a> · <a href="#8-robert-räägib-oma-kodust">Robert räägib oma kodust</a> · <a href="#9-ts">TS</a> · <a href="#10-keeletark">Keeletark</a> · <a href="#11-harjutused">Harjutused</a> · <a href="#12-nb">NB!</a> · <a href="#sõnavara">Sõnavara</a></p>
+<hr />
+<h2 id="1-mööbel">1. Mööbel</h2>
+<p><em>(page 108 — furniture and rooms)</em></p>
+<p><strong>Köök <em>(kitchen)</em></strong></p>
+<table>
+<thead>
+<tr>
+<th>Estonian</th>
+<th>English</th>
+<th>Estonian</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ahi</td>
+<td>stove, oven</td>
+<td>külmkapp</td>
+<td>fridge</td>
+</tr>
+<tr>
+<td>laud</td>
+<td>table</td>
+<td>laudlina</td>
+<td>tablecloth</td>
+</tr>
+<tr>
+<td>lamp</td>
+<td>lamp</td>
+<td>taburet</td>
+<td>stool</td>
+</tr>
+<tr>
+<td>pliit</td>
+<td>cooker</td>
+<td>triikraud</td>
+<td>iron</td>
+</tr>
+<tr>
+<td>ruloo</td>
+<td>roller blind</td>
+<td>kohvimasin</td>
+<td>coffee machine</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>kraanikauss</td>
+<td>sink</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>pesumasin</td>
+<td>washing machine</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Magamis- ja elutuba <em>(bedroom &amp; living room)</em></strong></p>
+<table>
+<thead>
+<tr>
+<th>Estonian</th>
+<th>English</th>
+<th>Estonian</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>peegel</td>
+<td>mirror</td>
+<td>kardin</td>
+<td>curtain</td>
+</tr>
+<tr>
+<td>tugitool</td>
+<td>armchair</td>
+<td>vaip</td>
+<td>carpet, rug</td>
+</tr>
+<tr>
+<td>diivan</td>
+<td>sofa</td>
+<td>voodi</td>
+<td>bed</td>
+</tr>
+<tr>
+<td>sussid</td>
+<td>slippers</td>
+<td>sahtel</td>
+<td>drawer</td>
+</tr>
+<tr>
+<td>riidekapp</td>
+<td>wardrobe</td>
+<td>kirjutuslaud</td>
+<td>desk</td>
+</tr>
+<tr>
+<td>diivanipadi</td>
+<td>cushion</td>
+<td>raamaturiiul</td>
+<td>bookshelf</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-milline-tuba-on-pildil">2. Milline tuba on pildil?</h2>
+<p><em>(page 108 — which room is in the picture?)</em></p>
+<ol>
+<li>See on meie väike elutuba. Meil ei ole siin palju mööblit. On ainult televiisor ja suur seinakapp. Kui me telekat vaatame, istume kõik põrandal suure vaiba peal.</li>
+<li>See on meie nii elu- kui ka söögituba. Ühes nurgas on köök ja söögilaud. Teises nurgas on raamaturiiul. Sahtlites on mitmesugused vajalikud asjad. Kõik on hästi käe-jala juures.</li>
+<li>See on meie elutuba. Siin ümmarguse laua ääres sööb meie pere lõunat. Selle ümber on mugavad tugitoolid.</li>
+<li>See on meie pere lemmiktuba. Siin on palju ruumi. Kes tahab, loeb raamatuid või joonistab midagi, kes soovib, kuulab muusikat. Siin on palju lilli — taimed on meie tütre Kati hobi.</li>
+</ol>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>1. Our small living room — not much furniture, just a TV and a big wall cabinet; we sit on the floor on the big rug to watch TV. 2. Our combined living and dining room — kitchen and dining table in one corner, bookshelf in another, all useful things close at hand. 3. Our living room, where the family eats lunch at the round table surrounded by comfortable armchairs. 4. Our family's favourite room, with lots of space for reading, drawing or music, and lots of plants — our daughter Kati's hobby.</em></p>
+</details>
+<hr />
+<h2 id="3-mu-vihmavari-on-kadunud">3. Mu vihmavari on kadunud</h2>
+<p><em>(page 109 — dialogue: my umbrella is lost)</em></p>
+<p>– Naine! Ma ei leia oma vihmavarju! Minu vihmavari on kadunud.<br>
+– Ma ei mäleta, kuhu ma selle küll panin. Väljas sajab!<br>
+– Ma ei saa ju ilma vihmavarjuta välja minna!<br>
+– Vaatasin kapi peale — seal ei ole.<br>
+– Vaata voodi alla!<br>
+– Vaatasin, voodi all ka ei ole.<br>
+– Otsi siis diivani alt!<br>
+– Otsisin, diivani all ka ei ole.<br>
+– Vaata siis kuhugi ahju juurde!<br>
+– Vaatasin, ahju juures ka ei ole. Ma olen juba igalt poolt otsinud. Keegi on minu vihmavarju ära varastanud.<br>
+– Aga kelle vihmavari see siin peegli kõrval on?<br>
+– Oi, see on ju minu vihmavari! Kes selle küll sinna pani?</p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p>– Wife! I can't find my umbrella! My umbrella is lost.<br>
+– I don't remember where I put it. It's raining outside!<br>
+– I can't go out without an umbrella!<br>
+– I looked on the cupboard — it's not there.<br>
+– Look under the bed!<br>
+– I looked, it's not under the bed either.<br>
+– Then look under the sofa!<br>
+– I looked, it's not under the sofa either.<br>
+– Then look over by the stove!<br>
+– I looked, not by the stove either. I've looked everywhere. Someone has stolen my umbrella.<br>
+– But whose umbrella is this here next to the mirror?<br>
+– Oh, that's my umbrella! Who on earth put it there?</p>
+</details>
+<blockquote>
+<p>🔹 See on <strong>riidevarn</strong> ehk <strong>nagi</strong>. <em>(That is a coat rack.)</em></p>
+</blockquote>
+<p><strong>Questions:</strong> 1. Kes pani vihmavarju peegli kõrvale? · 2. Kas sina unustad tihti, kuhu sa midagi paned? · 3. Mis sul tavaliselt kadunud on?</p>
+<p><strong>mäletama <em>(to remember)</em></strong> · <strong>unustama <em>(to forget)</em></strong></p>
+<table>
+<thead>
+<tr>
+<th>Estonian</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ma ei <strong>mäleta</strong>, kuhu ma võtmed panin.</td>
+<td>I don't remember where I put the keys.</td>
+</tr>
+<tr>
+<td>Kas sa <strong>mäletad</strong> veel mind?</td>
+<td>Do you still remember me?</td>
+</tr>
+<tr>
+<td>Ma <strong>unustasin</strong> sulle helistada.</td>
+<td>I forgot to call you.</td>
+</tr>
+<tr>
+<td>Ära <strong>unusta</strong>, mis see tähendab.</td>
+<td>Don't forget what that means.</td>
+</tr>
+<tr>
+<td>Ma <strong>unustasin</strong> oma võtmed koju.</td>
+<td>I forgot my keys at home.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-väikesed-naljad">4. Väikesed naljad</h2>
+<p><em>(page 109 — little jokes)</em></p>
+<p><strong>Mis on abielu?</strong></p>
+<p>– Ema, mis asi on abielu?<br>
+– Abielu on töökoda, kus mees ja naine ehitavad oma maja.<br>
+– Ah sellepärast siis ongi naabrite juures alati suur kära.</p>
+<p><strong>Naabrid</strong></p>
+<p>– Meie uus korter on suurepärane, ainult on üks halb asi.<br>
+– Mis see siis on?<br>
+– Naabrid kuulevad, mis me räägime.<br>
+– Pange seinale vaip.<br>
+– Siis ei kuule ju meie, mida nemad räägivad.</p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><strong>What is marriage?</strong> – Mum, what is marriage? – Marriage is a workshop where a man and a woman build their house. – Ah, that's why the neighbours are always making such a racket.<br>
+<strong>Neighbours</strong> – Our new flat is wonderful, only one bad thing. – What's that? – The neighbours can hear what we say. – Put a rug on the wall. – Then we won't hear what they say.</p>
+</details>
+<hr />
+<h2 id="5-jänese-kodu">5. Jänese kodu</h2>
+<p><em>(page 109 — the hare's home)</em></p>
+<blockquote>
+<p>Jänesel olnud talvel külm. Jänes sõnanud:<br>
+„Kui tuleb suvi, ehitan endale maja.”<br>
+Tulnud suvi. Jänes arvanud:<br>
+„Milleks mul vaja, iga põõsa all mu maja!”</p>
+</blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>The hare was cold in winter. The hare said: "When summer comes, I'll build myself a house." Summer came. The hare thought: "What do I need it for — my house is under every bush!"</em></p>
+</details>
+<blockquote>
+<p>🔹 Jänese kodu on põõsa all. <em>(The hare's home is under the bush.)</em></p>
+</blockquote>
+<hr />
+<h2 id="6-oma-tuba">6. Oma tuba</h2>
+<p><em>(page 110 — reading by Epp Petrone)</em></p>
+<blockquote>
+<p>Marta uus tuba on hästi kollane. Seal on kollased kardinad ja kollane voodi. Seal on aken, kust paistab kollane päike.</p>
+<p>Vahel läheb Marta oma toa keskele, paneb käed puusa ja hüüab: „Marta tuba! Marta tuba!” Siis piilub issi ukse vahelt: „Kas mina tohin sinu tuppa tulla?” „No tule, tule mängima!” kutsub Marta.</p>
+<p>Põrandal on kolm suurt kollast patja. Issile meeldib põrandal pikutada. Marta näitab oma mänguasju: „Vaata, issi, kui armas jänku!”</p>
+<p>Siis tuleb emme: „Oi-oi-oi! Marta tuba on nii segi! Kes selle ära koristab?” Issi ja Marta koristavad koos. Nad panevad mänguasjad tagasi kastidesse.</p>
+<p>Kui Marta õhtul magama läheb, vaatab ta toas ringi. Akna taga on nüüd pime ja seal on hoopis kollane kuu.</p>
+</blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>Marta's new room is very yellow — yellow curtains, a yellow bed, and a window the yellow sun shines through. Sometimes Marta stands in the middle of her room, puts her hands on her hips and shouts "Marta's room! Marta's room!" Then Daddy peeks round the door: "May I come into your room?" "Come and play!" There are three big yellow cushions on the floor; Daddy likes to lie there while Marta shows her toys: "Look, Daddy, what a sweet bunny!" Then Mummy comes: "Oh dear! Marta's room is such a mess! Who'll tidy it?" Daddy and Marta tidy together, putting the toys back in boxes. When Marta goes to bed, she looks around — it's dark behind the window now, and there's a yellow moon instead.</em></p>
+</details>
+<blockquote>
+<p>🔹 <strong>armas</strong> = ilus, kena · <strong>järsku</strong> = äkki · <strong>piiluma</strong> = vaatama · <strong>pikutama</strong> = pikali olema · <strong>segi olema</strong> = korrast ära olema · <strong>sosistama</strong> = väga vaikselt rääkima · <strong>tohtima</strong> = võima.</p>
+</blockquote>
+<p><strong>Questions:</strong> 1. Mida meeldib Martale kõige rohkem teha? · 2. Arva, mis mänguasjad Martal on. · 3. Kes koristab tavaliselt Marta tuba? · 4. Vali oma värv ja kirjuta jutt oma toast. Kasuta seda värvi vähemalt igas teises lauses.</p>
+<hr />
+<h2 id="7-väikesed-kasulikud-asjad-kodus">7. Väikesed kasulikud asjad kodus</h2>
+<p><em>(page 110 — small useful things at home)</em></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Estonian</th>
+<th>English</th>
+<th>#</th>
+<th>Estonian</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>avaja</td>
+<td>opener</td>
+<td>7</td>
+<td>akulaadija</td>
+<td>battery charger</td>
+</tr>
+<tr>
+<td>2</td>
+<td>küünal</td>
+<td>candle</td>
+<td>8</td>
+<td>riidepuu</td>
+<td>clothes hanger</td>
+</tr>
+<tr>
+<td>3</td>
+<td>hambahari</td>
+<td>toothbrush</td>
+<td>9</td>
+<td>taskulamp</td>
+<td>torch, flashlight</td>
+</tr>
+<tr>
+<td>4</td>
+<td>käärid</td>
+<td>scissors</td>
+<td>10</td>
+<td>tikud</td>
+<td>matches</td>
+</tr>
+<tr>
+<td>5</td>
+<td>lambipirn</td>
+<td>light bulb</td>
+<td>11</td>
+<td>võtmed</td>
+<td>keys</td>
+</tr>
+<tr>
+<td>6</td>
+<td>pikendusjuhe</td>
+<td>extension cord</td>
+<td>12</td>
+<td>seep</td>
+<td>soap</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>🔹 <strong>PIKK – PIKAD:</strong> Kaks <strong>pikka</strong> meest. Palju <strong>pikki</strong> mehi. · <strong>TIKK – TIKUD:</strong> Tikud on sahtlis. Ärge mängige <strong>tikkudega</strong>! · <strong>TEKK – TEKID:</strong> <strong>Teki</strong> all on soe. Palju linu ja <strong>tekke</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="8-robert-räägib-oma-kodust">8. Robert räägib oma kodust</h2>
+<p><em>(page 111 — reading)</em></p>
+<blockquote>
+<p>Robert juba rääkis, et tal on Nõmmel kollane maja. Nüüd ta jutustab, milline see maja on.</p>
+<p>Meie maja on kahekorruseline. Esimesel korrusel on köök, elutuba ja vannituba. Köök ei ole väga suur, aga seal on kõik vajalik olemas: elektripliit, külmik, nõudepesumasin ja muud vajalikud kodumasinad.</p>
+<p>Elutuba on päris suur. Seal on punane nurgadiivan ja sinised tugitoolid. Elutoas on ka telekas, aga kõige tähtsam on kamin, mis kütab toa soojaks. Sügisel ja talvel on kamina ees mõnus istuda ning tuld vaadata. Vannitoas on kraanikauss, dušš ja pesumasin. WC on eraldi. Teisel korrusel on kaks magamistuba.</p>
+<p>Kodused tööd teeme Lilliga koos. Mina panen nõud nõudepesumasinasse ja võtan välja, Lilli teab, kuhu kappi miski käib. Tube koristada mulle ei meeldi, seda teeb Lilli. Mina jälle sorteerin prügi — klaaspurgid ja pudelid ühte kotti, plastpudelid teise ja tavaline prügi kolmandasse. Süüa meeldib meile koos teha, sest me mõlemad armastame maitsvat toitu. Minul tulevad lihatoidud paremini välja.</p>
+</blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>Robert describes his yellow two-storey house in Nõmme. The ground floor has the kitchen (electric cooker, fridge, dishwasher and other appliances), a fairly large living room (red corner sofa, blue armchairs, TV, and most importantly a fireplace that heats the room — cosy to sit by in autumn and winter), and a bathroom (sink, shower, washing machine; the WC is separate). Upstairs are two bedrooms. He and Lilli share the housework: he loads and unloads the dishwasher and sorts the rubbish (glass and bottles in one bag, plastic bottles in another, general waste in a third), while Lilli does the tidying. They cook together because they both love tasty food — Robert's meat dishes turn out best.</em></p>
+</details>
+<blockquote>
+<p>🔹 <strong>JUTT:</strong> Kas sa oled seda <strong>juttu</strong> lugenud? · <strong>JUTUKAS:</strong> Vanaema on väga <strong>jutukas</strong>. · <strong>JUTUSTAMA:</strong> Õpetaja <strong>jutustab</strong> huvitavaid lugusid. · <strong>JUTTU AJAMA:</strong> Ajasin naabritega värava juures <strong>juttu</strong>.</p>
+</blockquote>
+<p><strong>Questions:</strong> 1. Mitu tuba Robertil majas on? · 2. Milliseid kodutöid teeb Lilli ja milliseid Robert? · 3. Kuidas Lilli ja Robert loodust hoiavad? · 4. Kirjelda linnaosa, kus Roberti maja asub.</p>
+<hr />
+<h2 id="9-ts">9. TS</h2>
+<p><em>(page 111 — three key verb forms: -ma / -da / present)</em></p>
+<table>
+<thead>
+<tr>
+<th>-ma</th>
+<th>-da</th>
+<th>on/-b</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hoidma</td>
+<td>hoida</td>
+<td>hoiab</td>
+<td>to keep, hold</td>
+</tr>
+<tr>
+<td>joonistama</td>
+<td>joonistada</td>
+<td>joonistab</td>
+<td>to draw</td>
+</tr>
+<tr>
+<td>juhtuma</td>
+<td>juhtuda</td>
+<td>juhtub</td>
+<td>to happen</td>
+</tr>
+<tr>
+<td>jutustama</td>
+<td>jutustada</td>
+<td>jutustab</td>
+<td>to tell, narrate</td>
+</tr>
+<tr>
+<td>jõudma</td>
+<td>jõuda</td>
+<td>jõuab</td>
+<td>to arrive, manage</td>
+</tr>
+<tr>
+<td>kaduma</td>
+<td>kaduda</td>
+<td>kaob</td>
+<td>to disappear</td>
+</tr>
+<tr>
+<td>koristama</td>
+<td>koristada</td>
+<td>koristab</td>
+<td>to tidy, clean</td>
+</tr>
+<tr>
+<td>mäletama</td>
+<td>mäletada</td>
+<td>mäletab</td>
+<td>to remember</td>
+</tr>
+<tr>
+<td>sorteerima</td>
+<td>sorteerida</td>
+<td>sorteerib</td>
+<td>to sort</td>
+</tr>
+<tr>
+<td>unustama</td>
+<td>unustada</td>
+<td>unustab</td>
+<td>to forget</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 class="keeletark" id="10-keeletark">10. Keeletark</h2>
+<p><em>(page 112 — grammar reference)</em></p>
+<h3 id="101-nimetav--omastav--osastav">10.1 Nimetav · omastav · osastav</h3>
+<p>Use the <strong>osastav (partitive)</strong> when the action is unfinished, for "some/a bit", in negative sentences, and in negative commands:</p>
+<ul>
+<li>Ma kirjutan praegu <strong>artiklit</strong>. <em>(I'm writing an article — ongoing.)</em></li>
+<li>Võtke veel <strong>leiba</strong> ja <strong>küpsiseid</strong>! · Meil ei ole <strong>küsimusi</strong>. · Ärge tehke veel oma <strong>aknaid</strong> lahti!</li>
+</ul>
+<p>Use the <strong>nimetav</strong> for a finished action and in positive commands:</p>
+<ul>
+<li>Ma kirjutasin <strong>artikli</strong> valmis. · Me sõime kõik <strong>koogid</strong> ära. · Tehke <strong>uks</strong> ja <strong>aknad</strong> lahti!</li>
+</ul>
+<blockquote>
+<p>🔹 Plural object of a finished action → <strong>nimetav</strong>; singular → <strong>omastav</strong>.</p>
+</blockquote>
+<h3 id="102-ees--taga--peal--all--kõrval--ääres--juures">10.2 ees · taga · peal · all · kõrval · ääres · juures</h3>
+<table>
+<thead>
+<tr>
+<th>panen KUHU?</th>
+<th>on KUS?</th>
+<th>võtan KUST?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>laua <strong>peale</strong></td>
+<td>laua <strong>peal</strong></td>
+<td>laua <strong>pealt</strong></td>
+</tr>
+<tr>
+<td>voodi <strong>alla</strong></td>
+<td>voodi <strong>all</strong></td>
+<td>voodi <strong>alt</strong></td>
+</tr>
+<tr>
+<td>kapi <strong>taha</strong></td>
+<td>kapi <strong>taga</strong></td>
+<td>kapi <strong>tagant</strong></td>
+</tr>
+<tr>
+<td>peegli <strong>kõrvale</strong></td>
+<td>peegli <strong>kõrval</strong></td>
+<td>peegli <strong>kõrvalt</strong></td>
+</tr>
+<tr>
+<td>ukse <strong>ette</strong></td>
+<td>ukse <strong>ees</strong></td>
+<td>ukse <strong>eest</strong></td>
+</tr>
+<tr>
+<td>seina <strong>äärde</strong></td>
+<td>seina <strong>ääres</strong></td>
+<td>seina <strong>äärest</strong></td>
+</tr>
+<tr>
+<td>arsti <strong>juurde</strong></td>
+<td>arsti <strong>juures</strong></td>
+<td>arsti <strong>juurest</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>🔹 laua <strong>peale</strong> = laua<strong>le</strong> · laua <strong>peal</strong> = laua<strong>l</strong> · laua <strong>pealt</strong> = laua<strong>lt</strong>.</p>
+</blockquote>
+<h3 id="103-uus--suur-plural">10.3 uus · suur (plural)</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Ainsus</th>
+<th>Mitmus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nim</td>
+<td>uus suur korter</td>
+<td>uue<strong>d</strong> suure<strong>d</strong> korteri<strong>d</strong></td>
+</tr>
+<tr>
+<td>Om</td>
+<td>uue suure korteri</td>
+<td>uu<strong>te</strong> suur<strong>te</strong> korteri<strong>te</strong></td>
+</tr>
+<tr>
+<td>Os</td>
+<td>uu<strong>t</strong> suur<strong>t</strong> korteri<strong>t</strong></td>
+<td>uus<strong>i</strong> suur<strong>i</strong> kortere<strong>id</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>🔹 <strong>KUS?</strong> uue<strong>s</strong> suure<strong>s</strong> korteri<strong>s</strong> — <strong>KUHU?</strong> uu<strong>de</strong> suur<strong>de</strong> korteri<strong>sse</strong>.</p>
+</blockquote>
+<h3 id="104-jõudma--unustama--kolima-kuhu">10.4 jõudma / unustama / kolima kuhu?</h3>
+<ul>
+<li><strong>jõudma:</strong> Ma <strong>jõudsin</strong> koju kell seitse. Mis kell sa Tallinna <strong>jõuad</strong>?</li>
+<li><strong>unustama:</strong> Ma <strong>unustasin</strong> oma võtmed koju. Ära <strong>unusta</strong> rahakotti bussi!</li>
+<li><strong>kolima:</strong> Millal te uude majja <strong>kolite</strong>? Nad <strong>kolisid</strong> maale.</li>
+</ul>
+<h3 id="105-palju">10.5 palju</h3>
+<p><strong>palju</strong> + osastav: Laual oli <strong>palju</strong> eesti <strong>toite</strong>. Linnas elab <strong>palju</strong> <strong>inimesi</strong>.
+<strong>paljud</strong> + nimetav: Mulle meeldivad <strong>paljud</strong> eesti <strong>toidud</strong>. <strong>Paljud</strong> <strong>inimesed</strong> kolivad linnast maale.</p>
+<h3 id="106-kahesõnalised-tegusõnad-phrasal-verbs">10.6 Kahesõnalised tegusõnad <em>(phrasal verbs)</em></h3>
+<ul>
+<li><strong>juttu ajama:</strong> Kamina ees on mõnus istuda ja <strong>juttu ajada</strong>.</li>
+<li><strong>segi olema:</strong> Su tuba on jälle <strong>segi</strong>!</li>
+<li><strong>välja minema:</strong> Sa ei saa ju ilma vihmavarjuta <strong>välja minna</strong>!</li>
+<li><strong>välja nägema:</strong> Need pirukad <strong>näevad</strong> alati hästi <strong>välja</strong>.</li>
+<li><strong>välja tulema:</strong> Need pirukad <strong>tulevad</strong> tal alati hästi <strong>välja</strong>.</li>
+<li><strong>välja võtma:</strong> <strong>Võtsin</strong> kõik asjad kotist <strong>välja</strong>.</li>
+</ul>
+<hr />
+<h2 id="11-harjutused">11. Harjutused</h2>
+<p><em>(page 113)</em></p>
+<p><strong>1. all · peal · ees · taga · kõrval · juures · ääres</strong> — add the right postposition (18 sentences, e.g. <em>Ma käisin arsti ___.</em>).</p>
+<p><strong>2. Pilt ja sõna</strong> — name each pictured food/object in the <strong>partitive</strong> (e.g. <em>Hommikul ma söön ___.</em>).</p>
+<p><strong>3. Nimetav või osastav?</strong> — choose the case (finished vs ongoing action):
+1. <em>uus korter:</em> Ostsin ___ . / Tahan ___ osta. 2. <em>ilus pilt:</em> Joonistasin ___ . / Tahan ___ joonistada. 3. <em>mustad kingad:</em> Ostsin ___ . / Tahaksin osta ___ . 4. <em>pikk kirjand:</em> Kirjutasin ___ valmis. / Praegu kirjutan ___ . 5. <em>suur kook:</em> Tegin ___ . / Sööme ___ .</p>
+<p><strong>4. hoidma · huvitama · kiitma · joonistama · juhtuma · jutustama · jõudma · kaduma · mäletama · sorteerima · teatama · unustama</strong> — fill in the right verb (11 sentences).</p>
+<details>
+<summary>✅ <b>Answers (Harjutuste vastused)</b></summary>
+<p><strong>1.</strong> 1. juures · 2. alla · 3. kõrval · 4. äärde · 5. kõrval · 6. äärde, juurde · 7. alt/pealt · 8. peale · 9. taga · 10. ette · 11. ääres · 12. ees · 13. peale · 14. juurde · 15. pealt · 16. tagant · 17. ees · 18. ette</p>
+<p><strong>2.</strong> jogurtit · võileiba · mahla · teed · vett · piruka · kooki · hamburgerit · apelsine · kirsse · maasikaid · herneid · ube · kapsast · peete · porgandeid · noad · kahvlid · lusikad · veekeetjat · rösterit · bussiga · diivanil · ajalehte · lumemehest · porgandit</p>
+<p><strong>3.</strong> 1. uue korteri; uut korterit · 2. ilusa pildi; ilusat pilti · 3. mustad kingad; musti kingi · 4. pika kirjandi; pikka kirjandit · 5. suure koogi; suurt kooki</p>
+<p><strong>4.</strong> 1. unustanud · 2. Jutusta · 3. kadunud, mäleta · 4. jõuab · 5. hoian · 6. huvitab · 7. kiitis, koristasid · 8. juhtus · 9. sorteerima · 10. joonistas · 11. teatame</p>
+</details>
+<hr />
+<h2 id="12-nb">12. NB!</h2>
+<p><em>(page 113 — talk about yourself)</em></p>
+<ol>
+<li><strong>Kas sa elad korteris või oma majas?</strong> — <em>Do you live in a flat or a house?</em></li>
+<li><strong>Missugune sinu tuba on?</strong> — <em>What is your room like?</em></li>
+<li><strong>Milline on transpordiühendus?</strong> — <em>What are the transport links like?</em></li>
+<li><strong>Mitu tuba sul on?</strong> — <em>How many rooms do you have?</em></li>
+<li><strong>Mitmendal korrusel sa elad?</strong> — <em>What floor do you live on?</em></li>
+<li><strong>Milline mööbel sul korteris on?</strong> — <em>What furniture do you have?</em></li>
+<li><strong>Milliseid kodutöid sulle teha meeldib?</strong> — <em>Which chores do you like doing?</em></li>
+<li><strong>Kuidas sa prügi sorteerid?</strong> — <em>How do you sort your rubbish?</em></li>
+<li><strong>Mida sa oskad oma naabritest rääkida?</strong> — <em>What can you say about your neighbours?</em></li>
+<li><strong>Mis kell sa magama lähed?</strong> — <em>What time do you go to bed?</em></li>
+</ol>
+<details>
+<summary>💬 <b>Sample answers</b></summary>
+<p><em>Sample answers:</em><br>
+1. Ma elan korteris. / Ma elan oma majas.<br>
+2. Minu tuba on väike, valge ja valgusküllane.<br>
+3. Väga hea — bussipeatus on maja ees.<br>
+4. Mul on kolm tuba ja köök.<br>
+5. Ma elan teisel korrusel.<br>
+6. Mul on diivan, riidekapp, kirjutuslaud ja raamaturiiul.<br>
+7. Mulle meeldib süüa teha, aga koristada ei meeldi.<br>
+8. Ma sorteerin paberi, klaasi ja plasti eraldi.<br>
+9. Mu naabrid on sõbralikud ja vaiksed.<br>
+10. Ma lähen tavaliselt magama kell üksteist.</p>
+</details>
+<hr />
+<h2 id="sõnavara">Sõnavara</h2>
+<p><em>Chapter 14 vocabulary from the page margins — nimetav · omastav · osastav.</em></p>
+<table>
+<thead>
+<tr>
+<th>Nimetav</th>
+<th>Omastav</th>
+<th>Osastav</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>abielu</td>
+<td>abielu</td>
+<td>abielu</td>
+<td>marriage</td>
+</tr>
+<tr>
+<td>ahi</td>
+<td>ahju</td>
+<td>ahju</td>
+<td>stove, oven</td>
+</tr>
+<tr>
+<td>alumine</td>
+<td>alumise</td>
+<td>alumist</td>
+<td>lower, bottom</td>
+</tr>
+<tr>
+<td>avaja</td>
+<td>avaja</td>
+<td>avajat</td>
+<td>opener</td>
+</tr>
+<tr>
+<td>diivan</td>
+<td>diivani</td>
+<td>diivanit</td>
+<td>sofa</td>
+</tr>
+<tr>
+<td>dušš</td>
+<td>duši</td>
+<td>dušši</td>
+<td>shower</td>
+</tr>
+<tr>
+<td>erinev</td>
+<td>erineva</td>
+<td>erinevat</td>
+<td>different</td>
+</tr>
+<tr>
+<td>halb</td>
+<td>halva</td>
+<td>halba</td>
+<td>bad</td>
+</tr>
+<tr>
+<td>hambahari</td>
+<td>hambaharja</td>
+<td>hambaharja</td>
+<td>toothbrush</td>
+</tr>
+<tr>
+<td>juhe</td>
+<td>juhtme</td>
+<td>juhet</td>
+<td>cord, wire</td>
+</tr>
+<tr>
+<td>jutt</td>
+<td>jutu</td>
+<td>juttu</td>
+<td>story, talk</td>
+</tr>
+<tr>
+<td>jänes</td>
+<td>jänese</td>
+<td>jänest</td>
+<td>hare</td>
+</tr>
+<tr>
+<td>jänku</td>
+<td>jänku</td>
+<td>jänkut</td>
+<td>bunny</td>
+</tr>
+<tr>
+<td>kamin</td>
+<td>kamina</td>
+<td>kaminat</td>
+<td>fireplace</td>
+</tr>
+<tr>
+<td>kardin</td>
+<td>kardina</td>
+<td>kardinat</td>
+<td>curtain</td>
+</tr>
+<tr>
+<td>konteiner</td>
+<td>konteineri</td>
+<td>konteinerit</td>
+<td>container</td>
+</tr>
+<tr>
+<td>kraan</td>
+<td>kraani</td>
+<td>kraani</td>
+<td>tap, faucet</td>
+</tr>
+<tr>
+<td>kära</td>
+<td>kära</td>
+<td>kära</td>
+<td>noise, racket</td>
+</tr>
+<tr>
+<td>küünal</td>
+<td>küünla</td>
+<td>küünalt</td>
+<td>candle</td>
+</tr>
+<tr>
+<td>käärid</td>
+<td>kääride</td>
+<td>kääre</td>
+<td>scissors</td>
+</tr>
+<tr>
+<td>külmik</td>
+<td>külmiku</td>
+<td>külmikut</td>
+<td>fridge</td>
+</tr>
+<tr>
+<td>laadija</td>
+<td>laadija</td>
+<td>laadijat</td>
+<td>charger</td>
+</tr>
+<tr>
+<td>laisk</td>
+<td>laisa</td>
+<td>laiska</td>
+<td>lazy</td>
+</tr>
+<tr>
+<td>lamp</td>
+<td>lambi</td>
+<td>lampi</td>
+<td>lamp</td>
+</tr>
+<tr>
+<td>linnaosa</td>
+<td>linnaosa</td>
+<td>linnaosa</td>
+<td>city district</td>
+</tr>
+<tr>
+<td>mees</td>
+<td>mehe</td>
+<td>meest</td>
+<td>man, husband</td>
+</tr>
+<tr>
+<td>mänguasi</td>
+<td>mänguasja</td>
+<td>mänguasja</td>
+<td>toy</td>
+</tr>
+<tr>
+<td>nagi</td>
+<td>nagi</td>
+<td>nagi</td>
+<td>coat rack</td>
+</tr>
+<tr>
+<td>naine</td>
+<td>naise</td>
+<td>naist</td>
+<td>woman, wife</td>
+</tr>
+<tr>
+<td>nimi</td>
+<td>nime</td>
+<td>nime</td>
+<td>name</td>
+</tr>
+<tr>
+<td>nukk</td>
+<td>nuku</td>
+<td>nukku</td>
+<td>doll</td>
+</tr>
+<tr>
+<td>nurk</td>
+<td>nurga</td>
+<td>nurka</td>
+<td>corner</td>
+</tr>
+<tr>
+<td>padi</td>
+<td>padja</td>
+<td>patja</td>
+<td>pillow, cushion</td>
+</tr>
+<tr>
+<td>paks</td>
+<td>paksu</td>
+<td>paksu</td>
+<td>thick</td>
+</tr>
+<tr>
+<td>peegel</td>
+<td>peegli</td>
+<td>peeglit</td>
+<td>mirror</td>
+</tr>
+<tr>
+<td>pime</td>
+<td>pimeda</td>
+<td>pimedat</td>
+<td>dark</td>
+</tr>
+<tr>
+<td>pliit</td>
+<td>pliidi</td>
+<td>pliiti</td>
+<td>cooker</td>
+</tr>
+<tr>
+<td>prügi</td>
+<td>prügi</td>
+<td>prügi</td>
+<td>rubbish</td>
+</tr>
+<tr>
+<td>pudel</td>
+<td>pudeli</td>
+<td>pudelit</td>
+<td>bottle</td>
+</tr>
+<tr>
+<td>purk</td>
+<td>purgi</td>
+<td>purki</td>
+<td>jar</td>
+</tr>
+<tr>
+<td>riidepuu</td>
+<td>riidepuu</td>
+<td>riidepuud</td>
+<td>clothes hanger</td>
+</tr>
+<tr>
+<td>riiul</td>
+<td>riiuli</td>
+<td>riiulit</td>
+<td>shelf</td>
+</tr>
+<tr>
+<td>ruum</td>
+<td>ruumi</td>
+<td>ruumi</td>
+<td>room, space</td>
+</tr>
+<tr>
+<td>sahtel</td>
+<td>sahtli</td>
+<td>sahtlit</td>
+<td>drawer</td>
+</tr>
+<tr>
+<td>seep</td>
+<td>seebi</td>
+<td>seepi</td>
+<td>soap</td>
+</tr>
+<tr>
+<td>suurepärane</td>
+<td>suurepärase</td>
+<td>suurepärast</td>
+<td>excellent</td>
+</tr>
+<tr>
+<td>taburet</td>
+<td>tabureti</td>
+<td>taburetti</td>
+<td>stool</td>
+</tr>
+<tr>
+<td>tavaline</td>
+<td>tavalise</td>
+<td>tavalist</td>
+<td>ordinary</td>
+</tr>
+<tr>
+<td>tikk</td>
+<td>tiku</td>
+<td>tikku</td>
+<td>match</td>
+</tr>
+<tr>
+<td>triikraud</td>
+<td>triikraua</td>
+<td>triikrauda</td>
+<td>iron</td>
+</tr>
+<tr>
+<td>tuba</td>
+<td>toa</td>
+<td>tuba</td>
+<td>room</td>
+</tr>
+<tr>
+<td>tualett</td>
+<td>tualeti</td>
+<td>tualetti</td>
+<td>toilet</td>
+</tr>
+<tr>
+<td>tuli</td>
+<td>tule</td>
+<td>tuld</td>
+<td>fire</td>
+</tr>
+<tr>
+<td>töökoda</td>
+<td>töökoja</td>
+<td>töökoda</td>
+<td>workshop</td>
+</tr>
+<tr>
+<td>vaip</td>
+<td>vaiba</td>
+<td>vaipa</td>
+<td>carpet, rug</td>
+</tr>
+<tr>
+<td>vajalik</td>
+<td>vajaliku</td>
+<td>vajalikku</td>
+<td>necessary</td>
+</tr>
+<tr>
+<td>vihmavari</td>
+<td>vihmavarju</td>
+<td>vihmavarju</td>
+<td>umbrella</td>
+</tr>
+<tr>
+<td>voodi</td>
+<td>voodi</td>
+<td>voodit</td>
+<td>bed</td>
+</tr>
+<tr>
+<td>õnn</td>
+<td>õnne</td>
+<td>õnne</td>
+<td>luck, happiness</td>
+</tr>
+<tr>
+<td>ülemine</td>
+<td>ülemise</td>
+<td>ülemist</td>
+<td>upper, top</td>
+</tr>
+<tr>
+<td>ümmargune</td>
+<td>ümmarguse</td>
+<td>ümmargust</td>
+<td>round</td>
+</tr>
+</tbody>
+</table><div class="footer"><p><em>Nagu Eesti — Estonian A2 study wiki · built chapter-by-chapter from the</em> <strong>E nagu Eesti</strong> <em>coursebook.</em></p></div></main>
+</div></body></html>
