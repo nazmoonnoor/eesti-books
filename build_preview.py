@@ -47,6 +47,8 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-01-Saame-tuttavaks", "1 · Saame tuttavaks!", "1 · Saame tuttavaks!"),
         ("Settle-02-Kuidas-palun", "2 · Kuidas palun?", "2 · Kuidas palun?"),
         ("Settle-03-Sinu-kodu", "3 · Sinu kodu", "3 · Missugune on sinu kodu?"),
+        ("Settle-04-Kui-suur-on-uur", "4 · Kui suur on üür?", "4 · Kui suur on üür?"),
+        ("Settle-05-Moobel-ja-kodumasinad", "5 · Mööbel ja kodumasinad", "5 · Mööbel ja kodumasinad"),
         ("Settle-06-Iseloom", "6 · Iseloom", "6 · Missugune sa oled?"),
     ]),
 ]

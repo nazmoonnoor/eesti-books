@@ -21,6 +21,8 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 1 | [Saame tuttavaks! (Getting acquainted)](Settle-01-Saame-tuttavaks.md) | 3–8 | ✅ Done |
 | 2 | [Kuidas palun? (Pardon?)](Settle-02-Kuidas-palun.md) | 9–12 | ✅ Done |
 | 3 | [Missugune on sinu kodu? (Your home)](Settle-03-Sinu-kodu.md) | 13–20 | ✅ Done |
+| 4 | [Kui suur on üür? (How much is the rent?)](Settle-04-Kui-suur-on-uur.md) | 21–27 | ✅ Done |
+| 5 | [Mööbel ja kodumasinad (Furniture & appliances)](Settle-05-Moobel-ja-kodumasinad.md) | 28–37 | ✅ Done |
 | 6 | [Missugune sa oled? Iseloom (Character)](Settle-06-Iseloom.md) | 38–42 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*

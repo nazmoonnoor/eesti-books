@@ -51,7 +51,13 @@
 | Kas sa **oled** …? | Jah, olen küll. | Ei, ei ole. Ma olen … |
 | Kas **sul on** …? | Jah, on küll. | Ei, ei ole. Mul on … |
 
-*Play the board game (ALGUS → LÕPP) asking each other, e.g.:* Kas sa oled praegu väsinud? · Kas sa oled optimist? · Kas sa oled abielus? · Kas sul on vend? · Kas sul on koer? · Kas sul on auto? · Kas sul on huvitav töö? *(When you land on **Tõuse püsti!** — stand up!)*
+Play the board game **ALGUS → LÕPP**; on a **Tõuse püsti!** square, stand up. All the questions:
+
+**Kas sa oled …? *(Are you …?)***<br>
+praegu väsinud · optimist · tallinlane · eestlane · venelane · soomlane · ameeriklane · itaallane · lätlane · abielus · vallaline · õpetaja · tädi · vanaisa · vanaema · Facebookis · mõnikord kurb · praegu rõõmus · praegu õnnelik · alati tubli õpilane
+
+**Kas sul on …? *(Do you have …?)***<br>
+vend · õde · onu · tädi · vanaisa · vanaema · koer · kass · auto · pastakas · eesti keele tööraamat · ilus kodu · huvitav töö · suur pere · uus mobiiltelefon · poiss-sõber · tüdruk-sõber · praegu külm · praegu kõht tühi · praegu igav
 
 ---
 
@@ -77,6 +83,14 @@ Then write about yourself — **Mina** … *(activity 7)*.
 |---|---|---|
 | Kas **sulle meeldib** …? | Jah, meeldib küll. | Ei, ei meeldi. / Ei, üldse ei meeldi. |
 | Kas sa **oskad** …? | Jah, oskan küll. | Ei, ei oska. |
+
+Board game (**ALGUS → LÕPP**, *Viska viis!* = throw a five). All the questions:
+
+**Kas sulle meeldib …? *(Do you like …?)***<br>
+kohvikus istuda · saunas käia · diskol käia · ööklubis käia · kinos käia · poes käia · raamatukogus käia · aias töötada · tuba koristada · sporti teha · süüa teha · eesti keelt õppida · jalgrattaga sõita · öösel jalutada · õhtul televiisorit vaadata · multifilme vaadata · märulifilme vaadata · klassikalist muusikat kuulata · Skype'is sõpradega rääkida · Facebookis istuda · hommikul kohvi juua · õhtul veini juua · hommikul õlut juua · jäätist süüa · öösel pitsat süüa · valget šokolaadi süüa
+
+**Kas sa oskad …? *(Can you …?)***<br>
+ujuda · laulda · tangot tantsida · klaverit mängida · kitarri mängida · jalgpalli mängida · tennist mängida · autot juhtida · autot remontida · remonti teha · jalgrattaga sõita · eesti keelt · vene keelt · hispaania keelt
 
 **Sentence builder** *(activity 9)* — combine a time + place + food + verb:
 
