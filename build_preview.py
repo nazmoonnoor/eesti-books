@@ -34,28 +34,32 @@ def read(name):
     p = os.path.join(WIKI, name + ".md")
     return open(p, encoding="utf-8").read() if os.path.exists(p) else ""
 
-CHAPTERS = [  # (file base, short label, full label)
-    ("Chapter-01-Tere", "1 · Tere!", "Chapter 1 · Tere!"),
-    ("Chapter-06-Aastaajad", "6 · Aastaajad", "Chapter 6 · Aastaajad"),
-    ("Chapter-07-Pere-ja-kodu", "7 · Pere ja kodu", "Chapter 7 · Pere ja kodu"),
-    ("Chapter-13-Üürime-korteri", "13 · Üürime korteri", "Chapter 13 · Üürime korteri"),
-    ("Chapter-14-Uues-kodus", "14 · Uues kodus", "Chapter 14 · Uues kodus"),
-    ("Chapter-15-Tulge-kulla", "15 · Tulge külla!", "Chapter 15 · Tulge külla!"),
+BOOKS = [  # (book title, [(file base, short label, full label), ...])
+    ("E nagu Eesti", [
+        ("Chapter-01-Tere", "1 · Tere!", "1 · Tere!"),
+        ("Chapter-06-Aastaajad", "6 · Aastaajad", "6 · Aastaajad"),
+        ("Chapter-07-Pere-ja-kodu", "7 · Pere ja kodu", "7 · Pere ja kodu"),
+        ("Chapter-13-Üürime-korteri", "13 · Üürime korteri", "13 · Üürime korteri"),
+        ("Chapter-14-Uues-kodus", "14 · Uues kodus", "14 · Uues kodus"),
+        ("Chapter-15-Tulge-kulla", "15 · Tulge külla!", "15 · Tulge külla!"),
+    ]),
+    ("Settle in Estonia", [
+        ("Settle-06-Iseloom", "6 · Iseloom", "6 · Missugune sa oled?"),
+    ]),
 ]
 
 def build_sidebar():
-    p = ['<h3>E Nagu Eesti</h3>',
-         '<p><strong><a href="Home.html">\U0001f3e0 Home</a></strong></p>',
-         '<p><strong>Chapters</strong></p><ul class="quick">']
-    for fn, short, _ in CHAPTERS:
-        p.append(f'<li><a href="{fn}.html">{html.escape(short)}</a></li>')
-    p.append('</ul>')
-    for fn, _, full in CHAPTERS:
-        md = read(fn)
-        heads = re.findall(r'^## (.+)$', md, flags=re.M)
-        def lab(h): return html.escape(re.sub(r'^\d+\.\s*', '', h).strip())
-        items = "".join(f'<li><a href="{fn}.html#{github_slug(h)}">{lab(h)}</a></li>' for h in heads)
-        p.append(f'<details class="nav-chap" data-page="{fn}"><summary>{html.escape(full)}</summary><ul>{items}</ul></details>')
+    p = ['<h3>Eesti keel · A2 Wiki</h3>',
+         '<p><strong><a href="Home.html">\U0001f3e0 Home</a></strong></p>']
+    for book_title, chapters in BOOKS:
+        p.append(f'<p class="book"><strong>{html.escape(book_title)}</strong></p>')
+        for fn, _, full in chapters:
+            md = read(fn)
+            heads = re.findall(r'^## (.+)$', md, flags=re.M)
+            def lab(h): return html.escape(re.sub(r'^\d+\.\s*', '', h).strip())
+            items = f'<li><a href="{fn}.html"><b>↗ Ava peatükk</b></a></li>'
+            items += "".join(f'<li><a href="{fn}.html#{github_slug(h)}">{lab(h)}</a></li>' for h in heads)
+            p.append(f'<details class="nav-chap" data-page="{fn}"><summary>{html.escape(full)}</summary><ul>{items}</ul></details>')
     p.append('<hr><p><a href="Publishing.html">How to publish</a></p>')
     return "".join(p)
 
@@ -104,6 +108,7 @@ body{margin:0;color:var(--fg);letter-spacing:0;overflow-x:hidden;
   padding:20px 16px;border-right:1px solid var(--line);font-size:14px;background:var(--sidebar-bg)}
 .sidebar h3{margin:.1em 0 .8em;font-size:16px;font-weight:700}
 .sidebar p{margin:1.2em 0 .4em;font-weight:700;font-size:13.5px;color:var(--fg)}
+.sidebar p.book{margin-top:1.4em;font-size:14px;color:var(--accent);border-bottom:2px solid var(--line);padding-bottom:4px}
 .sidebar ul{list-style:none;padding-left:0;margin:.2em 0}
 .sidebar li{margin:.12em 0;line-height:1.4}
 .sidebar li a{color:var(--muted);display:block;padding:3px 8px;border-radius:6px}
