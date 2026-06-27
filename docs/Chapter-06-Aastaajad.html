@@ -1,101 +1,123 @@
 <!doctype html><html lang="et"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Chapter 06 Aastaajad — Nagu Eesti</title><style>
-:root{
-  --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --accent:#0969da;
-  --code:#f6f8fa; --panel:#fbfdff; --stripe:#f6f8fa; --sidebar-bg:#ffffff;
-}
-:root[data-theme="dark"]{
-  --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --line:#30363d; --accent:#4493f8;
-  --code:#161b22; --panel:#161b22; --stripe:#12161d; --sidebar-bg:#0d1117;
-}
-:root[data-theme="sepia"]{
-  --bg:#f4ecd8; --fg:#5b4636; --muted:#7d6b58; --line:#ddcdb0; --accent:#9a6a3a;
-  --code:#ece0c8; --panel:#efe6d0; --stripe:#efe6cf; --sidebar-bg:#f1e7cf;
-}
-*{box-sizing:border-box}
-html,body{background:var(--bg)}
-body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--fg)}
-.layout{display:flex;max-width:1180px;margin:0 auto;align-items:flex-start}
-.sidebar{position:sticky;top:0;flex:0 0 250px;height:100vh;overflow:auto;padding:24px 18px;border-right:1px solid var(--line);font-size:14px;background:var(--sidebar-bg)}
-.sidebar h3{margin:.2em 0 .6em}
-.sidebar p{margin:1.1em 0 .3em;font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
-.sidebar p strong{color:var(--muted)}
-.sidebar ul{list-style:none;padding-left:0;margin:.2em 0}
-.sidebar li{margin:.28em 0;line-height:1.35}
-.content{flex:1;min-width:0;padding:32px 40px;max-width:860px}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-h1,h2,h3{line-height:1.25}
-h1{border-bottom:1px solid var(--line);padding-bottom:.3em}
-h2{border-bottom:1px solid var(--line);padding-bottom:.3em;margin-top:1.6em}
-table{border-collapse:collapse;width:100%;margin:1em 0;display:block;overflow:auto}
-th,td{border:1px solid var(--line);padding:6px 13px}
-th{background:var(--code)}
-tr:nth-child(2n){background:var(--stripe)}
-blockquote{margin:1em 0;padding:.2em 1em;color:var(--muted);border-left:4px solid var(--line)}
-code{background:var(--code);padding:.15em .4em;border-radius:6px;font-size:85%}
-pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
-pre code{background:none;padding:0}
-details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.4em 1em;background:var(--panel)}
-summary{cursor:pointer;font-weight:600}
-hr{border:0;border-top:1px solid var(--line);margin:2em 0}
-.footer{margin-top:2em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-.themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}
-.themebar button{font-size:15px;line-height:1;padding:6px 9px;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:8px;cursor:pointer}
-.themebar button:hover{border-color:var(--accent)}
-.themebar button.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
-@media(max-width:760px){.sidebar{display:none}.content{padding:20px 16px}}
-</style>
+<title>Chapter 06 Aastaajad — Nagu Eesti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
 (function(){try{var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
 function setTheme(t){document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('theme',t);}catch(e){}
  document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});}
+function filterNav(q){q=q.toLowerCase();document.querySelectorAll('.sidebar li').forEach(function(li){
+ li.style.display=li.textContent.toLowerCase().indexOf(q)>=0?'':'none';});}
 document.addEventListener('DOMContentLoaded',function(){var t=document.documentElement.getAttribute('data-theme')||'light';
  document.querySelectorAll('.themebar button').forEach(function(b){b.classList.toggle('active',b.dataset.t===t);});});
 </script>
-</head>
+<style>
+:root{
+  --bg:#ffffff; --fg:#1c1e21; --muted:#5c6670; --line:#e3e6ea; --accent:#1a73e8;
+  --code:#f3f4f6; --code-fg:#c7322d; --panel:#ffffff; --th-bg:#f5f6f7;
+  --note-bg:#eaf3fb; --kt:#1565c0; --sidebar-bg:#fafbfc; --row:#ffffff;
+}
+:root[data-theme="dark"]{
+  --bg:#0f1419; --fg:#e6e8eb; --muted:#9aa4ad; --line:#2a313a; --accent:#5aa2ff;
+  --code:#161b22; --code-fg:#ff7b72; --panel:#161b22; --th-bg:#161b22;
+  --note-bg:#122231; --kt:#79b8ff; --sidebar-bg:#0c1116; --row:#0f1419;
+}
+:root[data-theme="sepia"]{
+  --bg:#f5f1e8; --fg:#3f3a31; --muted:#7a7060; --line:#e2d9c6; --accent:#9a6a3a;
+  --code:#ece4d3; --code-fg:#b04a2f; --panel:#efe8d8; --th-bg:#ece4d3;
+  --note-bg:#eef2e6; --kt:#2f6f9f; --sidebar-bg:#f1ebdc; --row:#f5f1e8;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--fg);
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.layout{display:flex;max-width:1220px;margin:0 auto;align-items:flex-start}
+.sidebar{position:sticky;top:0;flex:0 0 270px;height:100vh;overflow:auto;
+  padding:20px 16px;border-right:1px solid var(--line);font-size:14px;background:var(--sidebar-bg)}
+.sidebar h3{margin:.1em 0 .8em;font-size:16px;font-weight:700}
+.sidebar p{margin:1.4em 0 .4em;font-weight:700;font-size:13.5px;color:var(--fg)}
+.sidebar ul{list-style:none;padding-left:0;margin:.2em 0}
+.sidebar li{margin:.18em 0;line-height:1.4}
+.sidebar li a{color:var(--muted);display:block;padding:3px 8px;border-radius:6px}
+.sidebar li a:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,transparent);text-decoration:none}
+.navsearch{width:100%;margin-bottom:12px;padding:7px 10px;border:1px solid var(--line);
+  border-radius:8px;background:var(--bg);color:var(--fg);font-size:14px}
+.navsearch:focus{outline:none;border-color:var(--accent)}
+.content{flex:1;min-width:0;padding:36px 48px;max-width:880px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.25;font-weight:700}
+h1{font-size:2em;border-bottom:1px solid var(--line);padding-bottom:.3em;margin-bottom:.6em}
+h2{font-size:1.5em;border-bottom:1px solid var(--line);padding-bottom:.3em;margin-top:1.8em}
+h2.keeletark{color:var(--kt);border-bottom-color:var(--kt)}
+h3{font-size:1.2em;margin-top:1.5em}
+p,li{font-size:1rem}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;display:block;overflow:auto;font-size:.96em}
+th,td{border:1px solid var(--line);padding:8px 14px;text-align:left;vertical-align:top}
+th{background:var(--th-bg);font-weight:700}
+td{background:var(--row)}
+blockquote{margin:1.1em 0;padding:.7em 1em;color:var(--fg);background:var(--note-bg);
+  border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px}
+blockquote p{margin:.3em 0}
+code{background:var(--code);color:var(--code-fg);padding:.12em .4em;border-radius:6px;
+  font-size:.88em;font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}
+pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
+pre code{background:none;color:var(--fg);padding:0}
+details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.5em 1em;background:var(--panel)}
+summary{cursor:pointer;font-weight:600}
+hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+.footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}
+.themebar button{font-size:15px;line-height:1;padding:6px 9px;border:1px solid var(--line);
+  background:var(--panel);color:var(--fg);border-radius:8px;cursor:pointer}
+.themebar button:hover{border-color:var(--accent)}
+.themebar button.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+@media(max-width:760px){.sidebar{display:none}.content{padding:20px 16px}}
+</style></head>
 <body><div class="themebar"><button data-t="light" onclick="setTheme('light')" title="Light">☀️</button><button data-t="sepia" onclick="setTheme('sepia')" title="Soft (eye-friendly)">🍵</button><button data-t="dark" onclick="setTheme('dark')" title="Dark">🌙</button></div><div class="layout">
-<nav class="sidebar"><h3 id="nagu-eesti--a2">Nagu Eesti — A2</h3>
+<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3 id="nagu-eesti--a2">Nagu Eesti — A2</h3>
 <p><strong><a href="Home.html">🏠 Home</a></strong></p>
 <p><strong>Chapters</strong></p>
 <ul>
 <li><a href="Chapter-01-Tere.html">1 · Tere!</a></li>
 <li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li>
 </ul>
-<p><strong>Within Chapter 1</strong></p>
+<p><strong>Chapter 1 · Tere!</strong></p>
 <ul>
-<li><a href="Chapter-01-Tere.html#1-phrases--greetings">Phrases</a></li>
-<li><a href="Chapter-01-Tere.html#2-pronunciation--the-estonian-vowels">Vowels</a></li>
-<li><a href="Chapter-01-Tere.html#3-reading--tere-hommikust">Song</a></li>
-<li><a href="Chapter-01-Tere.html#4-dialogues">Dialogues</a></li>
-<li><a href="Chapter-01-Tere.html#5-vocabulary--reading--eesti-linnad-ja-maakonnad">Cities &amp; counties</a></li>
-<li><a href="Chapter-01-Tere.html#6-grammar-patterns">Pronoun patterns</a></li>
-<li><a href="Chapter-01-Tere.html#7-reading--robert">Reading: Robert</a></li>
-<li><a href="Chapter-01-Tere.html#8-vocabulary--nägu-ja-keha">Face &amp; body</a></li>
+<li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li>
+<li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li>
+<li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li>
+<li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li>
+<li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li>
+<li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li>
+<li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li>
+<li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li>
 <li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li>
-<li><a href="Chapter-01-Tere.html#10-exercises--harjutused">Exercises</a></li>
-<li><a href="Chapter-01-Tere.html#11-questions--nb">Questions</a></li>
-<li><a href="Chapter-01-Tere.html#word-list--sõnavara">Word list</a></li>
+<li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li>
+<li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li>
+<li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li>
 </ul>
-<p><strong>Within Chapter 6</strong></p>
+<p><strong>Chapter 6 · Aastaajad</strong></p>
 <ul>
-<li><a href="Chapter-06-Aastaajad.html#1-reading--vihma-sajab">Poem: Vihma sajab</a></li>
-<li><a href="Chapter-06-Aastaajad.html#2-vocabulary--reading--neli-aastaaega">Four seasons</a></li>
-<li><a href="Chapter-06-Aastaajad.html#3-phrases--lähme-reisima">Months &amp; travel</a></li>
-<li><a href="Chapter-06-Aastaajad.html#4-reading--reisireklaamid">Travel ads</a></li>
-<li><a href="Chapter-06-Aastaajad.html#5-dialogues">Dialogues</a></li>
-<li><a href="Chapter-06-Aastaajad.html#6-activities--reisiloterii--reisimäng">Activities</a></li>
-<li><a href="Chapter-06-Aastaajad.html#7-reading--mis-on-head-kevadel-suvel">Seasons texts</a></li>
-<li><a href="Chapter-06-Aastaajad.html#8-vocabulary--word-forms-mees--lumi">Word forms</a></li>
-<li><a href="Chapter-06-Aastaajad.html#9-phrases--soovid-wishes">Wishes</a></li>
-<li><a href="Chapter-06-Aastaajad.html#10-riddle--mis-see-on">Riddle</a></li>
-<li><a href="Chapter-06-Aastaajad.html#11-vocabulary--aken--uks--lind">aken-uks-lind</a></li>
-<li><a href="Chapter-06-Aastaajad.html#12-reading--robert-läheb-reisima">Robert reisib</a></li>
-<li><a href="Chapter-06-Aastaajad.html#13-verbs--ts">Verbs</a></li>
+<li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li>
+<li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li>
+<li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li>
+<li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li>
+<li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li>
+<li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li>
+<li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li>
+<li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li>
+<li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li>
+<li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li>
+<li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li>
+<li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li>
+<li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li>
 <li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li>
-<li><a href="Chapter-06-Aastaajad.html#15-exercises--harjutused">Exercises</a></li>
-<li><a href="Chapter-06-Aastaajad.html#16-questions--nb">Questions</a></li>
-<li><a href="Chapter-06-Aastaajad.html#word-list--sõnavara">Word list</a></li>
+<li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li>
+<li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li>
+<li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li>
 </ul>
 <hr />
 <p><a href="Publishing.html">How to publish</a></p></nav>
@@ -103,9 +125,9 @@ document.addEventListener('DOMContentLoaded',function(){var t=document.documentE
 <blockquote>
 <p><strong>Book pages 46–51.</strong> Sections follow the exact order of the book.</p>
 </blockquote>
-<p><strong>On this page:</strong> <a href="#1-reading--vihma-sajab">Poem: Vihma sajab</a> · <a href="#2-vocabulary--reading--neli-aastaaega">Four seasons</a> · <a href="#3-phrases--lähme-reisima">Months &amp; travel</a> · <a href="#4-reading--reisireklaamid">Travel ads</a> · <a href="#5-dialogues">Dialogues</a> · <a href="#6-activities--reisiloterii--reisimäng">Activities</a> · <a href="#7-reading--mis-on-head-kevadel-suvel">Seasons texts</a> · <a href="#8-vocabulary--word-forms-mees--lumi">Word forms</a> · <a href="#9-phrases--soovid-wishes">Wishes</a> · <a href="#10-riddle--mis-see-on">Riddle</a> · <a href="#11-vocabulary--aken--uks--lind">aken-uks-lind</a> · <a href="#12-reading--robert-läheb-reisima">Robert reisib</a> · <a href="#13-verbs--ts">Verbs</a> · <a href="#14-keeletark">Keeletark</a> · <a href="#15-exercises--harjutused">Exercises</a> · <a href="#16-questions--nb">Questions</a> · <a href="#word-list--sõnavara">Word list</a></p>
+<p><strong>On this page:</strong> <a href="#1-vihma-sajab">Vihma sajab</a> · <a href="#2-neli-aastaaega">Neli aastaaega</a> · <a href="#3-lähme-reisima">Lähme reisima</a> · <a href="#4-reisireklaamid">Reisireklaamid</a> · <a href="#5-dialoogid">Dialoogid</a> · <a href="#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a> · <a href="#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a> · <a href="#8-mees-ja-lumi">Mees ja lumi</a> · <a href="#9-soovid">Soovid</a> · <a href="#10-mis-see-on">Mis see on?</a> · <a href="#11-aken--uks--lind">Aken · uks · lind</a> · <a href="#12-robert-läheb-reisima">Robert läheb reisima</a> · <a href="#13-ts">TS</a> · <a href="#14-keeletark">Keeletark</a> · <a href="#15-harjutused">Harjutused</a> · <a href="#16-nb">NB!</a> · <a href="#sõnavara">Sõnavara</a></p>
 <hr />
-<h2 id="1-reading--vihma-sajab">1. Reading — Vihma sajab</h2>
+<h2 id="1-vihma-sajab">1. Vihma sajab</h2>
 <p><em>(page 46 — "It's raining", poem by Maimu Linnamägi)</em></p>
 <blockquote>
 <p>Üks vari sul<br>
@@ -120,7 +142,7 @@ käib vihmatrall.</p>
 <p><em>"One umbrella for you / and another for me / and the rain comes down / drip-drop-drop! / You under cover, / me under cover, / and on top of the cover / the rain dances."</em></p>
 <p><strong>Questions:</strong> 1. Mitu inimest on vihmavarju all? <em>(How many people are under the umbrella?)</em> · 2. Mis värvi vihmavari sul on? <em>(What colour is your umbrella?)</em></p>
 <hr />
-<h2 id="2-vocabulary--reading--neli-aastaaega">2. Vocabulary &amp; Reading — Neli aastaaega</h2>
+<h2 id="2-neli-aastaaega">2. Neli aastaaega</h2>
 <p><em>(page 46 — the four seasons)</em></p>
 <table>
 <thead>
@@ -197,7 +219,7 @@ käib vihmatrall.</p>
 <p>🔹 <strong>Temperature:</strong> <em>Kui palju täna </em><em>sooja</em><em> on?</em> → <strong>+10 °C = 10 kraadi sooja</strong> (10 degrees warm). <em>Kui palju täna </em><em>külma</em><em> on?</em> → <strong>−10 °C = 10 kraadi külma</strong> (10 degrees cold/below zero).</p>
 </blockquote>
 <hr />
-<h2 id="3-phrases--lähme-reisima">3. Phrases — Lähme reisima</h2>
+<h2 id="3-lähme-reisima">3. Lähme reisima</h2>
 <p><em>(page 47 — "Let's travel": which month → which country)</em></p>
 <table>
 <thead>
@@ -271,7 +293,7 @@ käib vihmatrall.</p>
 </tbody>
 </table>
 <hr />
-<h2 id="4-reading--reisireklaamid">4. Reading — Reisireklaamid</h2>
+<h2 id="4-reisireklaamid">4. Reisireklaamid</h2>
 <p><em>(page 47 — travel adverts)</em></p>
 <p><strong>Questions:</strong> 1. Vaata reklaame. Kuhu sõidad sina? Miks? · 2. Millal sa sõidad? · 3. Kuhu sa veel Euroopas minna tahad?</p>
 <table>
@@ -297,7 +319,7 @@ käib vihmatrall.</p>
 </tbody>
 </table>
 <hr />
-<h2 id="5-dialogues">5. Dialogues</h2>
+<h2 id="5-dialoogid">5. Dialoogid</h2>
 <p><em>(page 47)</em></p>
 <p><strong>D1 — Sõidan Prantsusmaale</strong></p>
 <p>– Millal sul puhkus on?<br>
@@ -336,7 +358,7 @@ käib vihmatrall.</p>
 – I wish you a good trip — and send us a postcard too.</p>
 </details>
 <hr />
-<h2 id="6-activities--reisiloterii--reisimäng">6. Activities — Reisiloterii &amp; Reisimäng</h2>
+<h2 id="6-reisiloterii--reisimäng">6. Reisiloterii &amp; Reisimäng</h2>
 <p><em>(page 47)</em></p>
 <p><strong>Reisiloterii — <em>Sinu reis kaugele maale! Vasta ja sõida!</em></strong> Fill in: Eesnimi, Perekonnanimi, Aadress, E-mail, Telefon · Lemmikmaa, kus oled käinud · Kohad, kuhu tahad veel minna.</p>
 <p><strong>Reisimäng — Kellele perepuhkus Pärnus? <em>Kus asub…?</em></strong> Match each place to its county:</p>
@@ -375,7 +397,7 @@ käib vihmatrall.</p>
 </tbody>
 </table>
 <hr />
-<h2 id="7-reading--mis-on-head-kevadel-suvel">7. Reading — Mis on head kevadel, suvel…?</h2>
+<h2 id="7-mis-on-head-kevadel-suvel">7. Mis on head kevadel, suvel…?</h2>
 <p><em>(page 48 — what's good in each season)</em></p>
 <p><strong>Kevadel</strong> — Kevadel lõpeb kool. Kevadel on aias lumikellukesed. Päevad on juba pikad. Linnud tulevad lõunamaalt tagasi. Mulle meeldib pargis ja metsas jalutada. Mulle meeldib aias töötada.
 <em>In spring school ends. There are snowdrops in the garden. The days are already long. Birds come back from the south. I like to walk in the park and forest, and to work in the garden.</em></p>
@@ -401,7 +423,7 @@ käib vihmatrall.</p>
 <em>(Snowman, you joker, you have a red nose. Black eyes, a black mouth, a face round like the moon. When the sun strokes you, you melt down small.)</em></p>
 </blockquote>
 <hr />
-<h2 id="8-vocabulary--word-forms-mees--lumi">8. Vocabulary — Word forms (MEES &amp; LUMI)</h2>
+<h2 id="8-mees-ja-lumi">8. Mees ja lumi</h2>
 <p><em>(page 48 — three case forms)</em></p>
 <p><strong>MEES – MEHE – MEEST</strong> <em>(man)</em>
 Lumemees on tore mees. · Lumemehe nina on punane. · Lapsed teevad lumemeest.</p>
@@ -439,7 +461,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 </tbody>
 </table>
 <hr />
-<h2 id="9-phrases--soovid-wishes">9. Phrases — Soovid (Wishes)</h2>
+<h2 id="9-soovid">9. Soovid</h2>
 <p><em>(page 49)</em></p>
 <table>
 <thead>
@@ -496,7 +518,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 </tbody>
 </table>
 <hr />
-<h2 id="10-riddle--mis-see-on">10. Riddle — Mis see on?</h2>
+<h2 id="10-mis-see-on">10. Mis see on?</h2>
 <p><em>(page 49)</em></p>
 <blockquote>
 <p>Üks puu, kaksteist oksa, igal oksal neli pesa, igas pesas seitse muna. Mis see on?</p>
@@ -507,7 +529,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 <p><strong>Aasta</strong> <em>(a year)</em> — 1 tree = the year, 12 branches = months, 4 nests = weeks, 7 eggs = days.</p>
 </details>
 <hr />
-<h2 id="11-vocabulary--aken--uks--lind">11. Vocabulary — AKEN · UKS · LIND</h2>
+<h2 id="11-aken--uks--lind">11. Aken · uks · lind</h2>
 <p><em>(page 49 — singular, plural, and "two of…")</em></p>
 <table>
 <thead>
@@ -536,7 +558,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 </tbody>
 </table>
 <hr />
-<h2 id="12-reading--robert-läheb-reisima">12. Reading — Robert läheb reisima</h2>
+<h2 id="12-robert-läheb-reisima">12. Robert läheb reisima</h2>
 <p><em>(page 49 — Robert goes travelling)</em></p>
 <blockquote>
 <p>Suvel on Eestimaal nii ilus. Päevad on pikad ja ööd on lühikesed. Kui ma õhtul magama lähen, on veel valge. Kui ma hommikul üles tõusen, on juba valge. Suvel meeldib meile autoga reisida. Me oleme küll juba palju Eestit näinud, kuid tahame ikka ainult Eestis reisida. Tavaliselt sõidame Lilliga oma vana autoga.</p>
@@ -546,7 +568,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 <p><em>Summary: In summer Estonia is so beautiful — long days, short nights, still light when Robert goes to bed and when he gets up. He and Lilli love to travel around Estonia by their old car. Their favourite places are by Lake Peipsi and in South Estonia (Munamägi hill, with its tower you can even see Latvia), and the islands — Saaremaa (Kuressaare castle) and Hiiumaa (Kõpu lighthouse). When autumn comes with short days and long dark nights, they want to fly south like birds. Tomorrow they fly to Cyprus, where it's warm and sunny. They call themselves "two sun-people".</em></p>
 <p><strong>Questions:</strong> 1. Mis on Lilli ja Roberti lemmikkohad Eestis? · 2. Arva, kuhu nad järgmisel aastal Eestis lähevad. · 3. Millal nad soojale maale sõidavad? · 4. Aga kus on Portus? Miks ei reisi tema koos nendega?</p>
 <hr />
-<h2 id="13-verbs--ts">13. Verbs — TS</h2>
+<h2 id="13-ts">13. TS</h2>
 <p><em>(page 49 — three key forms: -ma / -da / present)</em></p>
 <table>
 <thead>
@@ -633,7 +655,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 </tbody>
 </table>
 <hr />
-<h2 id="14-keeletark">14. Keeletark</h2>
+<h2 class="keeletark" id="14-keeletark">14. Keeletark</h2>
 <p><em>(page 50 — grammar reference)</em></p>
 <h3 id="141-millal--time-expressions">14.1 Millal? — time expressions</h3>
 <table>
@@ -711,7 +733,7 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 <h3 id="146-väike-täht--use-lowercase">14.6 Väike täht — use lowercase!</h3>
 <p>Seasons, months, weekdays and holidays are <strong>not</strong> capitalised in Estonian: <em>kevad, suvi · jaanuar, veebruar · esmaspäev, reede · jõulud, jaanipäev.</em></p>
 <hr />
-<h2 id="15-exercises--harjutused">15. Exercises — Harjutused</h2>
+<h2 id="15-harjutused">15. Harjutused</h2>
 <p><em>(page 51)</em></p>
 <p><strong>1. ▶ Kuula ja ütle maad, kus Madli on käinud.</strong> <em>(Listen and name the countries Madli has visited.)</em>
 Peruu · Brasiilia · Ecuador · Egiptus · Maroko · Hispaania · Portugal · USA · Hiina</p>
@@ -738,7 +760,7 @@ Peruu · Brasiilia · Ecuador · Egiptus · Maroko · Hispaania · Portugal · U
 <p><strong>7.</strong> 1. laulavad/elavad · 2. käia/jalutada · 3. sajab · 4. lähen/sõidan/lendan · 5. ujuvad · 6. töötada · 7. kasvavad · 8. teevad · 9. on · 10. soovin/soovime · 11. käinud · 12. (märtsis ma) lähen/sõidan · 13. minna/tulla</p>
 </details>
 <hr />
-<h2 id="16-questions--nb">16. Questions — NB!</h2>
+<h2 id="16-nb">16. NB!</h2>
 <p><em>(page 51 — talk about yourself)</em></p>
 <ol>
 <li><strong>Millal algab sügis?</strong> — <em>When does autumn begin?</em></li>
@@ -764,7 +786,7 @@ Peruu · Brasiilia · Ecuador · Egiptus · Maroko · Hispaania · Portugal · U
 </ol>
 </details>
 <hr />
-<h2 id="word-list--sõnavara">Word list — Sõnavara</h2>
+<h2 id="sõnavara">Sõnavara</h2>
 <p><em>Chapter 6 vocabulary from the page margins — three forms: nimetav (nom.) · omastav (gen.) · osastav (part.).</em></p>
 <table>
 <thead>

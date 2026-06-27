@@ -2,11 +2,11 @@
 
 > **Book pages 46–51.** Sections follow the exact order of the book.
 
-**On this page:** [Poem: Vihma sajab](#1-reading--vihma-sajab) · [Four seasons](#2-vocabulary--reading--neli-aastaaega) · [Months & travel](#3-phrases--lähme-reisima) · [Travel ads](#4-reading--reisireklaamid) · [Dialogues](#5-dialogues) · [Activities](#6-activities--reisiloterii--reisimäng) · [Seasons texts](#7-reading--mis-on-head-kevadel-suvel) · [Word forms](#8-vocabulary--word-forms-mees--lumi) · [Wishes](#9-phrases--soovid-wishes) · [Riddle](#10-riddle--mis-see-on) · [aken-uks-lind](#11-vocabulary--aken--uks--lind) · [Robert reisib](#12-reading--robert-läheb-reisima) · [Verbs](#13-verbs--ts) · [Keeletark](#14-keeletark) · [Exercises](#15-exercises--harjutused) · [Questions](#16-questions--nb) · [Word list](#word-list--sõnavara)
+**On this page:** [Vihma sajab](#1-vihma-sajab) · [Neli aastaaega](#2-neli-aastaaega) · [Lähme reisima](#3-lähme-reisima) · [Reisireklaamid](#4-reisireklaamid) · [Dialoogid](#5-dialoogid) · [Reisiloterii & Reisimäng](#6-reisiloterii--reisimäng) · [Mis on head kevadel, suvel…?](#7-mis-on-head-kevadel-suvel) · [Mees ja lumi](#8-mees-ja-lumi) · [Soovid](#9-soovid) · [Mis see on?](#10-mis-see-on) · [Aken · uks · lind](#11-aken--uks--lind) · [Robert läheb reisima](#12-robert-läheb-reisima) · [TS](#13-ts) · [Keeletark](#14-keeletark) · [Harjutused](#15-harjutused) · [NB!](#16-nb) · [Sõnavara](#sõnavara)
 
 ---
 
-## 1. Reading — Vihma sajab
+## 1. Vihma sajab
 *(page 46 — "It's raining", poem by Maimu Linnamägi)*
 
 > Üks vari sul<br>
@@ -24,7 +24,7 @@
 
 ---
 
-## 2. Vocabulary & Reading — Neli aastaaega
+## 2. Neli aastaaega
 *(page 46 — the four seasons)*
 
 | KEVAD *(spring)* | SUVI *(summer)* | SÜGIS *(autumn)* | TALV *(winter)* |
@@ -52,7 +52,7 @@
 
 ---
 
-## 3. Phrases — Lähme reisima
+## 3. Lähme reisima
 *(page 47 — "Let's travel": which month → which country)*
 
 | Month | Sentence | English |
@@ -72,7 +72,7 @@
 
 ---
 
-## 4. Reading — Reisireklaamid
+## 4. Reisireklaamid
 *(page 47 — travel adverts)*
 
 **Questions:** 1. Vaata reklaame. Kuhu sõidad sina? Miks? · 2. Millal sa sõidad? · 3. Kuhu sa veel Euroopas minna tahad?
@@ -85,7 +85,7 @@
 
 ---
 
-## 5. Dialogues
+## 5. Dialoogid
 *(page 47)*
 
 **D1 — Sõidan Prantsusmaale**
@@ -136,7 +136,7 @@
 
 ---
 
-## 6. Activities — Reisiloterii & Reisimäng
+## 6. Reisiloterii & Reisimäng
 *(page 47)*
 
 **Reisiloterii — *Sinu reis kaugele maale! Vasta ja sõida!*** Fill in: Eesnimi, Perekonnanimi, Aadress, E-mail, Telefon · Lemmikmaa, kus oled käinud · Kohad, kuhu tahad veel minna.
@@ -154,7 +154,7 @@
 
 ---
 
-## 7. Reading — Mis on head kevadel, suvel…?
+## 7. Mis on head kevadel, suvel…?
 *(page 48 — what's good in each season)*
 
 **Kevadel** — Kevadel lõpeb kool. Kevadel on aias lumikellukesed. Päevad on juba pikad. Linnud tulevad lõunamaalt tagasi. Mulle meeldib pargis ja metsas jalutada. Mulle meeldib aias töötada.
@@ -181,7 +181,7 @@
 
 ---
 
-## 8. Vocabulary — Word forms (MEES & LUMI)
+## 8. Mees ja lumi
 *(page 48 — three case forms)*
 
 **MEES – MEHE – MEEST** *(man)*
@@ -202,7 +202,7 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 ---
 
-## 9. Phrases — Soovid (Wishes)
+## 9. Soovid
 *(page 49)*
 
 | Estonian | English |
@@ -221,7 +221,7 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 ---
 
-## 10. Riddle — Mis see on?
+## 10. Mis see on?
 *(page 49)*
 
 > Üks puu, kaksteist oksa, igal oksal neli pesa, igas pesas seitse muna. Mis see on?
@@ -236,7 +236,7 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 ---
 
-## 11. Vocabulary — AKEN · UKS · LIND
+## 11. Aken · uks · lind
 *(page 49 — singular, plural, and "two of…")*
 
 | AKEN – AKNA – AKENT *(window)* | UKS – UKSE – UST *(door)* | LIND – LINNU – LINDU *(bird)* |
@@ -247,7 +247,7 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 ---
 
-## 12. Reading — Robert läheb reisima
+## 12. Robert läheb reisima
 *(page 49 — Robert goes travelling)*
 
 > Suvel on Eestimaal nii ilus. Päevad on pikad ja ööd on lühikesed. Kui ma õhtul magama lähen, on veel valge. Kui ma hommikul üles tõusen, on juba valge. Suvel meeldib meile autoga reisida. Me oleme küll juba palju Eestit näinud, kuid tahame ikka ainult Eestis reisida. Tavaliselt sõidame Lilliga oma vana autoga.
@@ -262,7 +262,7 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 ---
 
-## 13. Verbs — TS
+## 13. TS
 *(page 49 — three key forms: -ma / -da / present)*
 
 | -ma | -da | on/-b | English |
@@ -328,7 +328,7 @@ Seasons, months, weekdays and holidays are **not** capitalised in Estonian: *kev
 
 ---
 
-## 15. Exercises — Harjutused
+## 15. Harjutused
 *(page 51)*
 
 **1. ▶ Kuula ja ütle maad, kus Madli on käinud.** *(Listen and name the countries Madli has visited.)*
@@ -373,7 +373,7 @@ Peruu · Brasiilia · Ecuador · Egiptus · Maroko · Hispaania · Portugal · U
 
 ---
 
-## 16. Questions — NB!
+## 16. NB!
 *(page 51 — talk about yourself)*
 
 1. **Millal algab sügis?** — *When does autumn begin?*
@@ -401,7 +401,7 @@ Peruu · Brasiilia · Ecuador · Egiptus · Maroko · Hispaania · Portugal · U
 
 ---
 
-## Word list — Sõnavara
+## Sõnavara
 *Chapter 6 vocabulary from the page margins — three forms: nimetav (nom.) · omastav (gen.) · osastav (part.).*
 
 | Nimetav | Omastav | Osastav | English |

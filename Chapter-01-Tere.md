@@ -2,11 +2,11 @@
 
 > **Book pages 10–13.** Sections below follow the exact order of the book.
 
-**On this page:** [Phrases](#1-phrases--greetings) · [Vowels](#2-pronunciation--the-estonian-vowels) · [Song](#3-reading--tere-hommikust) · [Dialogues](#4-dialogues) · [Cities & counties](#5-vocabulary--reading--eesti-linnad-ja-maakonnad) · [Pronoun patterns](#6-grammar-patterns) · [Robert](#7-reading--robert) · [Face & body](#8-vocabulary--nägu-ja-keha) · [Keeletark](#9-keeletark) · [Exercises](#10-exercises--harjutused) · [Questions](#11-questions--nb) · [Word list](#word-list--sõnavara)
+**On this page:** [Tervitused](#1-tervitused) · [Tähestik](#2-tähestik) · [Tere hommikust!](#3-tere-hommikust) · [Dialoogid](#4-dialoogid) · [Eesti linnad ja maakonnad](#5-eesti-linnad-ja-maakonnad) · [Kes sina oled?](#6-kes-sina-oled) · [Robert](#7-robert) · [Nägu ja keha](#8-nägu-ja-keha) · [Keeletark](#9-keeletark) · [Harjutused](#10-harjutused) · [NB!](#11-nb) · [Sõnavara](#sõnavara)
 
 ---
 
-## 1. Phrases — Greetings
+## 1. Tervitused
 *(page 10)*
 
 **Tervitused / Greetings**
@@ -49,7 +49,7 @@
 
 ---
 
-## 2. Pronunciation — The Estonian vowels
+## 2. Tähestik
 *(page 10)*
 
 Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A as in *maa*"):
@@ -70,7 +70,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 3. Reading — "Tere hommikust!"
+## 3. Tere hommikust!
 *(page 10 — song by Priit Aimla)*
 
 > Tere, tere, tere, tere hommikust!<br>
@@ -87,7 +87,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 4. Dialogues
+## 4. Dialoogid
 *(page 10 — "D")*
 
 **D1**
@@ -166,7 +166,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 5. Vocabulary & Reading — Eesti linnad ja maakonnad
+## 5. Eesti linnad ja maakonnad
 *(page 11 — Estonian cities and counties)*
 
 > Ilus, ilus, ilus on maa.<br>
@@ -200,7 +200,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 6. Grammar patterns
+## 6. Kes sina oled?
 *(page 11 — personal pronouns in action)*
 
 **Kes sina oled? — *Who are you?***
@@ -231,7 +231,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 7. Reading — "Robert"
+## 7. Robert
 *(page 11)*
 
 > Tere! See olen mina – Robert Roosipuu. Ma olen ilus, tark ja hea. Ma olen üks tubli mees. Ma elan Tallinnas. Tallinn asub Põhja-Eestis. Tallinn on väga ilus ja väga vana linn. Tallinn on Eesti pealinn. Eesti on ilus maa.
@@ -251,7 +251,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 8. Vocabulary — Nägu ja keha
+## 8. Nägu ja keha
 *(page 11 — face and body)*
 
 | Estonian | English |
@@ -363,7 +363,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ---
 
-## 10. Exercises — Harjutused
+## 10. Harjutused
 *(page 13)*
 
 **1. Add the verb ending** (-n, -d, -b, -me, -te, -vad, or none):
@@ -413,7 +413,7 @@ JANNE · HANNES · MADIS · MARKUS · URMAS · PILLE · SIRET · ULVI · MEELIS 
 
 ---
 
-## 11. Questions — NB!
+## 11. NB!
 *(page 13 — answer about yourself; sample answers below)*
 
 1. **Mis sinu nimi on?** — *What is your name?*
@@ -441,7 +441,7 @@ JANNE · HANNES · MADIS · MARKUS · URMAS · PILLE · SIRET · ULVI · MEELIS 
 
 ---
 
-## Word list — Sõnavara
+## Sõnavara
 *Quick revision of Chapter 1 vocabulary.*
 
 | Estonian | English |
