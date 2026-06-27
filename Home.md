@@ -18,6 +18,9 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 
 | # | Chapter | Book pages | Status |
 |---|---------|-----------|--------|
+| 1 | [Saame tuttavaks! (Getting acquainted)](Settle-01-Saame-tuttavaks.md) | 3–8 | ✅ Done |
+| 2 | [Kuidas palun? (Pardon?)](Settle-02-Kuidas-palun.md) | 9–12 | ✅ Done |
+| 3 | [Missugune on sinu kodu? (Your home)](Settle-03-Sinu-kodu.md) | 13–20 | ✅ Done |
 | 6 | [Missugune sa oled? Iseloom (Character)](Settle-06-Iseloom.md) | 38–42 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*

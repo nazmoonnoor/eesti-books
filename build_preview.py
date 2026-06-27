@@ -44,6 +44,9 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Chapter-15-Tulge-kulla", "15 · Tulge külla!", "15 · Tulge külla!"),
     ]),
     ("Settle in Estonia", [
+        ("Settle-01-Saame-tuttavaks", "1 · Saame tuttavaks!", "1 · Saame tuttavaks!"),
+        ("Settle-02-Kuidas-palun", "2 · Kuidas palun?", "2 · Kuidas palun?"),
+        ("Settle-03-Sinu-kodu", "3 · Sinu kodu", "3 · Missugune on sinu kodu?"),
         ("Settle-06-Iseloom", "6 · Iseloom", "6 · Missugune sa oled?"),
     ]),
 ]
