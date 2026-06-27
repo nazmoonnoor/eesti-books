@@ -3,10 +3,12 @@
 **[🏠 Home](Home.md)**
 
 **Chapters**
+
 - [1 · Tere!](Chapter-01-Tere.md)
 - [6 · Aastaajad](Chapter-06-Aastaajad.md)
 
 **Within Chapter 1**
+
 - [Phrases](Chapter-01-Tere.md#1-phrases--greetings)
 - [Vowels](Chapter-01-Tere.md#2-pronunciation--the-estonian-vowels)
 - [Song](Chapter-01-Tere.md#3-reading--tere-hommikust)
@@ -21,6 +23,7 @@
 - [Word list](Chapter-01-Tere.md#word-list--sõnavara)
 
 **Within Chapter 6**
+
 - [Poem: Vihma sajab](Chapter-06-Aastaajad.md#1-reading--vihma-sajab)
 - [Four seasons](Chapter-06-Aastaajad.md#2-vocabulary--reading--neli-aastaaega)
 - [Months & travel](Chapter-06-Aastaajad.md#3-phrases--lähme-reisima)
@@ -40,4 +43,5 @@
 - [Word list](Chapter-06-Aastaajad.md#word-list--sõnavara)
 
 ---
+
 [How to publish](Publishing.md)
