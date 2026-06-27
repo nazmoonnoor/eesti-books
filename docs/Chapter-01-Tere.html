@@ -82,6 +82,9 @@ pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
 pre code{background:none;color:var(--fg);padding:0}
 details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.5em 1em;background:var(--panel)}
 summary{cursor:pointer;font-weight:600}
+details.tr{background:var(--note-bg);border-style:dashed}
+details.tr>summary{font-weight:600;font-size:.85em;color:var(--muted)}
+details.tr>*:not(summary){font-size:.9em;font-style:italic;color:var(--muted)}
 hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 .footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 .themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}
@@ -92,7 +95,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 @media(max-width:760px){.sidebar{display:none}.content{padding:20px 16px}}
 </style></head>
 <body><div class="themebar"><button data-t="light" onclick="setTheme('light')" title="Light">☀️</button><button data-t="sepia" onclick="setTheme('sepia')" title="Soft (eye-friendly)">🍵</button><button data-t="dark" onclick="setTheme('dark')" title="Dark">🌙</button></div><div class="layout">
-<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3>E Nagu Eesti</h3><p><strong><a href="Home.html">🏠 Home</a></strong></p><p><strong>Chapters</strong></p><ul class="quick"><li><a href="Chapter-01-Tere.html">1 · Tere!</a></li><li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li></ul><details class="nav-chap" data-page="Chapter-01-Tere"><summary>Chapter 1 · Tere!</summary><ul><li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li><li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li><li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li><li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li><li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li><li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li><li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li><li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li><li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li><li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li><li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li><li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-06-Aastaajad"><summary>Chapter 6 · Aastaajad</summary><ul><li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li><li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li><li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li><li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li><li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li><li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li><li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li><li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li><li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li><li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li><li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li><li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li><li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li><li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li><li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li><li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li><li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li></ul></details><hr><p><a href="Publishing.html">How to publish</a></p></nav>
+<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3>E Nagu Eesti</h3><p><strong><a href="Home.html">🏠 Home</a></strong></p><p><strong>Chapters</strong></p><ul class="quick"><li><a href="Chapter-01-Tere.html">1 · Tere!</a></li><li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li><li><a href="Chapter-07-Pere-ja-kodu.html">7 · Pere ja kodu</a></li></ul><details class="nav-chap" data-page="Chapter-01-Tere"><summary>Chapter 1 · Tere!</summary><ul><li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li><li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li><li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li><li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li><li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li><li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li><li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li><li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li><li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li><li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li><li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li><li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-06-Aastaajad"><summary>Chapter 6 · Aastaajad</summary><ul><li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li><li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li><li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li><li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li><li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li><li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li><li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li><li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li><li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li><li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li><li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li><li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li><li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li><li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li><li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li><li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li><li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-07-Pere-ja-kodu"><summary>Chapter 7 · Pere ja kodu</summary><ul><li><a href="Chapter-07-Pere-ja-kodu.html#1-kodu">Kodu</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#2-eino-heina-pere">Eino Heina pere</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#3-kas-teil-lapsi-on">Kas teil lapsi on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#4-eino-heina-maja">Eino Heina maja</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#5-kus-sa-elad">Kus sa elad?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#6-sugulased">Sugulased</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#7-dialoogid">Dialoogid</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#8-õhtul">Õhtul</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#9-mis-kell-on">Mis kell on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#10-robert-räägib-tädi-erikast">Robert räägib tädi Erikast</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#11-ts">TS</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#12-keeletark">Keeletark</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#13-harjutused">Harjutused</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#14-nb">NB!</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#sõnavara">Sõnavara</a></li></ul></details><hr><p><a href="Publishing.html">How to publish</a></p></nav>
 <main class="content"><h1 id="chapter-1--tere-hello">Chapter 1 — Tere! (Hello!)</h1>
 <blockquote>
 <p><strong>Book pages 10–13.</strong> Sections below follow the exact order of the book.</p>
@@ -291,7 +294,10 @@ Tere, tere, tere, tere hommikust!<br>
 Tere, maa ja taevas lai.</p>
 <p>— <em>Priit Aimla</em></p>
 </blockquote>
-<p><em>"Hello, hello, hello, good morning! / Hello Tiit, hello Mai. / Hello, hello, hello, good morning! / Hello, earth and wide sky."</em></p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>"Hello, hello, hello, good morning!<br>Hello Tiit, hello Mai.<br>Hello, hello, hello, good morning!<br>Hello, earth and wide sky."</em></p>
+</details>
 <ul>
 <li><strong>See on Tiit. Tiit on poiss.</strong> — <em>This is Tiit. Tiit is a boy.</em></li>
 <li><strong>See on Mai. Mai on tüdruk.</strong> — <em>This is Mai. Mai is a girl.</em></li>
@@ -305,7 +311,7 @@ Tere, maa ja taevas lai.</p>
 – Kuidas läheb?<br>
 – Hästi. Aga sinul?<br>
 – Aitäh, pole viga.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– Good morning!<br>
 – Hi!<br>
@@ -318,7 +324,7 @@ Tere, maa ja taevas lai.</p>
 – Mina olen Tiina.<br>
 – Väga meeldiv. Ja kus te elate?<br>
 – Ma elan Viljandis.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– Good day! I am Mart. Who are you?<br>
 – I am Tiina.<br>
@@ -331,7 +337,7 @@ Tere, maa ja taevas lai.</p>
 – Väga meeldiv. Kas te elate Tallinnas?<br>
 – Jah. Aga teie?<br>
 – Ma elan ka Tallinnas.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– Hello! My name is Tiiu Kivi. What is your name?<br>
 – Hello, my name is Peeter Tamm.<br>
@@ -345,7 +351,7 @@ Tere, maa ja taevas lai.</p>
 – Oi, palun vabandust, mis teie nimi siis on?<br>
 – Minu nimi on Laura.<br>
 – Väga meeldiv. Mina olen Kaarel.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– Good morning, Liisa!<br>
 – My name is not Liisa.<br>
@@ -361,7 +367,10 @@ Tere, maa ja taevas lai.</p>
 Ilus on maa, mida armastan.</p>
 <p>— <em>Hando Runnel</em></p>
 </blockquote>
-<p><em>"Beautiful, beautiful, beautiful is the land. / Beautiful is the land that I love."</em></p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>"Beautiful, beautiful, beautiful is the land.<br>Beautiful is the land that I love."</em></p>
+</details>
 <p><strong>The four regions (suunad):</strong></p>
 <table>
 <thead>
@@ -506,7 +515,10 @@ Ilus on maa, mida armastan.</p>
 <blockquote>
 <p>Tere! See olen mina – Robert Roosipuu. Ma olen ilus, tark ja hea. Ma olen üks tubli mees. Ma elan Tallinnas. Tallinn asub Põhja-Eestis. Tallinn on väga ilus ja väga vana linn. Tallinn on Eesti pealinn. Eesti on ilus maa.</p>
 </blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
 <p><em>"Hello! This is me – Robert Roosipuu. I am handsome, clever and good. I am a fine man. I live in Tallinn. Tallinn is in North Estonia. Tallinn is a very beautiful and very old city. Tallinn is the capital of Estonia. Estonia is a beautiful country."</em></p>
+</details>
 <table>
 <thead>
 <tr>

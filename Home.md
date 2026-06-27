@@ -19,6 +19,7 @@ Each chapter page follows the **same order as the book pages** and is broken int
 | 2 | Maad ja keeled (Countries & languages) | 14–… | ⬜ To do |
 | … | … | … | ⬜ To do |
 | 6 | [Aastaajad (The seasons)](Chapter-06-Aastaajad.md) | 46–51 | ✅ Done |
+| 7 | [Pere ja kodu (Family & home)](Chapter-07-Pere-ja-kodu.md) | 52–57 | ✅ Done |
 
 *(More chapters will be added as we go.)*
 

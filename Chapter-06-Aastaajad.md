@@ -18,7 +18,12 @@
 > ja varju peal<br>
 > käib vihmatrall.
 
-*"One umbrella for you / and another for me / and the rain comes down / drip-drop-drop! / You under cover, / me under cover, / and on top of the cover / the rain dances."*
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
+*"One umbrella for you<br>and another for me<br>and the rain comes down<br>drip-drop-drop!<br>You under cover,<br>me under cover,<br>and on top of the cover<br>the rain dances."*
+
+</details>
 
 **Questions:** 1. Mitu inimest on vihmavarju all? *(How many people are under the umbrella?)* · 2. Mis värvi vihmavari sul on? *(What colour is your umbrella?)*
 
@@ -35,7 +40,12 @@
 | Puud on rohelised. | Ma ujun meres. | Lehed on värvilised. | Lumi on maas. |
 | | | Linnud lendavad ära. | Aias seisab lumemees. |
 
-*Spring: the weather is nice, the sky is blue, birds are singing, trees are green. Summer: the sun shines, it's warm, I'm on holiday, I swim in the sea. Autumn: the sky is cloudy, it often rains, the wind is strong, leaves are colourful, birds fly away. Winter: it's cold, oh how cold!, snow falls, snow is on the ground, a snowman stands in the garden.*
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
+*Spring: the weather is nice, the sky is blue, birds are singing, trees are green.<br>Summer: the sun shines, it's warm, I'm on holiday, I swim in the sea.<br>Autumn: the sky is cloudy, it often rains, the wind is strong, leaves are colourful, birds fly away.<br>Winter: it's cold, oh how cold!, snow falls, snow is on the ground, a snowman stands in the garden.*
+
+</details>
 
 **The months (kuud):**
 
@@ -99,7 +109,7 @@
 – Ja kui kaua te seal olete?<br>
 – Kümme päeva.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – When is your holiday?<br>
@@ -122,7 +132,7 @@
 – Kolm nädalat.<br>
 – Soovin sulle head reisi ja saada meile üks kaart ka.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – You know, I'm going on holiday to Norway.<br>
@@ -226,7 +236,12 @@ lumi on maas · lumemees · lund sajab · palju lund
 
 > Üks puu, kaksteist oksa, igal oksal neli pesa, igas pesas seitse muna. Mis see on?
 
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
 *"One tree, twelve branches, on each branch four nests, in each nest seven eggs. What is it?"*
+
+</details>
 
 <details>
 <summary>💡 <b>Answer</b></summary>
@@ -256,7 +271,12 @@ lumi on maas · lumemees · lund sajab · palju lund
 >
 > Kui sügisel on päevad jälle lühikesed ning ööd pikad ja pimedad, tahame lõunamaale lennata nagu linnud. Homme lendame Lilliga Küprosele. Seal on soe ja päike paistab. Meri on sinine ja inimesed sõbralikud. Mulle meeldib sügisel või talvel sooja mere ääres puhata, sest Eestis on siis külm ja pime. Ütleme Lilliga alati, et me oleme kaks päikeseinimest.
 
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
 *Summary: In summer Estonia is so beautiful — long days, short nights, still light when Robert goes to bed and when he gets up. He and Lilli love to travel around Estonia by their old car. Their favourite places are by Lake Peipsi and in South Estonia (Munamägi hill, with its tower you can even see Latvia), and the islands — Saaremaa (Kuressaare castle) and Hiiumaa (Kõpu lighthouse). When autumn comes with short days and long dark nights, they want to fly south like birds. Tomorrow they fly to Cyprus, where it's warm and sunny. They call themselves "two sun-people".*
+
+</details>
 
 **Questions:** 1. Mis on Lilli ja Roberti lemmikkohad Eestis? · 2. Arva, kuhu nad järgmisel aastal Eestis lähevad. · 3. Millal nad soojale maale sõidavad? · 4. Aga kus on Portus? Miks ei reisi tema koos nendega?
 

@@ -20,7 +20,7 @@ md_files = [f for f in glob.glob(os.path.join(WIKI, "*.md"))]
 page_names = {os.path.splitext(os.path.basename(f))[0] for f in md_files}
 
 def render(md_text):
-    md_text = md_text.replace("<details>", '<details markdown="1">')
+    md_text = re.sub(r'<details(?![^>]*\bmarkdown=)([^>]*)>', r'<details markdown="1"\1>', md_text)
     html = markdown.markdown(
         md_text,
         extensions=["tables", "fenced_code", "toc", "sane_lists", "md_in_html", "attr_list"],
@@ -37,6 +37,7 @@ def read(name):
 CHAPTERS = [  # (file base, short label, full label)
     ("Chapter-01-Tere", "1 · Tere!", "Chapter 1 · Tere!"),
     ("Chapter-06-Aastaajad", "6 · Aastaajad", "Chapter 6 · Aastaajad"),
+    ("Chapter-07-Pere-ja-kodu", "7 · Pere ja kodu", "Chapter 7 · Pere ja kodu"),
 ]
 
 def build_sidebar():
@@ -140,6 +141,9 @@ pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
 pre code{background:none;color:var(--fg);padding:0}
 details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.5em 1em;background:var(--panel)}
 summary{cursor:pointer;font-weight:600}
+details.tr{background:var(--note-bg);border-style:dashed}
+details.tr>summary{font-weight:600;font-size:.85em;color:var(--muted)}
+details.tr>*:not(summary){font-size:.9em;font-style:italic;color:var(--muted)}
 hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 .footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 .themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}

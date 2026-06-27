@@ -82,6 +82,9 @@ pre{background:var(--code);padding:14px;border-radius:8px;overflow:auto}
 pre code{background:none;color:var(--fg);padding:0}
 details{margin:1em 0;border:1px solid var(--line);border-radius:8px;padding:.5em 1em;background:var(--panel)}
 summary{cursor:pointer;font-weight:600}
+details.tr{background:var(--note-bg);border-style:dashed}
+details.tr>summary{font-weight:600;font-size:.85em;color:var(--muted)}
+details.tr>*:not(summary){font-size:.9em;font-style:italic;color:var(--muted)}
 hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 .footer{margin-top:2.5em;padding-top:1em;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 .themebar{position:fixed;top:10px;right:14px;display:flex;gap:4px;z-index:100}
@@ -92,7 +95,7 @@ hr{border:0;border-top:1px solid var(--line);margin:2em 0}
 @media(max-width:760px){.sidebar{display:none}.content{padding:20px 16px}}
 </style></head>
 <body><div class="themebar"><button data-t="light" onclick="setTheme('light')" title="Light">☀️</button><button data-t="sepia" onclick="setTheme('sepia')" title="Soft (eye-friendly)">🍵</button><button data-t="dark" onclick="setTheme('dark')" title="Dark">🌙</button></div><div class="layout">
-<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3>E Nagu Eesti</h3><p><strong><a href="Home.html">🏠 Home</a></strong></p><p><strong>Chapters</strong></p><ul class="quick"><li><a href="Chapter-01-Tere.html">1 · Tere!</a></li><li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li></ul><details class="nav-chap" data-page="Chapter-01-Tere"><summary>Chapter 1 · Tere!</summary><ul><li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li><li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li><li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li><li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li><li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li><li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li><li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li><li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li><li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li><li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li><li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li><li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-06-Aastaajad"><summary>Chapter 6 · Aastaajad</summary><ul><li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li><li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li><li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li><li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li><li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li><li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li><li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li><li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li><li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li><li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li><li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li><li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li><li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li><li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li><li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li><li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li><li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li></ul></details><hr><p><a href="Publishing.html">How to publish</a></p></nav>
+<nav class="sidebar"><input class="navsearch" placeholder="Filter sections…" oninput="filterNav(this.value)"><h3>E Nagu Eesti</h3><p><strong><a href="Home.html">🏠 Home</a></strong></p><p><strong>Chapters</strong></p><ul class="quick"><li><a href="Chapter-01-Tere.html">1 · Tere!</a></li><li><a href="Chapter-06-Aastaajad.html">6 · Aastaajad</a></li><li><a href="Chapter-07-Pere-ja-kodu.html">7 · Pere ja kodu</a></li></ul><details class="nav-chap" data-page="Chapter-01-Tere"><summary>Chapter 1 · Tere!</summary><ul><li><a href="Chapter-01-Tere.html#1-tervitused">Tervitused</a></li><li><a href="Chapter-01-Tere.html#2-tähestik">Tähestik</a></li><li><a href="Chapter-01-Tere.html#3-tere-hommikust">Tere hommikust!</a></li><li><a href="Chapter-01-Tere.html#4-dialoogid">Dialoogid</a></li><li><a href="Chapter-01-Tere.html#5-eesti-linnad-ja-maakonnad">Eesti linnad ja maakonnad</a></li><li><a href="Chapter-01-Tere.html#6-kes-sina-oled">Kes sina oled?</a></li><li><a href="Chapter-01-Tere.html#7-robert">Robert</a></li><li><a href="Chapter-01-Tere.html#8-nägu-ja-keha">Nägu ja keha</a></li><li><a href="Chapter-01-Tere.html#9-keeletark">Keeletark</a></li><li><a href="Chapter-01-Tere.html#10-harjutused">Harjutused</a></li><li><a href="Chapter-01-Tere.html#11-nb">NB!</a></li><li><a href="Chapter-01-Tere.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-06-Aastaajad"><summary>Chapter 6 · Aastaajad</summary><ul><li><a href="Chapter-06-Aastaajad.html#1-vihma-sajab">Vihma sajab</a></li><li><a href="Chapter-06-Aastaajad.html#2-neli-aastaaega">Neli aastaaega</a></li><li><a href="Chapter-06-Aastaajad.html#3-lähme-reisima">Lähme reisima</a></li><li><a href="Chapter-06-Aastaajad.html#4-reisireklaamid">Reisireklaamid</a></li><li><a href="Chapter-06-Aastaajad.html#5-dialoogid">Dialoogid</a></li><li><a href="Chapter-06-Aastaajad.html#6-reisiloterii--reisimäng">Reisiloterii &amp; Reisimäng</a></li><li><a href="Chapter-06-Aastaajad.html#7-mis-on-head-kevadel-suvel">Mis on head kevadel, suvel…?</a></li><li><a href="Chapter-06-Aastaajad.html#8-mees-ja-lumi">Mees ja lumi</a></li><li><a href="Chapter-06-Aastaajad.html#9-soovid">Soovid</a></li><li><a href="Chapter-06-Aastaajad.html#10-mis-see-on">Mis see on?</a></li><li><a href="Chapter-06-Aastaajad.html#11-aken--uks--lind">Aken · uks · lind</a></li><li><a href="Chapter-06-Aastaajad.html#12-robert-läheb-reisima">Robert läheb reisima</a></li><li><a href="Chapter-06-Aastaajad.html#13-ts">TS</a></li><li><a href="Chapter-06-Aastaajad.html#14-keeletark">Keeletark</a></li><li><a href="Chapter-06-Aastaajad.html#15-harjutused">Harjutused</a></li><li><a href="Chapter-06-Aastaajad.html#16-nb">NB!</a></li><li><a href="Chapter-06-Aastaajad.html#sõnavara">Sõnavara</a></li></ul></details><details class="nav-chap" data-page="Chapter-07-Pere-ja-kodu"><summary>Chapter 7 · Pere ja kodu</summary><ul><li><a href="Chapter-07-Pere-ja-kodu.html#1-kodu">Kodu</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#2-eino-heina-pere">Eino Heina pere</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#3-kas-teil-lapsi-on">Kas teil lapsi on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#4-eino-heina-maja">Eino Heina maja</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#5-kus-sa-elad">Kus sa elad?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#6-sugulased">Sugulased</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#7-dialoogid">Dialoogid</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#8-õhtul">Õhtul</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#9-mis-kell-on">Mis kell on?</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#10-robert-räägib-tädi-erikast">Robert räägib tädi Erikast</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#11-ts">TS</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#12-keeletark">Keeletark</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#13-harjutused">Harjutused</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#14-nb">NB!</a></li><li><a href="Chapter-07-Pere-ja-kodu.html#sõnavara">Sõnavara</a></li></ul></details><hr><p><a href="Publishing.html">How to publish</a></p></nav>
 <main class="content"><h1 id="chapter-6--aastaajad-the-seasons">Chapter 6 — Aastaajad (The Seasons)</h1>
 <blockquote>
 <p><strong>Book pages 46–51.</strong> Sections follow the exact order of the book.</p>
@@ -111,7 +114,10 @@ ma varju all<br>
 ja varju peal<br>
 käib vihmatrall.</p>
 </blockquote>
-<p><em>"One umbrella for you / and another for me / and the rain comes down / drip-drop-drop! / You under cover, / me under cover, / and on top of the cover / the rain dances."</em></p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>"One umbrella for you<br>and another for me<br>and the rain comes down<br>drip-drop-drop!<br>You under cover,<br>me under cover,<br>and on top of the cover<br>the rain dances."</em></p>
+</details>
 <p><strong>Questions:</strong> 1. Mitu inimest on vihmavarju all? <em>(How many people are under the umbrella?)</em> · 2. Mis värvi vihmavari sul on? <em>(What colour is your umbrella?)</em></p>
 <hr />
 <h2 id="2-neli-aastaaega">2. Neli aastaaega</h2>
@@ -158,7 +164,10 @@ käib vihmatrall.</p>
 </tr>
 </tbody>
 </table>
-<p><em>Spring: the weather is nice, the sky is blue, birds are singing, trees are green. Summer: the sun shines, it's warm, I'm on holiday, I swim in the sea. Autumn: the sky is cloudy, it often rains, the wind is strong, leaves are colourful, birds fly away. Winter: it's cold, oh how cold!, snow falls, snow is on the ground, a snowman stands in the garden.</em></p>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+<p><em>Spring: the weather is nice, the sky is blue, birds are singing, trees are green.<br>Summer: the sun shines, it's warm, I'm on holiday, I swim in the sea.<br>Autumn: the sky is cloudy, it often rains, the wind is strong, leaves are colourful, birds fly away.<br>Winter: it's cold, oh how cold!, snow falls, snow is on the ground, a snowman stands in the garden.</em></p>
+</details>
 <p><strong>The months (kuud):</strong></p>
 <table>
 <thead>
@@ -302,7 +311,7 @@ käib vihmatrall.</p>
 – Oma sõbraga.<br>
 – Ja kui kaua te seal olete?<br>
 – Kümme päeva.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– When is your holiday?<br>
 – In July.<br>
@@ -320,7 +329,7 @@ käib vihmatrall.</p>
 – Kui kaua sa seal oled?<br>
 – Kolm nädalat.<br>
 – Soovin sulle head reisi ja saada meile üks kaart ka.</p>
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 <p>– You know, I'm going on holiday to Norway.<br>
 – Oh how nice! Norway is a very interesting country.<br>
@@ -495,7 +504,10 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 <blockquote>
 <p>Üks puu, kaksteist oksa, igal oksal neli pesa, igas pesas seitse muna. Mis see on?</p>
 </blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
 <p><em>"One tree, twelve branches, on each branch four nests, in each nest seven eggs. What is it?"</em></p>
+</details>
 <details>
 <summary>💡 <b>Answer</b></summary>
 <p><strong>Aasta</strong> <em>(a year)</em> — 1 tree = the year, 12 branches = months, 4 nests = weeks, 7 eggs = days.</p>
@@ -537,7 +549,10 @@ lumi on maas · lumemees · lund sajab · palju lund</p>
 <p>Meie lemmikkohad on Peipsi ääres ja Lõuna-Eestis. Peipsi ääres on väga huvitavad väikesed külad. Lõuna-Eestis on Munamägi ja seal on hea tornist välja vaadata. Kui taevas on sinine, paistab tornist ka Läti. Muidugi meeldivad meile Eesti saared. Eriti Saaremaa, kus on Kuressaare loss ja hea järv, ning Hiiumaa, kus on Kõpu tuletorn.</p>
 <p>Kui sügisel on päevad jälle lühikesed ning ööd pikad ja pimedad, tahame lõunamaale lennata nagu linnud. Homme lendame Lilliga Küprosele. Seal on soe ja päike paistab. Meri on sinine ja inimesed sõbralikud. Mulle meeldib sügisel või talvel sooja mere ääres puhata, sest Eestis on siis külm ja pime. Ütleme Lilliga alati, et me oleme kaks päikeseinimest.</p>
 </blockquote>
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
 <p><em>Summary: In summer Estonia is so beautiful — long days, short nights, still light when Robert goes to bed and when he gets up. He and Lilli love to travel around Estonia by their old car. Their favourite places are by Lake Peipsi and in South Estonia (Munamägi hill, with its tower you can even see Latvia), and the islands — Saaremaa (Kuressaare castle) and Hiiumaa (Kõpu lighthouse). When autumn comes with short days and long dark nights, they want to fly south like birds. Tomorrow they fly to Cyprus, where it's warm and sunny. They call themselves "two sun-people".</em></p>
+</details>
 <p><strong>Questions:</strong> 1. Mis on Lilli ja Roberti lemmikkohad Eestis? · 2. Arva, kuhu nad järgmisel aastal Eestis lähevad. · 3. Millal nad soojale maale sõidavad? · 4. Aga kus on Portus? Miks ei reisi tema koos nendega?</p>
 <hr />
 <h2 id="13-ts">13. TS</h2>

@@ -80,7 +80,12 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 >
 > — *Priit Aimla*
 
-*"Hello, hello, hello, good morning! / Hello Tiit, hello Mai. / Hello, hello, hello, good morning! / Hello, earth and wide sky."*
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
+*"Hello, hello, hello, good morning!<br>Hello Tiit, hello Mai.<br>Hello, hello, hello, good morning!<br>Hello, earth and wide sky."*
+
+</details>
 
 - **See on Tiit. Tiit on poiss.** — *This is Tiit. Tiit is a boy.*
 - **See on Mai. Mai on tüdruk.** — *This is Mai. Mai is a girl.*
@@ -98,7 +103,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 – Hästi. Aga sinul?<br>
 – Aitäh, pole viga.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – Good morning!<br>
@@ -116,7 +121,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 – Väga meeldiv. Ja kus te elate?<br>
 – Ma elan Viljandis.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – Good day! I am Mart. Who are you?<br>
@@ -134,7 +139,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 – Jah. Aga teie?<br>
 – Ma elan ka Tallinnas.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – Hello! My name is Tiiu Kivi. What is your name?<br>
@@ -153,7 +158,7 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 – Minu nimi on Laura.<br>
 – Väga meeldiv. Mina olen Kaarel.
 
-<details>
+<details class="tr">
 <summary>🇬🇧 Translation</summary>
 
 – Good morning, Liisa!<br>
@@ -174,7 +179,12 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 >
 > — *Hando Runnel*
 
-*"Beautiful, beautiful, beautiful is the land. / Beautiful is the land that I love."*
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
+*"Beautiful, beautiful, beautiful is the land.<br>Beautiful is the land that I love."*
+
+</details>
 
 **The four regions (suunad):**
 
@@ -236,7 +246,12 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 > Tere! See olen mina – Robert Roosipuu. Ma olen ilus, tark ja hea. Ma olen üks tubli mees. Ma elan Tallinnas. Tallinn asub Põhja-Eestis. Tallinn on väga ilus ja väga vana linn. Tallinn on Eesti pealinn. Eesti on ilus maa.
 
+<details class="tr">
+<summary>🇬🇧 Translation</summary>
+
 *"Hello! This is me – Robert Roosipuu. I am handsome, clever and good. I am a fine man. I live in Tallinn. Tallinn is in North Estonia. Tallinn is a very beautiful and very old city. Tallinn is the capital of Estonia. Estonia is a beautiful country."*
+
+</details>
 
 | Word | English |
 |------|---------|
