@@ -54,6 +54,9 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-08-Palju-onne-tahtpaevad", "8 · Palju õnne! Tähtpäevad", "8 · Palju õnne! Tähtpäevad"),
         ("Settle-09-Valimus", "9 · Välimus", "9 · Välimus"),
         ("Settle-10-Pood-on-avatud", "10 · Pood on avatud", "10 · Pood on avatud kümnest kuueni"),
+        ("Settle-11-Ilmateade", "11 · Ilmateade", "11 · Vihma ei saja. Ilmateade"),
+        ("Settle-12-Minu-paev-ja-nadal", "12 · Minu päev ja nädal", "12 · Minu päev ja minu nädal"),
+        ("Settle-13-Tule-mulle-kulla", "13 · Tule mulle külla!", "13 · Tule mulle külla!"),
     ]),
 ]
 

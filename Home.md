@@ -28,6 +28,9 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 8 | [Palju õnne! Tähtpäevad (Special days)](Settle-08-Palju-onne-tahtpaevad.md) | 52–60 | ✅ Done |
 | 9 | [Mul on mustad lokkis juuksed. Välimus (Appearance)](Settle-09-Valimus.md) | 61–65 | ✅ Done |
 | 10 | [Pood on avatud kümnest kuueni (Shops & hours)](Settle-10-Pood-on-avatud.md) | 66–71 | ✅ Done |
+| 11 | [Vihma ei saja. Ilmateade (Weather)](Settle-11-Ilmateade.md) | 72–75 | ✅ Done |
+| 12 | [Minu päev ja minu nädal (My day & week)](Settle-12-Minu-paev-ja-nadal.md) | 76–83 | ✅ Done |
+| 13 | [Tule mulle külla! (Come and visit!)](Settle-13-Tule-mulle-kulla.md) | 84–88 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*
 
