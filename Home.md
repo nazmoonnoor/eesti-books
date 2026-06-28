@@ -24,6 +24,10 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 4 | [Kui suur on üür? (How much is the rent?)](Settle-04-Kui-suur-on-uur.md) | 21–27 | ✅ Done |
 | 5 | [Mööbel ja kodumasinad (Furniture & appliances)](Settle-05-Moobel-ja-kodumasinad.md) | 28–37 | ✅ Done |
 | 6 | [Missugune sa oled? Iseloom (Character)](Settle-06-Iseloom.md) | 38–42 | ✅ Done |
+| 7 | [Perekond ja sugulased (Family & relatives)](Settle-07-Perekond-ja-sugulased.md) | 43–51 | ✅ Done |
+| 8 | [Palju õnne! Tähtpäevad (Special days)](Settle-08-Palju-onne-tahtpaevad.md) | 52–60 | ✅ Done |
+| 9 | [Mul on mustad lokkis juuksed. Välimus (Appearance)](Settle-09-Valimus.md) | 61–65 | ✅ Done |
+| 10 | [Pood on avatud kümnest kuueni (Shops & hours)](Settle-10-Pood-on-avatud.md) | 66–71 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*
 
