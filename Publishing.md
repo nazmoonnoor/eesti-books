@@ -20,13 +20,13 @@ These `.md` files use **GitHub Wiki** conventions (a `Home.md` landing page, a `
    ```
 6. Your wiki is live at `https://github.com/<your-username>/nagu-eesti/wiki`.
 
-> Page file names map to URLs: `Chapter-01-Tere.md` → `.../wiki/Chapter-01-Tere`. Keep the hyphens.
+> Page file names map to URLs: `Nagu-Eesti-01-Tere.md` → `.../wiki/Nagu-Eesti-01-Tere`. Keep the hyphens.
 
 ## Option B — Also run it as a GitHub **Pages** site
 
-GitHub Wiki and GitHub Pages are different things. If you later want a styled website with the same content, copy these files into a normal repo and enable **Settings → Pages**. The internal links (`Chapter-01-Tere`) work in both, and a light Jekyll theme can be added without changing the Markdown. Just ask and I'll set that up.
+GitHub Wiki and GitHub Pages are different things. If you later want a styled website with the same content, copy these files into a normal repo and enable **Settings → Pages**. The internal links (`Nagu-Eesti-01-Tere`) work in both, and a light Jekyll theme can be added without changing the Markdown. Just ask and I'll set that up.
 
 ## Naming convention going forward
 
-- One page per chapter: `Chapter-02-...`, `Chapter-03-...`, etc.
+- One page per chapter: `Nagu-Eesti-02-...`, `Nagu-Eesti-03-...`, etc.
 - Update `Home.md` (chapter table) and `_Sidebar.md` (nav) each time a chapter is added.

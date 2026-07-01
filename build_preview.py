@@ -36,12 +36,12 @@ def read(name):
 
 BOOKS = [  # (book title, [(file base, short label, full label), ...])
     ("E nagu Eesti", [
-        ("Chapter-01-Tere", "1 · Tere!", "1 · Tere!"),
-        ("Chapter-06-Aastaajad", "6 · Aastaajad", "6 · Aastaajad"),
-        ("Chapter-07-Pere-ja-kodu", "7 · Pere ja kodu", "7 · Pere ja kodu"),
-        ("Chapter-13-Üürime-korteri", "13 · Üürime korteri", "13 · Üürime korteri"),
-        ("Chapter-14-Uues-kodus", "14 · Uues kodus", "14 · Uues kodus"),
-        ("Chapter-15-Tulge-kulla", "15 · Tulge külla!", "15 · Tulge külla!"),
+        ("Nagu-Eesti-01-Tere", "1 · Tere!", "1 · Tere!"),
+        ("Nagu-Eesti-06-Aastaajad", "6 · Aastaajad", "6 · Aastaajad"),
+        ("Nagu-Eesti-07-Pere-ja-kodu", "7 · Pere ja kodu", "7 · Pere ja kodu"),
+        ("Nagu-Eesti-13-Üürime-korteri", "13 · Üürime korteri", "13 · Üürime korteri"),
+        ("Nagu-Eesti-14-Uues-kodus", "14 · Uues kodus", "14 · Uues kodus"),
+        ("Nagu-Eesti-15-Tulge-kulla", "15 · Tulge külla!", "15 · Tulge külla!"),
     ]),
     ("Settle in Estonia", [
         ("Settle-01-Saame-tuttavaks", "1 · Saame tuttavaks!", "1 · Saame tuttavaks!"),

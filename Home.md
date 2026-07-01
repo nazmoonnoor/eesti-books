@@ -6,13 +6,13 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 
 | # | Chapter | Book pages | Status |
 |---|---------|-----------|--------|
-| 1 | [Tere! (Hello!)](Chapter-01-Tere.md) | 10–13 | ✅ Done |
+| 1 | [Tere! (Hello!)](Nagu-Eesti-01-Tere.md) | 10–13 | ✅ Done |
 | 2 | Maad ja keeled (Countries & languages) | 14–… | ⬜ To do |
-| 6 | [Aastaajad (The seasons)](Chapter-06-Aastaajad.md) | 46–51 | ✅ Done |
-| 7 | [Pere ja kodu (Family & home)](Chapter-07-Pere-ja-kodu.md) | 52–57 | ✅ Done |
-| 13 | [Üürime korteri (Renting a flat)](Chapter-13-Üürime-korteri.md) | 102–107 | ✅ Done |
-| 14 | [Uues kodus (In the new home)](Chapter-14-Uues-kodus.md) | 108–113 | ✅ Done |
-| 15 | [Tulge külla! (Come and visit!)](Chapter-15-Tulge-kulla.md) | 114–119 | ✅ Done |
+| 6 | [Aastaajad (The seasons)](Nagu-Eesti-06-Aastaajad.md) | 46–51 | ✅ Done |
+| 7 | [Pere ja kodu (Family & home)](Nagu-Eesti-07-Pere-ja-kodu.md) | 52–57 | ✅ Done |
+| 13 | [Üürime korteri (Renting a flat)](Nagu-Eesti-13-Üürime-korteri.md) | 102–107 | ✅ Done |
+| 14 | [Uues kodus (In the new home)](Nagu-Eesti-14-Uues-kodus.md) | 108–113 | ✅ Done |
+| 15 | [Tulge külla! (Come and visit!)](Nagu-Eesti-15-Tulge-kulla.md) | 114–119 | ✅ Done |
 
 ## 📗 Settle in Estonia
 
