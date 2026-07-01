@@ -31,6 +31,12 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 11 | [Vihma ei saja. Ilmateade (Weather)](Settle-11-Ilmateade.md) | 72–75 | ✅ Done |
 | 12 | [Minu päev ja minu nädal (My day & week)](Settle-12-Minu-paev-ja-nadal.md) | 76–83 | ✅ Done |
 | 13 | [Tule mulle külla! (Come and visit!)](Settle-13-Tule-mulle-kulla.md) | 84–88 | ✅ Done |
+| 14 | [Mul on vaja nõusid pesta. Kodused tööd (Chores)](Settle-14-Kodused-tood.md) | 89–92 | ✅ Done |
+| 15 | [Riided ja jalanõud (Clothes & footwear)](Settle-15-Riided-ja-jalanoud.md) | 93–98 | ✅ Done |
+| 16 | [Kas ma võin proovida? Riidepoes (Clothes shop)](Settle-16-Riidepoes.md) | 99–100 | ✅ Done |
+| 17 | [Mulle meeldib joonistamine. Hobid (Hobbies)](Settle-17-Hobid.md) | 101–104 | ✅ Done |
+| 18 | [Mida sa eile tegid? (Simple past)](Settle-18-Mida-sa-eile-tegid.md) | 105–109 | ✅ Done |
+| 19 | [Sõidan rongiga Tallinnast Tartusse (Travelling)](Settle-19-Soidan-rongiga.md) | 110–114 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*
 

@@ -57,6 +57,12 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-11-Ilmateade", "11 · Ilmateade", "11 · Vihma ei saja. Ilmateade"),
         ("Settle-12-Minu-paev-ja-nadal", "12 · Minu päev ja nädal", "12 · Minu päev ja minu nädal"),
         ("Settle-13-Tule-mulle-kulla", "13 · Tule mulle külla!", "13 · Tule mulle külla!"),
+        ("Settle-14-Kodused-tood", "14 · Kodused tööd", "14 · Mul on vaja nõusid pesta"),
+        ("Settle-15-Riided-ja-jalanoud", "15 · Riided ja jalanõud", "15 · Riided ja jalanõud"),
+        ("Settle-16-Riidepoes", "16 · Riidepoes", "16 · Kas ma võin proovida? Riidepoes"),
+        ("Settle-17-Hobid", "17 · Hobid", "17 · Mulle meeldib joonistamine. Hobid"),
+        ("Settle-18-Mida-sa-eile-tegid", "18 · Mida sa eile tegid?", "18 · Mida sa eile tegid?"),
+        ("Settle-19-Soidan-rongiga", "19 · Sõidan rongiga", "19 · Sõidan rongiga Tallinnast Tartusse"),
     ]),
 ]
 
