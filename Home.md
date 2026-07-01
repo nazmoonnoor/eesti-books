@@ -37,6 +37,9 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 17 | [Mulle meeldib joonistamine. Hobid (Hobbies)](Settle-17-Hobid.md) | 101–104 | ✅ Done |
 | 18 | [Mida sa eile tegid? (Simple past)](Settle-18-Mida-sa-eile-tegid.md) | 105–109 | ✅ Done |
 | 19 | [Sõidan rongiga Tallinnast Tartusse (Travelling)](Settle-19-Soidan-rongiga.md) | 110–114 | ✅ Done |
+| 20 | [Ma ei koristanud eile tuba (Past negative)](Settle-20-Ma-ei-koristanud.md) | 115–119 | ✅ Done |
+| 21 | [Vaata, seal on siil! (Animals & comparatives)](Settle-21-Vaata-seal-on-siil.md) | 120–123 | ✅ Done |
+| 22 | [Üks pilet palun! (Kino, kontsert, koolitus)](Settle-22-Uks-pilet-palun.md) | 124–128 | ✅ Done |
 
 *(More chapters from both books will be added as we go.)*
 

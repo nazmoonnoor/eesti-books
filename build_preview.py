@@ -63,6 +63,9 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-17-Hobid", "17 · Hobid", "17 · Mulle meeldib joonistamine. Hobid"),
         ("Settle-18-Mida-sa-eile-tegid", "18 · Mida sa eile tegid?", "18 · Mida sa eile tegid?"),
         ("Settle-19-Soidan-rongiga", "19 · Sõidan rongiga", "19 · Sõidan rongiga Tallinnast Tartusse"),
+        ("Settle-20-Ma-ei-koristanud", "20 · Ma ei koristanud", "20 · Ma ei koristanud eile tuba"),
+        ("Settle-21-Vaata-seal-on-siil", "21 · Vaata, seal on siil!", "21 · Vaata, seal on siil!"),
+        ("Settle-22-Uks-pilet-palun", "22 · Üks pilet palun!", "22 · Üks pilet palun! Kino, kontsert, koolitus"),
     ]),
 ]
 
