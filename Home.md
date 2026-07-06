@@ -40,8 +40,17 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 20 | [Ma ei koristanud eile tuba (Past negative)](Settle-20-Ma-ei-koristanud.md) | 115–119 | ✅ Done |
 | 21 | [Vaata, seal on siil! (Animals & comparatives)](Settle-21-Vaata-seal-on-siil.md) | 120–123 | ✅ Done |
 | 22 | [Üks pilet palun! (Kino, kontsert, koolitus)](Settle-22-Uks-pilet-palun.md) | 124–128 | ✅ Done |
+| 23 | [Töötan restoranis kokana (Profession & workplace)](Settle-23-Amet-ja-tookoht.md) | 129–133 | ✅ Done |
+| 24 | [Curriculum vitae (CV)](Settle-24-Curriculum-vitae.md) | 134–139 | ✅ Done |
+| 25 | [Klaas piima ja tükk kooki (Food & quantities)](Settle-25-Klaas-piima.md) | 140–146 | ✅ Done |
+| 26 | [Mul on kõik korras! (How you feel)](Settle-26-Mul-on-koik-korras.md) | 147–149 | ✅ Done |
+| 27 | [Mis sul viga on? (Body & ailments)](Settle-27-Mis-sul-viga-on.md) | 150–153 | ✅ Done |
+| 28 | [Mille üle te kaebate? (At the doctor)](Settle-28-Mille-ule-te-kaebate.md) | 154–157 | ✅ Done |
+| 29 | [Kui ma oleks … (The conditional)](Settle-29-Kui-ma-oleks.md) | 158–161 | ✅ Done |
+| 30 | [Mida tehakse talvel? (The impersonal)](Settle-30-Mida-tehakse.md) | 162–167 | ✅ Done |
+| — | [Kordamine (Revision)](Settle-31-Kordamine.md) | 168–173 | ✅ Done |
 
-*(More chapters from both books will be added as we go.)*
+*(This completes both books.)*
 
 ## How to use this wiki
 

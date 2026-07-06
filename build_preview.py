@@ -66,6 +66,15 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-20-Ma-ei-koristanud", "20 · Ma ei koristanud", "20 · Ma ei koristanud eile tuba"),
         ("Settle-21-Vaata-seal-on-siil", "21 · Vaata, seal on siil!", "21 · Vaata, seal on siil!"),
         ("Settle-22-Uks-pilet-palun", "22 · Üks pilet palun!", "22 · Üks pilet palun! Kino, kontsert, koolitus"),
+        ("Settle-23-Amet-ja-tookoht", "23 · Amet ja töökoht", "23 · Töötan restoranis kokana"),
+        ("Settle-24-Curriculum-vitae", "24 · Curriculum vitae", "24 · Curriculum vitae"),
+        ("Settle-25-Klaas-piima", "25 · Klaas piima", "25 · Klaas piima ja tükk kooki"),
+        ("Settle-26-Mul-on-koik-korras", "26 · Mul on kõik korras!", "26 · Mul on kõik korras!"),
+        ("Settle-27-Mis-sul-viga-on", "27 · Mis sul viga on?", "27 · Mis sul viga on?"),
+        ("Settle-28-Mille-ule-te-kaebate", "28 · Mille üle te kaebate?", "28 · Mille üle te kaebate?"),
+        ("Settle-29-Kui-ma-oleks", "29 · Kui ma oleks …", "29 · Kui ma oleks …"),
+        ("Settle-30-Mida-tehakse", "30 · Mida tehakse talvel?", "30 · Mida tehakse talvel?"),
+        ("Settle-31-Kordamine", "Kordamine", "Kordamine (Revision)"),
     ]),
 ]
 
