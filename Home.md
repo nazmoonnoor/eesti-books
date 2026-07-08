@@ -7,9 +7,14 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | # | Chapter | Book pages | Status |
 |---|---------|-----------|--------|
 | 1 | [Tere! (Hello!)](Nagu-Eesti-01-Tere.md) | 10–13 | ✅ Done |
-| 2 | Maad ja keeled (Countries & languages) | 14–… | ⬜ To do |
+| 2 | [Maad ja keeled (Countries & languages)](Nagu-Eesti-02-Maad-ja-keeled.md) | 14–17 | ✅ Done |
+| 3 | [Kus sa elad? (Where do you live?)](Nagu-Eesti-03-Kus-sa-elad.md) | 18–21 | ✅ Done |
+| 4 | [Üks ja mitu (One and many)](Nagu-Eesti-04-Uks-ja-mitu.md) | 22–25 | ✅ Done |
+| 5 | [Kuhu sa lähed? (Where are you going?)](Nagu-Eesti-05-Kuhu-sa-lahed.md) | 28–33 | ✅ Done |
 | 6 | [Aastaajad (The seasons)](Nagu-Eesti-06-Aastaajad.md) | 46–51 | ✅ Done |
 | 7 | [Pere ja kodu (Family & home)](Nagu-Eesti-07-Pere-ja-kodu.md) | 52–57 | ✅ Done |
+| 8 | [Huvid ja hobid (Interests & hobbies)](Nagu-Eesti-08-Huvid-ja-hobid.md) | 58–63 | ✅ Done |
+| 9 | [Hommikul kodus (Morning at home)](Nagu-Eesti-09-Hommikul-kodus.md) | 64–69 | ✅ Done |
 | 13 | [Üürime korteri (Renting a flat)](Nagu-Eesti-13-Üürime-korteri.md) | 102–107 | ✅ Done |
 | 14 | [Uues kodus (In the new home)](Nagu-Eesti-14-Uues-kodus.md) | 108–113 | ✅ Done |
 | 15 | [Tulge külla! (Come and visit!)](Nagu-Eesti-15-Tulge-kulla.md) | 114–119 | ✅ Done |
