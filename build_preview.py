@@ -56,6 +56,7 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Nagu-Eesti-16-Linnas", "16 · Linnas", "16 · Linnas"),
         ("Nagu-Eesti-17-Asju-ajamas", "17 · Asju ajamas", "17 · Asju ajamas"),
         ("Nagu-Eesti-18-Kaubamajas", "18 · Kaubamajas", "18 · Kaubamajas"),
+        ("Nagu-Eesti-21-Uks-toopaev", "21 · Üks tööpäev", "21 · Üks tööpäev"),
     ]),
     ("Settle in Estonia", [
         ("Settle-01-Saame-tuttavaks", "1 · Saame tuttavaks!", "1 · Saame tuttavaks!"),
