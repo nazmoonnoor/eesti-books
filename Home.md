@@ -26,6 +26,8 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 16 | [Linnas (In town)](Nagu-Eesti-16-Linnas.md) | 132–137 | ✅ Done |
 | 17 | [Asju ajamas (Running errands)](Nagu-Eesti-17-Asju-ajamas.md) | 138–143 | ✅ Done |
 | 18 | [Kaubamajas (At the department store)](Nagu-Eesti-18-Kaubamajas.md) | 144–149 | ✅ Done |
+| 19 | [Arsti juures (At the doctor's)](Nagu-Eesti-19-Arsti-juures.md) | 150–157 | ✅ Done |
+| 20 | [Mis juhtus? (What happened?)](Nagu-Eesti-20-Mis-juhtus.md) | 158–163 | ✅ Done |
 | 21 | [Üks tööpäev (A working day)](Nagu-Eesti-21-Uks-toopaev.md) | 172–177 | ✅ Done |
 
 ## 📗 Settle in Estonia
