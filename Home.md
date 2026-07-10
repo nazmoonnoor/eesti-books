@@ -17,11 +17,15 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 8 | [Huvid ja hobid (Interests & hobbies)](Nagu-Eesti-08-Huvid-ja-hobid.md) | 58–63 | ✅ Done |
 | 9 | [Hommikul kodus (Morning at home)](Nagu-Eesti-09-Hommikul-kodus.md) | 64–69 | ✅ Done |
 | 10 | [Töö ja haridus (Work & education)](Nagu-Eesti-10-Too-ja-haridus.md) | 70–75 | ✅ Done |
+| — | [Kordamine 6–10 (Revision)](Nagu-Eesti-10b-Kordamine-6-10.md) | 76–87 | ✅ Done |
 | 11 | [Lähme poodi (Let's go shopping)](Nagu-Eesti-11-Lahme-poodi.md) | 88–95 | ✅ Done |
-| — | [Kordamine 6–10 (Revision)](Nagu-Eesti-12-Kordamine-6-10.md) | 76–87 | ✅ Done |
+| 12 | [Kohvikus (At the café)](Nagu-Eesti-12-Kohvikus.md) | 96–101 | ✅ Done |
 | 13 | [Üürime korteri (Renting a flat)](Nagu-Eesti-13-Üürime-korteri.md) | 102–107 | ✅ Done |
 | 14 | [Uues kodus (In the new home)](Nagu-Eesti-14-Uues-kodus.md) | 108–113 | ✅ Done |
 | 15 | [Tulge külla! (Come and visit!)](Nagu-Eesti-15-Tulge-kulla.md) | 114–119 | ✅ Done |
+| 16 | [Linnas (In town)](Nagu-Eesti-16-Linnas.md) | 132–137 | ✅ Done |
+| 17 | [Asju ajamas (Running errands)](Nagu-Eesti-17-Asju-ajamas.md) | 138–143 | ✅ Done |
+| 18 | [Kaubamajas (At the department store)](Nagu-Eesti-18-Kaubamajas.md) | 144–149 | ✅ Done |
 
 ## 📗 Settle in Estonia
 
