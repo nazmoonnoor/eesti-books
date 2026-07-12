@@ -23,12 +23,15 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 13 | [Üürime korteri (Renting a flat)](Nagu-Eesti-13-Üürime-korteri.md) | 102–107 | ✅ Done |
 | 14 | [Uues kodus (In the new home)](Nagu-Eesti-14-Uues-kodus.md) | 108–113 | ✅ Done |
 | 15 | [Tulge külla! (Come and visit!)](Nagu-Eesti-15-Tulge-kulla.md) | 114–119 | ✅ Done |
+| — | [Kordamine 11–15 (Revision)](Nagu-Eesti-15b-Kordamine-11-15.md) | 120–131 | ✅ Done |
 | 16 | [Linnas (In town)](Nagu-Eesti-16-Linnas.md) | 132–137 | ✅ Done |
 | 17 | [Asju ajamas (Running errands)](Nagu-Eesti-17-Asju-ajamas.md) | 138–143 | ✅ Done |
 | 18 | [Kaubamajas (At the department store)](Nagu-Eesti-18-Kaubamajas.md) | 144–149 | ✅ Done |
 | 19 | [Arsti juures (At the doctor's)](Nagu-Eesti-19-Arsti-juures.md) | 150–157 | ✅ Done |
 | 20 | [Mis juhtus? (What happened?)](Nagu-Eesti-20-Mis-juhtus.md) | 158–163 | ✅ Done |
+| — | [Kordamine 16–20 (Revision)](Nagu-Eesti-20b-Kordamine-16-20.md) | 164–171 | ✅ Done |
 | 21 | [Üks tööpäev (A working day)](Nagu-Eesti-21-Uks-toopaev.md) | 172–177 | ✅ Done |
+| 22 | [Sõbrad (Friends)](Nagu-Eesti-22-Sobrad.md) | 178–183 | ✅ Done |
 
 ## 📗 Settle in Estonia
 
