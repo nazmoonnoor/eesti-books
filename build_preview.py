@@ -62,6 +62,11 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Nagu-Eesti-20b-Kordamine-16-20", "Kordamine 16–20", "Kordamine 16–20"),
         ("Nagu-Eesti-21-Uks-toopaev", "21 · Üks tööpäev", "21 · Üks tööpäev"),
         ("Nagu-Eesti-22-Sobrad", "22 · Sõbrad", "22 · Sõbrad"),
+        ("Nagu-Eesti-23-Ole-terve", "23 · Ole terve!", "23 · Ole terve!"),
+        ("Nagu-Eesti-24-Puhkusele", "24 · Puhkusele!", "24 · Puhkusele!"),
+        ("Nagu-Eesti-25-Reisime-Eestis", "25 · Reisime Eestis", "25 · Reisime Eestis"),
+        ("Nagu-Eesti-25b-Kordamine-21-25", "Kordamine 21–25", "Kordamine 21–25"),
+        ("Nagu-Eesti-Grammatikalisad", "Grammatikalisad", "Grammatikalisad"),
     ]),
     ("Settle in Estonia", [
         ("Settle-01-Saame-tuttavaks", "1 · Saame tuttavaks!", "1 · Saame tuttavaks!"),

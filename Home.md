@@ -32,6 +32,11 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | — | [Kordamine 16–20 (Revision)](Nagu-Eesti-20b-Kordamine-16-20.md) | 164–171 | ✅ Done |
 | 21 | [Üks tööpäev (A working day)](Nagu-Eesti-21-Uks-toopaev.md) | 172–177 | ✅ Done |
 | 22 | [Sõbrad (Friends)](Nagu-Eesti-22-Sobrad.md) | 178–183 | ✅ Done |
+| 23 | [Ole terve! (Be healthy!)](Nagu-Eesti-23-Ole-terve.md) | 184–189 | ✅ Done |
+| 24 | [Puhkusele! (Off on holiday!)](Nagu-Eesti-24-Puhkusele.md) | 190–195 | ✅ Done |
+| 25 | [Reisime Eestis (Travelling in Estonia)](Nagu-Eesti-25-Reisime-Eestis.md) | 196–201 | ✅ Done |
+| — | [Kordamine 21–25 (Revision)](Nagu-Eesti-25b-Kordamine-21-25.md) | 202–207 | ✅ Done |
+| 📘 | [Grammatikalisad (Grammar appendix)](Nagu-Eesti-Grammatikalisad.md) | 208–215 | ✅ Done |
 
 ## 📗 Settle in Estonia
 
