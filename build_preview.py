@@ -101,6 +101,11 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Settle-30-Mida-tehakse", "30 · Mida tehakse talvel?", "30 · Mida tehakse talvel?"),
         ("Settle-31-Kordamine", "Kordamine", "Kordamine (Revision)"),
     ]),
+    ("Eesti keele grammatika", [
+        ("Grammatika-03-Nimetav-omastav", "3 · Nimetav & omastav", "3 · Nominative & Genitive Singular, Nominative Plural"),
+        ("Grammatika-04-Osastav-astmevaheldus", "4 · Osastav & astmevaheldus", "4 · Partitive Singular, Gradation of Nouns"),
+        ("Grammatika-05-Kohakaanded", "5 · Kohakäänded", "5 · Locative Cases"),
+    ]),
 ]
 
 def build_sidebar():

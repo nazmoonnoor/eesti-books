@@ -74,7 +74,17 @@ A chapter-by-chapter learning wiki for the **Estonian A2 exam**, built from two 
 | 30 | [Mida tehakse talvel? (The impersonal)](Settle-30-Mida-tehakse.md) | 162–167 | ✅ Done |
 | — | [Kordamine (Revision)](Settle-31-Kordamine.md) | 168–173 | ✅ Done |
 
-*(This completes both books.)*
+*(This completes both coursebooks.)*
+
+## 📘 Eesti keele grammatika
+
+A bilingual (Estonian + English) reference grammar. Each chapter covers one grammar topic, with rules, tables and worked examples given Estonian-first alongside their English equivalents.
+
+| # | Chapter | Book pages | Status |
+|---|---------|-----------|--------|
+| 3 | [Nimetav & omastav (Nominative & Genitive)](Grammatika-03-Nimetav-omastav.md) | 10–12 | ✅ Done |
+| 4 | [Osastav & astmevaheldus (Partitive & Gradation)](Grammatika-04-Osastav-astmevaheldus.md) | 13–17 | ✅ Done |
+| 5 | [Kohakäänded (Locative cases)](Grammatika-05-Kohakaanded.md) | 18–22 | ✅ Done |
 
 ## How to use this wiki
 
