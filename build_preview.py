@@ -105,6 +105,10 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Grammatika-03-Nimetav-omastav", "3 · Nimetav & omastav", "3 · Nominative & Genitive Singular, Nominative Plural"),
         ("Grammatika-04-Osastav-astmevaheldus", "4 · Osastav & astmevaheldus", "4 · Partitive Singular, Gradation of Nouns"),
         ("Grammatika-05-Kohakaanded", "5 · Kohakäänded", "5 · Locative Cases"),
+        ("Grammatika-06-Mitmuse-omastav", "6 · Mitmuse omastav", "6 · Genitive Plural, Relations between the Cases"),
+        ("Grammatika-07-Ulejaanud-kaanded", "7 · Saav, rajav, olev jt", "7 · Translative, Terminative, Essive, Abessive, Comitative"),
+        ("Grammatika-08-Mitmuse-osastav", "8 · Mitmuse osastav", "8 · Partitive Plural"),
+        ("Grammatika-09-Omadussona-vordlusastmed", "9 · Võrdlusastmed", "9 · Adjective: Degrees of Comparison"),
     ]),
 ]
 

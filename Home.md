@@ -85,6 +85,10 @@ A bilingual (Estonian + English) reference grammar. Each chapter covers one gram
 | 3 | [Nimetav & omastav (Nominative & Genitive)](Grammatika-03-Nimetav-omastav.md) | 10–12 | ✅ Done |
 | 4 | [Osastav & astmevaheldus (Partitive & Gradation)](Grammatika-04-Osastav-astmevaheldus.md) | 13–17 | ✅ Done |
 | 5 | [Kohakäänded (Locative cases)](Grammatika-05-Kohakaanded.md) | 18–22 | ✅ Done |
+| 6 | [Mitmuse omastav (Genitive plural, relations between cases)](Grammatika-06-Mitmuse-omastav.md) | 23–24 | ✅ Done |
+| 7 | [Saav, rajav, olev jt (Translative, terminative, essive, abessive, comitative)](Grammatika-07-Ulejaanud-kaanded.md) | 25–27 | ✅ Done |
+| 8 | [Mitmuse osastav (Partitive plural)](Grammatika-08-Mitmuse-osastav.md) | 28–31 | ✅ Done |
+| 9 | [Võrdlusastmed (Adjective: degrees of comparison)](Grammatika-09-Omadussona-vordlusastmed.md) | 32–33 | ✅ Done |
 
 ## How to use this wiki
 
