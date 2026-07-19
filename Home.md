@@ -89,6 +89,16 @@ A bilingual (Estonian + English) reference grammar. Each chapter covers one gram
 | 7 | [Saav, rajav, olev jt (Translative, terminative, essive, abessive, comitative)](Grammatika-07-Ulejaanud-kaanded.md) | 25–27 | ✅ Done |
 | 8 | [Mitmuse osastav (Partitive plural)](Grammatika-08-Mitmuse-osastav.md) | 28–31 | ✅ Done |
 | 9 | [Võrdlusastmed (Adjective: degrees of comparison)](Grammatika-09-Omadussona-vordlusastmed.md) | 32–33 | ✅ Done |
+| 10 | [Arvsõnad (Numerals)](Grammatika-10-Arvsonad.md) | 34–36 | ✅ Done |
+| 11 | [Asesõna (Pronouns)](Grammatika-11-Asesona.md) | 37–38 | ✅ Done |
+| 12 | [Määrsõna, ees/tagasõnad, sidesõna, hüüdsõna (Adverb, Prepositions/Postpositions, Conjunctions, Interjections)](Grammatika-12-Maarsona-ja-abisonad.md) | 39–43 | ✅ Done |
+| 13 | [Verbi põhivormid (Basic verb forms, present indicative, ma-/da-infinitive)](Grammatika-13-Verbi-pohivormid.md) | 44–51 | ✅ Done |
+| 14 | [Verbi astmevaheldus (Gradation of verbs)](Grammatika-14-Verbi-astmevaheldus.md) | 52–53 | ✅ Done |
+| 15 | [Minevikuvormid (Verb past tenses: imperfect, perfect, pluperfect)](Grammatika-15-Verbi-minevikuvormid.md) | 54–56 | ✅ Done |
+| 16 | [Moodus (Moods: indicative, conditional, quotative, imperative)](Grammatika-16-Moodus.md) | 57–60 | ✅ Done |
+| 17 | [Impersonaal (Impersonal passive)](Grammatika-17-Impersonaal.md) | 61–65 | ✅ Done |
+| 18 | [Partitsiibid (Participles: -v, -tav, -nud, -tud)](Grammatika-18-Partitsiibid.md) | 66–70 | ✅ Done |
+| 19 | [Sõnamoodustus (Word-formation: suffixes, compound words)](Grammatika-19-Sonamoodustus.md) | 71–79 | ✅ Done |
 
 ## How to use this wiki
 

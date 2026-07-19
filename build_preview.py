@@ -109,6 +109,16 @@ BOOKS = [  # (book title, [(file base, short label, full label), ...])
         ("Grammatika-07-Ulejaanud-kaanded", "7 · Saav, rajav, olev jt", "7 · Translative, Terminative, Essive, Abessive, Comitative"),
         ("Grammatika-08-Mitmuse-osastav", "8 · Mitmuse osastav", "8 · Partitive Plural"),
         ("Grammatika-09-Omadussona-vordlusastmed", "9 · Võrdlusastmed", "9 · Adjective: Degrees of Comparison"),
+        ("Grammatika-10-Arvsonad", "10 · Arvsõnad", "10 · Numerals"),
+        ("Grammatika-11-Asesona", "11 · Asesõna", "11 · Pronouns"),
+        ("Grammatika-12-Maarsona-ja-abisonad", "12 · Määrsõna, ees/tagasõnad jt", "12 · Adverb, Prepositions/Postpositions, Conjunctions, Interjections"),
+        ("Grammatika-13-Verbi-pohivormid", "13 · Verbi põhivormid", "13 · Basic Verb Forms, Present Indicative, ma-/da-infinitive"),
+        ("Grammatika-14-Verbi-astmevaheldus", "14 · Verbi astmevaheldus", "14 · Gradation of Verbs"),
+        ("Grammatika-15-Verbi-minevikuvormid", "15 · Minevikuvormid", "15 · Verb Past Tenses: Imperfect, Perfect, Pluperfect"),
+        ("Grammatika-16-Moodus", "16 · Moodus", "16 · Moods: Indicative, Conditional, Quotative, Imperative"),
+        ("Grammatika-17-Impersonaal", "17 · Impersonaal", "17 · Impersonal Passive"),
+        ("Grammatika-18-Partitsiibid", "18 · Partitsiibid", "18 · Participles: -v, -tav, -nud, -tud"),
+        ("Grammatika-19-Sonamoodustus", "19 · Sõnamoodustus", "19 · Word-Formation: Suffixes and Compound Words"),
     ]),
 ]
 
