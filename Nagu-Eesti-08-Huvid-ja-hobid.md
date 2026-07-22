@@ -162,21 +162,81 @@ aitama · aidata · aitab — kohtuma · kohtuda · kohtub — koristama · kori
 ---
 
 ## 12. Keeletark
-*(page 61 — grammar)*
+*(page 61 — grammar, transcribed from GRAMMER.pdf)*
 
-**1. Keda? (osastav — mind, sind, teda …):** AITAMA keda? — Aita **mind**! · Ma aitan **sind**. · Aita **teda**! · Aidake **meid**! · Ma aitan **teid**. · Me aitame **neid**. — OOTAMA keda? — Oota **mind**! · Ma ootan **sind**. · Oota **teda**! · Oodake **meid**! · Me ootame **teid**. · Ära oota **neid**! *(aitama → aidata, aita! → aidake!; ootama → oodata, oota! → oodake!)*
+**1. Keda? (osastav — mind, sind, teda …)**
 
-**2. Millal? (-l):** se/**l** = selle/**l**, järgmise/**l**, iga/**l**; aasta/**l**, nädala/**l**, reede/**l**, kevade/**l**. — **Sel** kolmapäeval ma lähen Tallinna. · **Järgmisel** suvel ma lähen Pariisi. · Ma käin Eestis **igal** aastal. · Ma käin **iga** päev trennis. *(AGA: järgmise**l** päeva**l** — aga **iga** päev.)*
+| Kes? | Aitama keda? | Ootama keda? |
+|---|---|---|
+| mina | Aita **mind**! | Oota **mind**! |
+| sina | Ma aitan **sind**. | Ma ootan **sind**. |
+| tema | Aita **teda**! | Oota **teda**! |
+| meie | Aidake **meid**! | Oodake **meid**! |
+| teie | Ma aitan **teid**. | Me ootame **teid**. |
+| nemad | Me aitame **neid**. | Ära oota **neid**! |
 
-**3. Lähen kuhu?** — **-SSE:** teatri**sse**, ujula**sse**, suvila**sse**, korteri**sse**, kiriku**sse**, auto**sse**, lennuki**sse**, peatuse**sse**. — **-LE:** töö**le**, kontserdi**le**, puhkuse**le**, tänava**le**, maa**le**, reisi**le**, loengu**le**, kursuse**le**, peo**le**. — **Ø (lühike sisseütlev):** kooli, parki, trenni, tundi, linna, aeda, metsa, ki**nn**o *(kino)*, ma**jj**a *(maja)*, tu**pp**a *(tuba)*, koju *(kodu)*. *(MITU? → KUHU?: kaks linna / metsa / pulma / parki / kooli / tundi / kööki → lähen linna / metsa / pulma / parki / kooli / tundi / kööki.)*
+> 🔹 aitama → aida**ta**, aita! → aida**ke**! · ootama → ooda**ta**, oota! → ooda**ke**!
 
-**4. tegema – teha · nägema – näha:** Mida sa tahad **teha**? · Mida sa õhtul **teed**? · Hakka harjutust **tegema**. — Ma tahan seda filmi **näha**. · **Näeme** homme. · Ma **ei näe** mitte midagi. *(nägema · näha · näeb; tegema · teha · teeb.)*
+**2. Millal? (-l)**
 
-**5. kuula/ma – kuula/ta vs kuul/ma – kuul/da:** Ma **kuulan** hommikul raadiot. · Lapsed **kuulavad**, mida õpetaja räägib. — Vabandust, ma ei **kuule** hästi. · Halloo, kas te **kuulete** mind? *(kuulama = to listen; kuulma = to hear.)*
+| -l vorm (määrsõna) | -l vorm (nimisõna) | Lause |
+|---|---|---|
+| se/**l** = selle/**l** | aasta/**l** | **Sel** kolmapäeval ma lähen Tallinna. |
+| järgmise/**l** | nädala/**l** | **Järgmisel** suvel ma lähen Pariisi. |
+| iga/**l** | reede/**l** | Ma käin Eestis **igal** aastal. |
+| | kevade/**l** | Ma käin **iga** päev trennis. |
 
-**6. minu · oma:** **minu / tema:** See on **minu** pere pilt. · Peetrile meeldib **minu** auto. · **Tema** vend elab Torontos. — **oma** *(one's own — points back to the subject)*: Ma sõidan puhkusele **oma** perega. · Kas te lähete **oma** autoga? · Peeter helistab **oma** vennale.
+> 🔹 AGA: järgmise**l** päeva**l** — but **iga** päev *(no -l with "iga päev")*.
 
-**7. sest · seepärast (= sellepärast):** Mulle meeldib suvi, **sest** siis kooli ei ole. · Ma pean õppima, **sest** homme on eksam. — Ilm on ilus, **seepärast** lähen jala. · Mul on eksam, **seepärast** ei saa ma tulla.
+**3. Lähen kuhu?**
+
+| -SSE | -LE | Ø (lühike sisseütlev) |
+|---|---|---|
+| teatri**sse** | töö**le** | kooli |
+| ujula**sse** | kontserdi**le** | parki |
+| suvila**sse** | puhkuse**le** | trenni |
+| korteri**sse** | tänava**le** | tundi |
+| kiriku**sse** | maa**le** | linna |
+| auto**sse** | reisi**le** | aeda |
+| lennuki**sse** | loengu**le** | metsa |
+| peatuse**sse** | kursuse**le** | ki**nn**o *(kino)* |
+| | peo**le** | ma**jj**a *(maja)* |
+| | | tu**pp**a *(tuba)* |
+| | | koju *(kodu)* |
+
+> 🔹 MITU? → KUHU?: kaks **linna** / **metsa** / **pulma** / **parki** / **kooli** / **tundi** / **kööki** → lähen **linna** / **metsa** / **pulma** / **parki** / **kooli** / **tundi** / **kööki**.
+
+**4. tegema – teha · nägema – näha**
+
+| tegema – teha | nägema – näha |
+|---|---|
+| Mida sa tahad **teha**? | Ma tahan seda filmi **näha**. |
+| Mida sa õhtul **teed**? | **Näeme** homme. |
+| Hakka harjutust **tegema**. | Ma **ei näe** mitte midagi. |
+
+> 🔹 nägema · näha · näeb — tegema · teha · teeb.
+
+**5. kuula/ma – kuula/ta vs kuul/ma – kuul/da**
+
+| kuulama *(to listen)* | kuulma *(to hear)* |
+|---|---|
+| Ma **kuulan** hommikul raadiot. | Vabandust, ma ei **kuule** hästi. |
+| Lapsed **kuulavad**, mida õpetaja räägib. | Halloo, kas te **kuulete** mind? |
+
+**6. minu · oma**
+
+| minu / tema | oma *(one's own — points back to the subject)* |
+|---|---|
+| See on **minu** pere pilt. | Ma sõidan puhkusele **oma** perega. |
+| Peetrile meeldib **minu** auto. | Kas te lähete **oma** autoga? |
+| **Tema** vend elab Torontos. | Peeter helistab **oma** vennale. |
+
+**7. sest · seepärast (= sellepärast)**
+
+| sest | seepärast |
+|---|---|
+| Mulle meeldib suvi, **sest** siis kooli ei ole. | Ilm on ilus, **seepärast** lähen jala. |
+| Ma pean õppima, **sest** homme on eksam. | Mul on eksam, **seepärast** ei saa ma tulla. |
 
 ---
 
