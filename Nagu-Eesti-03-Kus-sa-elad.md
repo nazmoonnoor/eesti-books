@@ -100,21 +100,61 @@ helistama · helistada · helistab — küsima · küsida · küsib — saatma �
 ---
 
 ## 9. Keeletark
-*(page 20 — grammar)*
+*(page 20 — grammar, transcribed from GRAMMER.pdf)*
 
-**1. mina / minu / mul / mulle:**
+**1. Mina (ma) · minu (mu) · mul · mulle**
 
-| mina (ma) | minu (mu) | mul | mulle |
+| Kes? | Minu (mu) + sõna | Mul on maja | Helista mulle |
 |---|---|---|---|
-| mina · sina · tema · meie · teie · nemad | minu · sinu · tema · meie · teie · nende korter | Mu**l** on maja (Su**l**, Ta**l**, Mei**l**, Tei**l**, Nei**l**) | Helista mu**lle** (su**lle**, ta**lle**, mei**le**, tei**le**, nei**le**) |
+| mina | **minu** korter | **Mu**l on maja. | Helista **mu**lle. |
+| sina | **sinu** korter | **Su**l on maja. | Ma helistan **su**lle. |
+| tema | **tema** korter | **Ta**l on maja. | Helista **ta**lle. |
+| meie | **meie** korter | **Mei**l on maja. | Helistage **mei**le. |
+| teie | **teie** korter | **Tei**l on maja. | Ma helistan **tei**le. |
+| nemad | **nende** korter | **Nei**l on maja. | Me helistame **nei**le. |
 
-**2. Numbrid — üks sõna / kaks sõna:** 13 kolm**teist**, 30 kolm**kümmend**, 300 kolm**sada** *(one word)*; 33 kolmkümmend **kolm**, 30 000 kolmkümmend **tuhat**, 3 000 000 kolm **miljonit** *(two words)*.
+**2. Numbrid — üks sõna / kaks sõna**
 
-**3. Loe numbrid:** Aadress *Mere pst 138–45* → sada kolmkümmend kaheksa, nelikümmend viis. Telefon *56 203 617* → viis kuus kaks null kolm kuus üks seitse (või: viiskümmend kuus, kakssada kolm, kuussada seitseteist). Number *356 246* → kolmsada viiskümmend kuus tuhat kakssada nelikümmend kuus.
+| Üks sõna | Kaks sõna |
+|---|---|
+| 13 kolm**teist** | 33 kolmkümmend **kolm** |
+| 30 kolm**kümmend** | 30 000 kolmkümmend **tuhat** |
+| 300 kolm**sada** | 3 000 000 kolm **miljonit** |
 
-**4. Loe! Lugege!** — the imperative: **sa**-form drops the ending (Loe! Õpi! Ole! Räägi! Kirjuta! Helista! Küsi! Vabanda! Ütle! Vasta! Saada!), **te**-form adds **-ge / -ke** (Lugege! Õppige! Olge! Rääkige! Kirjutage! … Vastake! Saatke! · Ütelge! = Öelge!).
+**3. Loe numbrid**
 
-**5. Kirjavahemärgid:** täht *(letter)* · sõna *(word)* · lause *(sentence)* · lehekülg *(page)* · õppetükk *(lesson)*. — **.** punkt · **!** hüüumärk · **,** koma · **?** küsimärk.
+| Mis? | Number | Loe |
+|---|---|---|
+| Aadress | Mere pst **138–45** | sada kolmkümmend kaheksa, nelikümmend viis |
+| Telefoninumber | **56 203 617** | a) viis kuus kaks null kolm kuus üks seitse<br>b) viiskümmend kuus kakssada kolm kuussada seitseteist |
+| Tavaline number | **356 246** | kolmsada viiskümmend kuus tuhat kakssada nelikümmend kuus |
+
+> 🔹 *Õpi numbrid hästi selgeks!*
+
+**4. Loe! Lugege!**
+
+| ma | sa | -ma | te |
+|---|---|---|---|
+| ma loe**n** | Loe! | luge**ma** | Luge**ge**! |
+| ma õpi**n** | Õpi! | õppi**ma** | Õppi**ge**! |
+| ma ole**n** | Ole! | ole**ma** | Ol**ge**! |
+| ma rääg**in** | Räägi! | rääki**ma** | Rääki**ge**! |
+| ma kirjuta**n** | Kirjuta! | kirjuta**ma** | Kirjuta**ge**! |
+| ma helista**n** | Helista! | helista**ma** | Helista**ge**! |
+| ma küsi**n** | Küsi! | küsi**ma** | Küsi**ge**! |
+| ma vabanda**n** | Vabanda! | vabanda**ma** | Vabanda**ge**! |
+| ma ütle**n** | Ütle! | ütle**ma** | Ütel**ge**! = Öel**ge**! |
+| ma vasta**n** | Vasta! | vasta**ma** | Vasta**ke**! |
+| ma saada**n** | Saada! | saat**ma** | Saat**ke**! |
+
+**5. Täht – sõna – lause – lehekülg – õppetükk**
+
+*Sul on nii ilusad suured silmad!* — **täht** = a letter (S) · **sõna** = a word (ilusad) · **lause** = the whole sentence.
+
+| Märk | Nimi | | Märk | Nimi |
+|---|---|---|---|---|
+| **.** | punkt | | **!** | hüüumärk |
+| **,** | koma | | **?** | küsimärk |
 
 ---
 

@@ -89,15 +89,47 @@ armastama · armastada · armastab — asuma · asuda · asub — elama · elada
 ---
 
 ## 8. Keeletark
-*(page 16 — grammar)*
+*(page 16 — grammar, transcribed from GRAMMER.pdf)*
 
-**1. Present tense — the personal endings:** lugema → ma loe**n**, sa loe**d**, ta loe**b**, me loe**me**, te loe**te**, nad loe**vad**; rääkima → ma räägi**n** …; õppima → ma õpi**n** …
+**1. Lugema – ma loen · rääkima – ma räägin · õppima – ma õpin**
 
-**2. Kus? / Kust?** — **-s / -l** (Kus sa elad?): Eesti**s**, Saaremaa**l**. — **-st / -lt** (Kust sa pärit oled?): Eesti**st**, Saaremaa**lt**. *(NB! -maa, -mäe, -järve + -lt.)*
+| | lugema | rääkima | õppima |
+|---|---|---|---|
+| ma | loe**n** | rääg**in** | õp**in** |
+| sa | loe**d** | rääg**id** | õp**id** |
+| ta | loe**b** | rääg**ib** | õp**ib** |
+| me | loe**me** | rääg**ime** | õp**ime** |
+| te | loe**te** | rääg**ite** | õp**ite** |
+| nad | loe**vad** | rääg**ivad** | õp**ivad** |
 
-**3. pärit olema / aru saama / tuttavaks saama:** Ma ole**n** pärit Muhu**st**. Ma saa**n** aru. Tere, saa**me** tuttavaks!
+*(Ta loeb raamatut. Ta räägib eesti keelt. Ta õpib saksa keelt.)*
 
-**4. olema + nationality/origin:** Ma **olen** eest**lane**. Ta **on** vene**lane**. Nad **on** ameerik**lased**. Ma olen **sündinud** Jõhvis. Ta on **pärit** Lõuna-Eestist. Nad on **õppinud** itaalia keelt.
+**2. Kus? / Kust?**
+
+| Kus? | Kust? |
+|---|---|
+| **-s**: Eesti**s** | **-st**: Eesti**st** |
+| **-l**: Saaremaa**l** | **-lt**: Saaremaa**lt** |
+| Kus sa elad? Kus sa oled sündinud? | Kust sa pärit oled? |
+
+> 🔹 -maa, -mäe, -järve take **-lt** (not -st) in the "kust?" form.
+
+**3. pärit olema · aru saama · tuttavaks saama**
+
+| pärit olema | aru saama | tuttavaks saama |
+|---|---|---|
+| Ma ole**n** pärit Muhu**st**. | Ma saa**n** aru. | Tere, saa**me** tuttavaks! |
+| Sa ole**d** pärit … | Sa saa**d** aru. | |
+| Ta on pärit … | Ta saa**b** aru. | |
+
+**4. olema + rahvus/päritolu**
+
+| Ma | Ta | Nad |
+|---|---|---|
+| Ma **olen** eest**lane**. | Ta **on** vene**lane**. | Nad **on** ameerik**lased**. |
+| Ma **olen** sündi**nud** Jõhvis. | Ta **on** sündi**nud** Valgas. | Nad **on** sündi**nud** Ameerikas. |
+| Ma **olen** pärit Ida-Virumaalt. | Ta **on** pärit Lõuna-Eestist. | Nad **on** pärit New Yorgist. |
+| Ma **olen** õppi**nud** vene keelt. | Ta **on** õppi**nud** inglise keelt. | Nad **on** õppi**nud** itaalia keelt. |
 
 **5. Riik ja rahvus:**
 
@@ -119,7 +151,13 @@ armastama · armastada · armastab — asuma · asuda · asub — elama · elada
 | Hiina | Peking | hiina keel | hiinlane | hiinlased |
 | Poola | Varssavi | poola keel | poolakas | poolakad |
 
-**6. Suur täht / väike täht:** **suur täht** — riigi nimi (Läti, Leedu), linna nimi (Riia, Vilnius), inimese nimi (Karl Kivi). **väike täht** — keel (läti keel), rahvus (lätlane).
+**6. Suur täht / väike täht**
+
+| Suur täht (capital) | Näited | Väike täht (lowercase) | Näited |
+|---|---|---|---|
+| riigi nimi | Läti, Leedu | keel | läti keel, leedu keel |
+| linna nimi | Riia, Vilnius | rahvus | lätlane, leedulane |
+| inimese nimi | Karl Kivi | | |
 
 ---
 

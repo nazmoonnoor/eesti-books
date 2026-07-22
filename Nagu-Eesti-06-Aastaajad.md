@@ -342,6 +342,17 @@ lumi on maas · lumemees · lund sajab · palju lund
 **No comma before:** **ja** *(and)*, **ning** *(and)*, **ega** *(nor)*, **või** *(or)*.
 *Mul on puhkus **ja** ma elan suvilas. Kas sa lähed kooli **või** tööle?*
 
+### 14.6 Suur täht vs väike täht — capitalization
+
+| Small letter (väike täht) | Examples |
+|---|---|
+| aastaajad *(seasons)* | kevad, suvi |
+| kuud *(months)* | jaanuar, veebruar |
+| nädalapäevad *(weekdays)* | esmaspäev, reede |
+| pühad *(holidays)* | jõulud, jaanipäev |
+
+> 🔹 Seasons, months, weekdays, and holiday names all stay **lowercase** in Estonian. *Head jaanipäeva! Häid jõule!*
+
 ### 14.6 Väike täht — use lowercase!
 
 Seasons, months, weekdays and holidays are **not** capitalised in Estonian: *kevad, suvi · jaanuar, veebruar · esmaspäev, reede · jõulud, jaanipäev.*

@@ -273,7 +273,13 @@ Postpositions take the **2nd form (genitive)** of the noun: **maja ees** (in fro
 
 ### 12.5 Kus? — -s / -l
 
-suure**s** / väikese**s** linna**s** · kollase**s** / sinise**s** maja**s** · huvitava**s** / sooja**s** koha**s**.
+| Omadussõna + -s | Nimisõna + -s |
+|---|---|
+| suure**s**, väikese**s** | linna**s** |
+| kollase**s**, sinise**s** | maja**s** |
+| huvitava**s**, sooja**s** | koha**s** |
+
+*(Also -l: sooja**l** maa**l**.)*
 
 ### 12.6 abielluma vs abielus olema
 

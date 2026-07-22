@@ -113,23 +113,86 @@ arvama · arvata · arvab — istuma · istuda · istub — meeldima · meeldida
 ---
 
 ## 8. Keeletark
-*(page 25 — grammar)*
+*(page 25 — grammar, transcribed from GRAMMER.pdf)*
 
-**1. Nimetav (1. vorm) · Omastav (2. vorm) · Osastav (3. vorm):** Nimetav *(kes? mis?)* — **Eesti keel** on ilus keel. Omastav *(kelle? mille?)* — Mul on **eesti keele** õpik. Osastav *(keda? mida?)* — Ma õpin **eesti keelt.**
+**1. Nimetav (1. vorm) · Omastav (2. vorm) · Osastav (3. vorm)**
 
-**2. Ainsus → mitmus:** See on **tark poiss.** → Need on **targad poisid.** · Selle **targa poisi** nimi on Ott. · Klassis on kuus **tarka poissi.** *(tark → targa+d poisi+d)*
+| Vorm | Küsimus | Näide |
+|---|---|---|
+| Nimetav | kes? mis? | **Eesti keel** on ilus keel. |
+| Omastav | kelle? mille? | Mul on **eesti keele** õpik. |
+| Osastav | keda? mida? | Ma õpin **eesti keelt**. |
 
-**3. Number + sõna (osastav):** *1* väike tüdruk / tark poiss / sinine laud → *2, 3, 4, 5…* väikest tüdrukut / tarka poissi / sinist lauda. **Osastava kolm gruppi:** **-t** (tänava**t**, korteri**t**, numbri**t**, vihiku**t**, inimes**t**) · **∅** (linna, venda, maja, kaarti, nime) · **-d** (kuu**d**, maa**d**, öö**d**, hea**d**, pea**d**).
+**2. Ainsus → mitmus**
 
-**4. ei ole = pole + 3. vorm (osastav):** kass → Mul ei ole **kassi.** · koer → Mul ei ole **koera.** · õde → Mul ei ole **õde.** · vend → Tal ei ole **venda.** · auto → Mul pole **autot.** · ratas → Tal pole **ratast.**
+| Ainsus | Mitmus |
+|---|---|
+| See on **tark poiss**. | Need on **targa/d poisi/d**. |
+| Selle **targa poisi** nimi on Ott. | Klassis on kuus **tarka poissi**. |
 
-**5. Kelle? (omastav):** minu maja → minu **venna** maja · tema korter → tema **õe** korter. *(vend → venna+d / venna+l / venna+le.)*
+> 🔹 tark poiss → **targa poisi** (2. vorm) → **targa+d poisi+d** (mitmus).
 
-**6. Kellel on? / Kellel ei ole?** Mu**l** (Su**l**, Ta**l**, Mei**l**, Tei**l**, Nei**l**) **on** neli kassi. · Mu**l** … **ei ole** kassi. *(emal, isal, õel, vennal, Oskaril, Priidul on …)*
+**3. Number + sõna (osastav)**
 
-**7. Kellele meeldib? / Kellele meeldivad?** Mu**lle** (Su**lle**, Ta**lle**, Mei**le**, Tei**le**, Nei**le**) **meeldib** punane / **ei meeldi** punane. · Mu**lle** … **meeldivad** roosid / **ei meeldi** roosid. *(emale, isale, õele, vennale … meeldib.)*
+| 1 | 2, 3, 4, 5… |
+|---|---|
+| väike tüdruk | väikest tüdrukut |
+| tark poiss | tarka poissi |
+| sinine laud | sinist lauda |
 
-**8. ära — ärge:** **sa:** Ära vaata! Ära seisa siin! Ära räägi! Ära muretse! — **te:** Ärge vaadake! Ärge seiske siin! Ärge rääkige! Ärge muretsege!
+**Osastava kolm gruppi:**
+
+| -t | Ø | -d |
+|---|---|---|
+| tänava**t** | linna | kuu**d** |
+| korteri**t** | venda | maa**d** |
+| numbri**t** | maja | öö**d** |
+| vihiku**t** | kaarti | hea**d** |
+| inimes**t** | nime | pea**d** |
+
+**4. ei ole = pole + 3. vorm (osastav)**
+
+| Sõna | Mul ei ole / pole |
+|---|---|
+| kass | Mul ei ole **kassi**. |
+| koer | Mul ei ole **koera**. |
+| õde | Mul ei ole **õde**. |
+| vend | Tal ei ole **venda**. |
+| auto | Mul pole **autot**. |
+| ratas | Tal pole **ratast**. |
+
+**5. Kelle? (omastav)**
+
+| Minu | Minu + omastav |
+|---|---|
+| minu maja | minu **venna** maja |
+| tema korter | tema **õe** korter |
+
+> 🔹 vend → venna**d** (mitmus) / venna**l** / venna**le**.
+
+**6. Kellel on? / Kellel ei ole?**
+
+| Kellel? | on | ei ole |
+|---|---|---|
+| Mu**l** (Su**l**, Ta**l**, Mei**l**, Tei**l**, Nei**l**) | **on** neli kassi. | **ei ole** kassi. |
+| ema**l**, isa**l**, õe**l**, venna**l**, Oskari**l**, Priidu**l** | **on** … | |
+
+**7. Kellele meeldib? / Kellele meeldivad?**
+
+| Kellele? | meeldib / meeldivad |
+|---|---|
+| Mu**lle** (Su**lle**, Ta**lle**, Mei**le**, Tei**le**, Nei**le**) | **meeldib** punane. / **ei meeldi** punane. |
+| Mu**lle** … | **meeldivad** roosi**d**. / **ei meeldi** roosi**d**. |
+| ema**le**, isa**le**, õe**le**, venna**le** … | **meeldib** … |
+
+**8. Ära — ärge**
+
+| sa | te |
+|---|---|
+| **Ära** vaata! | **Är/ge** vaada**ke**! |
+| **Ära** seisa siin! | **Är/ge** seis**ke** siin! |
+| **Ära** räägi! | **Är/ge** rääki**ge**! |
+| **Ära** muretse! | **Är/ge** muretse**ge**! |
 
 ---
 

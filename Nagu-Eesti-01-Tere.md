@@ -340,10 +340,12 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ### 9.4 Negation — drop the ending after *ei*
 
-- ma ole**n** → ma **ei ole**
-- ma ela**n** → ma **ei ela**
+| Affirmative | Negative |
+|---|---|
+| ma ole**n** | ma **ei ole** |
+| ma ela**n** | ma **ei ela** |
 
-> 🔹 After **ei**, the verb loses its personal ending and is the same for everybody.
+> 🔹 After **ei**, the verb loses its personal ending and is the same for everybody. Short answer: **Jah, elan.** / **Ei ela.**
 
 ### 9.5 Question words
 
@@ -366,9 +368,12 @@ Estonian has **9 vowels**. Learn each one with its key word ("A nagu maa" = "A a
 
 ### 9.7 on — "is / are"
 
-**Peeter on Pärnus. / Peeter ja Paul on Pärnus.** (*on* is used for both *tema* and *nemad*.)
+| Ainsus (tema) | Mitmus (nemad) |
+|---|---|
+| Peeter **on** Pärnus. | Peeter ja Paul **on** Pärnus. |
+| Ta **on** Pärnus. | Nad **on** Pärnus. |
 
-> 🔹 Local note: on **Saaremaa**, *õ* is pronounced like *ö* (Saaremaal **Õ = Ö**).
+> 🔹 **on** is used unchanged for both *tema* and *nemad*. Local note: on **Saaremaa**, *õ* is pronounced like *ö* (Saaremaal **Õ = Ö**).
 
 ### Short vs long pronouns
 

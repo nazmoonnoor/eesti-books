@@ -143,13 +143,39 @@ algama · alata · algab — hiljaks jääma · ~ jääda · jääb ~ — lõppe
 ---
 
 ## 12. Keeletark
-*(page 32 — grammar)*
+*(page 32 — grammar, transcribed from GRAMMER.pdf)*
 
-**1. üles tõusma / hiljaks jääma:** Ma tõuse**n** üles kell kuus. · Ma jää**n** kooli hiljaks. *(sa tõused / jääd, ta tõuseb / jääb, me tõuseme / jääme …)*
+**1. Üles tõusma / hiljaks jääma**
 
-**2. Imperative:** Tõuse kiiresti üles! · Ära jää tundi hiljaks! · Palun saage tuttavaks!
+| | üles tõusma | hiljaks jääma |
+|---|---|---|
+| ma | tõuse**n** üles kell kuus. | jää**n** kooli hiljaks. |
+| sa | tõuse**d** üles kell seitse. | jää**d** kooli hiljaks. |
+| ta | tõuse**b** üles kell kaheksa. | jää**b** tundi hiljaks. |
+| me | tõuse**me** üles kell üheksa. | jää**me** tundi hiljaks. |
+| te | tõuse**te** üles kell kümme. | jää**te** tööle hiljaks. |
+| nad | tõuse**vad** üles kell üksteist. | jää**vad** tööle hiljaks. |
 
-**3. minema / sõitma:** Ma **lähen** Tartu**sse.** · Ma **sõidan** Rakve**rre.** *(ta läheb Haapsallu, nad lähevad Tallinna; te sõidate Kohtla-Järvele, nad sõidavad Otepääle.)* — Imperative: **Mine! Minge! Ma ei lähe.** · **Sõida! Sõitke! Me ei sõida.**
+**2. Imperative**
+
+| üles tõusma | hiljaks jääma | tuttavaks saama |
+|---|---|---|
+| **Tõuse** kiiresti **üles**! | **Ära jää** tundi **hiljaks**! | Palun **saage tuttavaks**! |
+
+> 🔹 *Tule kiiresti, tund algab kohe!*
+
+**3. minema – ma lähen · sõitma – ma sõidan**
+
+| | minema | sõitma |
+|---|---|---|
+| ma | **lähe**n Tartu**sse**. | **sõida**n Rakve**rre**. |
+| sa | **lähe**d Viljandi**sse**. | **sõida**d Võrru. |
+| ta | **lähe**b Haapsallu. | **sõida**b Valka. |
+| me | **lähe**me Narva. | **sõida**me Hiiumaa**le**. |
+| te | **lähe**te Kuressaarde. | **sõida**te Kohtla-Järve**le**. |
+| nad | **lähe**vad Tallinna. | **sõida**vad Otepää**le**. |
+
+> 🔹 Imperative: **Mine! Minge! Ma ei lähe.** — **Sõida! Sõitke! Me ei sõida.**
 
 **4. Kuhu? / Kus? / Kust?**
 
@@ -164,11 +190,30 @@ algama · alata · algab — hiljaks jääma · ~ jääda · jääb ~ — lõppe
 | linna | linna**s** | linna**st** |
 | **koju** | kodu**s** | kodu**st** |
 
-**5. minema kuhu? / tulema kust?** Ma **lähen** töö**le** kell 8. · Millal sa töö**lt** tuled? · Ma **tulen** kooli**st** kell viis.
+**5. Minema kuhu? / Tulema kust?**
 
-**6. Millega? (Kuidas?) / Kellega?** Ma lähen rongi**ga.** · Ta läheb tööle ratta**ga.** — Ma lähen (koos) sõbra**ga.** · Ta läheb (koos) õe**ga.** *(sõbra 2. vorm + ga = sõbraga.)*
+| Minema kuhu? → | Tulema kust? ← |
+|---|---|
+| Ma **lähen** töö**le** kell 8. | Millal sa töö**lt** tuled? |
+| Ma **lähen** laupäeval töö**le**. | Ma **tulen** kooli**st** kell viis. |
 
-**7. Millal?** täna hommiku**l** · homme päeva**l** · homme õhtu**l** · eile öös**el**; hommiku**l** kell kuus · päeva**l** kell üks · õhtu**l** pool seitse; esmaspäeva**l** · laupäeva**l** · nädalavahetuse**l**. — **iga**l reede**l**, **iga**l hommiku**l**, **aga: iga päev.**
+**6. Millega? (Kuidas?) / Kellega?**
+
+| Millega? | Kellega? |
+|---|---|
+| Ma lähen rongi**ga**. | Ma lähen (koos) sõbra**ga**. |
+| Ta läheb tööle ratta**ga**. | Ta läheb (koos) õe**ga**. |
+
+> 🔹 sõbra (2. vorm) + **ga** = sõbra**ga**.
+
+**7. Millal?**
+
+| -l vorm | Näited |
+|---|---|
+| täna hommiku**l**, homme päeva**l**, homme õhtu**l**, eile öös**el** | hommiku**l** kell kuus, päeva**l** kell üks, õhtu**l** pool seitse |
+| esmaspäeva**l**, laupäeva**l**, nädalavahetuse**l** | |
+
+> 🔹 **iga**l reede**l**, **iga**l hommiku**l** — AGA: **iga päev** (no -l).
 
 ---
 
