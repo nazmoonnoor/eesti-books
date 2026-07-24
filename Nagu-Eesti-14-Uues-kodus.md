@@ -273,14 +273,17 @@ Use the **nimetav** for a finished action and in positive commands:
 
 ### 10.4 jõudma / unustama / kolima kuhu?
 
-- **jõudma:** Ma **jõudsin** koju kell seitse. Mis kell sa Tallinna **jõuad**?
-- **unustama:** Ma **unustasin** oma võtmed koju. Ära **unusta** rahakotti bussi!
-- **kolima:** Millal te uude majja **kolite**? Nad **kolisid** maale.
+| jõudma kuhu? | unustama kuhu? | kolima kuhu? |
+|---|---|---|
+| Ma **jõudsin** koju kell seitse. | Ma **unustasin** oma võtmed koju. | Millal te uude majja **kolite**? |
+| Mis kell sa Tallinna **jõuad**? | Ära **unusta** rahakotti bussi! | Nad **kolisid** maale. |
 
-### 10.5 palju
+### 10.5 palju / paljud
 
-**palju** + osastav: Laual oli **palju** eesti **toite**. Linnas elab **palju** **inimesi**.
-**paljud** + nimetav: Mulle meeldivad **paljud** eesti **toidud**. **Paljud** **inimesed** kolivad linnast maale.
+| palju + osastav | paljud + nimetav |
+|---|---|
+| Laual oli **palju** eesti **toite**. | Mulle meeldivad **paljud** eesti **toidud**. |
+| Linnas elab **palju inimesi**. | **Paljud inimesed** kolivad linnast maale. |
 
 ### 10.6 Kahesõnalised tegusõnad *(phrasal verbs)*
 

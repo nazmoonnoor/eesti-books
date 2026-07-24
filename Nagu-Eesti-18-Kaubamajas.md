@@ -199,8 +199,13 @@ A 12-picture story — Peeter buys a suit.
 
 **3. PARAS · PARAJAD (the right fit)** — Kas see ülikond on sulle **paras**? · Kas need teksad on sulle **parajad**? — Jah, paistab, et on. · Ei, need on natuke kitsad.
 
-**4. Kahesõnalised tegusõnad (two-word verbs):** alla hindama · sisse lülitama · välja lülitama.
-*Me **hindame** kõik talveriided varsti **alla**. · Kust saab seda kannu **sisse lülitada**? · See televiisor **lülitab** ennast ise **välja**.*
+**4. Kahesõnalised tegusõnad (two-word verbs)**
+
+| Väljend | Lause |
+|---|---|
+| alla hindama | Me **hindame** kõik talveriided varsti **alla**. |
+| sisse lülitama | Kust saab seda kannu **sisse lülitada**? |
+| välja lülitama | See televiisor **lülitab** ennast ise **välja**. |
 
 ---
 

@@ -182,13 +182,13 @@ The steps of getting to your room (12 pictures):
 
 **2. UMBISIKULINE TEGUMOOD (the impersonal: -takse / -dakse / -akse)**
 
-**ISIKULINE — tegija on teada (personal — the doer is known):**
-- *Olevik:* Suvel **me** sõida**me** rattaga. · Inimesed käi**vad** jõusaalis. · Politsei kontrolli**b** passe.
-- *Minevik:* Sõber kirjuta**s** mulle Rootsist. · Ma kindlusta**sin** ka oma pagasi.
-
-**UMBISIKULINE — tegija ei ole teada (impersonal — the doer is unknown):**
-- *Olevik:* Suvel sõide**takse** rohkem rattaga. · Õhtuti käi**akse** tavaliselt jõusaalis. · Siin meie passe **ei** kontrolli**ta**.
-- *Minevik:* Eile kirjuta**ti** mulle Rootsist. · Mu pagasit **ei** kindlusta**tud**.
+| ISIKULINE — tegija on teada | UMBISIKULINE — tegija ei ole teada |
+|---|---|
+| *Olevik:* Suvel **me** sõida**me** rattaga. | *Olevik:* Suvel sõide**takse** rohkem rattaga. |
+| Inimesed käi**vad** jõusaalis. | Õhtuti käi**akse** tavaliselt jõusaalis. |
+| Politsei kontrolli**b** passe. | Siin meie passe **ei** kontrolli**ta**. |
+| *Minevik:* Sõber kirjuta**s** mulle Rootsist. | *Minevik:* Eile kirjuta**ti** mulle Rootsist. |
+| Ma kindlusta**sin** ka oma pagasi. | Mu pagasit **ei** kindlusta**tud**. |
 
 | -da | -tud/-dud | OLEVIK jaatus | OLEVIK eitus | MINEVIK jaatus | MINEVIK eitus |
 |---|---|---|---|---|---|
@@ -211,10 +211,12 @@ The steps of getting to your room (12 pictures):
 
 **3. TUNDMA keda? · TUNDUMA kellele?**
 
-- **TUNDMA** keda? — Ma tunnen **neid inimesi**. · Kas te tunnete **ennast** halvasti?
-- **TUNDUMA** kellele? — **Mulle tundub**, et me oleme kohtunud. · Kas **teile ei tundu** see veidi imelik?
+| TUNDMA keda? | TUNDUMA kellele? |
+|---|---|
+| Ma tunnen **neid inimesi**. | **Mulle tundub**, et me oleme kohtunud. |
+| Kas te tunnete **ennast** halvasti? | Kas **teile ei tundu** see veidi imelik? |
 
-*(MA TUNNEN — MULLE TUNDUB)*
+> 🔹 MA **TUNNEN** — MULLE **TUNDUB**.
 
 **4. KAHESÕNALISED TEGUSÕNAD (two-word verbs)**
 

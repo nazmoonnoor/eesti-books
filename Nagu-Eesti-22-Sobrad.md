@@ -147,14 +147,20 @@ So it is that if a month goes by without meeting, I have to call Ülo at once an
 
 **1. MILLAL? (time expressions)**
 
-- *-l:* täna hommiku**l** · täna päeva**l** · täna õhtu**l** · täna öö**l** · sel reede**l** · sel nädala**l** · sel aasta**l** · sel nädalavahetuse**l**.
-- järgmise**l** suve**l** · eelmise**l** aasta**l** · möödunud nädala**l** — but *järgmise aasta juulis · eelmise aasta märtsis*.
-- *-s:* märtsi alguse**s** · aprilli keske**l** · augusti lõpu**s**.
-- 20 minutit **varem** · kaks kuud **hiljem**.
-- *AJAL:* jõulu(de) / pühade / puhkuse **ajal**; tööaja**l** · vaheaja**l** · jaanipäeva**l**.
-- **enne** kontserti · **pärast** loengut.
-- kahe nädala **pärast** · kolme kuu **pärast** — but kaks nädalat **tagasi** · kolm kuud **tagasi**.
-- **hiljuti – ammu** (recently – long ago).
+| -l | -s / muu vorm |
+|---|---|
+| täna hommiku**l**, päeva**l**, õhtu**l**, öö**l** | märtsi alguse**s**, aprilli keske**l**, augusti lõpu**s** |
+| sel reede**l**, nädala**l**, aasta**l**, nädalavahetuse**l** | jõulu(**de**) / pühade / puhkuse **ajal** |
+| järgmise**l** suve**l**, eelmise**l** aasta**l**, möödunud nädala**l** | tööaja**l**, vaheaja**l**, jaanipäeva**l** |
+
+> 🔹 AGA: järgmise aasta **juulis** · eelmise aasta **märtsis** *(no -l with month names)*.
+
+| enne / pärast | pärast (in) / tagasi (ago) |
+|---|---|
+| **enne** kontserti · **pärast** loengut | kahe nädala **pärast** · kaks nädalat **tagasi** |
+| 20 minutit **varem** · kaks kuud **hiljem** | kolme kuu **pärast** · kolm kuud **tagasi** |
+
+> 🔹 **hiljuti** *(recently)* – **ammu** *(long ago)*.
 
 **2. TEGUSÕNA + NIMISÕNA**
 
@@ -194,8 +200,13 @@ So it is that if a month goes by without meeting, I have to call Ülo at once an
 
 **5. Kahesõnalised tegusõnad (two-word verbs)**
 
-kätte saama · katki tegema · osa võtma · vastu tulema · nõu andma.
-*Kas sa **said** mu sõnumi **kätte**? · Lapsed **on** mu telefoni **katki teinud**. · Uuringust **võttis osa** 200 üliõpilast. · Ma **tulen** sulle lennujaama **vastu**. · **Anna nõu**, mida ma pean tegema!*
+| Väljend | Lause |
+|---|---|
+| kätte saama | Kas sa **said** mu sõnumi **kätte**? |
+| katki tegema | Lapsed **on** mu telefoni **katki teinud**. |
+| osa võtma | Uuringust **võttis osa** 200 üliõpilast. |
+| vastu tulema | Ma **tulen** sulle lennujaama **vastu**. |
+| nõu andma | **Anna nõu**, mida ma pean tegema! |
 
 ---
 

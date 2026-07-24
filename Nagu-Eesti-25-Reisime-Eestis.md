@@ -184,8 +184,10 @@ Nimetav (kes? mis?) · Omastav (kelle? mille?) · Osastav (keda? mida?). *Ainsus
 
 **3. KAHESÕNALISED TEGUSÕNAD (two-word verbs)**
 
-- **ette kujutama** — Kujuta **ette**, et oled praegu Aafrikas.
-- **silma paistma** — See küla **paistab** juba kaugelt **silma**.
+| Väljend | Lause |
+|---|---|
+| ette kujutama | Kujuta **ette**, et oled praegu Aafrikas. |
+| silma paistma | See küla **paistab** juba kaugelt **silma**. |
 
 <details class="tr"><summary>🇬🇧 Translation</summary>
 

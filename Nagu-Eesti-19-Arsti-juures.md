@@ -389,8 +389,13 @@ Ostsin ühe **nohu**rohu. · Ostsin ühe **köha**rohu.
 
 **7. Kahesõnalised tegusõnad (two-word verbs)**
 
-haigeks jääma · märjaks saama · terveks saama · ringi käima · välja tõmbama.
-*Ma jäin eile **haigeks**. · Mul said jalad täitsa **märjaks**. · Saa siis ruttu **terveks**! · Mul käib pea **ringi**. · See hammas tuleb **välja tõmmata**.*
+| Väljend | Lause |
+|---|---|
+| haigeks jääma | Ma jäin eile **haigeks**. |
+| märjaks saama | Mul said jalad täitsa **märjaks**. |
+| terveks saama | Saa siis ruttu **terveks**! |
+| ringi käima | Mul käib pea **ringi**. |
+| välja tõmbama | See hammas tuleb **välja tõmmata**. |
 
 ---
 

@@ -244,7 +244,10 @@ Our country home had no washing facilities then, but there was a proper old cast
 
 **2. SUHTLEMA – SUHELDA (kellega?) · TEGELEMA – TEGELDA (kellega? millega?)**
 
-Mul tuleb tööl palju klientidega **suhel**da. · Nad on ainult netis **suhel**nud. — **Tegelen** tööl laste probleemidega. · Ma olen ka karatega **tegel(e)nud**.
+| suhtle/ma – suhel/da | tegele/ma – tegel(e)/da |
+|---|---|
+| Mul tuleb tööl palju klientidega **suhel**da. | **Tegelen** tööl laste probleemidega. |
+| Nad on ainult netis **suhel**nud. | Ma olen ka karatega **tegel(e)nud**. |
 
 **3. KAHESÕNALISED TEGUSÕNAD (two-word verbs)**
 

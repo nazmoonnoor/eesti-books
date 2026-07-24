@@ -269,38 +269,48 @@ The next night at exactly the same time, the woman's phone rings.
 
 ### 10.1 Mitmuse omastav (Plural genitive)
 
-**Ainsus (Singular) → Mitmus (Plural):**
-- Nim: uus korter → uue**d** korteri**d**
-- Om: uue korteri → uu**te** korteri**te**
-- Os: uu**t** korteri**t** → uus**i** kortere**id**
+| Vorm | Ainsus | Mitmus |
+|---|---|---|
+| Nim | uus korter | uue**d** korteri**d** |
+| Om | uue korteri | uu**te** korteri**te** |
+| Os | uu**t** korteri**t** | uus**i** kortere**id** |
 
-**Ainsus (Singular) → Mitmus (Plural):**
-- Nim: hea naaber → hea**d** naabri**d**
-- Om: hea naabri → hea**de** naabri**te**
-- Os: hea**d** naabri**t** → hä**id** naabre**id**
+| Vorm | Ainsus | Mitmus |
+|---|---|---|
+| Nim | hea naaber | hea**d** naabri**d** |
+| Om | hea naabri | hea**de** naabri**te** |
+| Os | hea**d** naabri**t** | hä**id** naabre**id** |
 
-**AGA:** tubli/t pere/t → tubli/**de** pere/**de**; valge/t aken/t → valge/**te** aken/**de**
+> 🔹 AGA: tubli/t pere/t → tubli/**de** pere/**de** · valge/t aken/t → valge/**te** aken/**de**.
 
 ### 10.2 Kellega? Millega? (With whom/what?)
 - **KELLE+GA?** naabri/ga → naabri/**te**/ga *(Kuidas sa uu**te** naabri**te**ga läbi saad?)*
 - **MILLE+GA?** pesumasina/ga → kodumasina/**te**/ga *(Kuidas on kodumasina**te**ga?)*
 
 ### 10.3 Omadussõna (missugune?) / Nimisõna (kes?)
-- **-LIK:** õnne/lik päev, koha/lik elanik, korra/lik õpilane, kirja/lik teade
-- **-LINE:** kahetoa/line korter, ühekorruse/line maja, värvi/line paber, suu/line eksam
-- **-LINE (nimisõna):** üüri/line, paari/line, valla/line, töö/line
-- **-NIK:** üür/nik, oma/nik, aed/nik, ela/nik
-- **-JA:** müü/ja, ost/ja, paranda/ja, tööta/ja
+
+| Omadussõna -LIK | Omadussõna -LINE |
+|---|---|
+| õnne/**lik** päev | kahetoa/**line** korter |
+| koha/**lik** elanik | ühekorruse/**line** maja |
+| korra/**lik** õpilane | värvi/**line** paber |
+| kirja/**lik** teade | suu/**line** eksam |
+
+| Nimisõna -LINE | Nimisõna -NIK | Nimisõna -JA |
+|---|---|---|
+| üüri/**line** | üür/**nik** | müü/**ja** |
+| paari/**line** | oma/**nik** | ost/**ja** |
+| valla/**line** | aed/**nik** | paranda/**ja** |
+| töö/**line** | ela/**nik** | tööta/**ja** |
 
 ### 10.4 Mitmendal korrusel?
-- üks → esime/**sel** korrusel
-- kaks → tei/**sel** korrusel
-- kolm → kolma/**ndal** korrusel
-- neli → nelja/**ndal** korrusel
-- viis → viie/**ndal** korrusel
-- kuus → kuue/**ndal** korrusel
-- seitse → seitsme/**ndal** korrusel
-- kaheksa → kaheksa/**ndal** korrusel
+
+| Number | Korrus | Number | Korrus |
+|---|---|---|---|
+| üks | esime/**sel** korrusel | viis | viie/**ndal** korrusel |
+| kaks | tei/**sel** korrusel | kuus | kuue/**ndal** korrusel |
+| kolm | kolma/**ndal** korrusel | seitse | seitsme/**ndal** korrusel |
+| neli | nelja/**ndal** korrusel | kaheksa | kaheksa/**ndal** korrusel |
 
 ### 10.5 Viima kuhu? / Tooma kust?
 - **VIIMA kuhu?:** Ma **viisin** need toolid teise tuppa. **Vii** need riided esikusse! Ta ei ole oma asju siit ära **viinud**.
@@ -308,14 +318,25 @@ The next night at exactly the same time, the woman's phone rings.
 > 🔹 **VIIMA** siit → sinna. **TOOMA** siia ← sealt.
 
 ### 10.6 Huvitama keda?
-**Mind** huvitab ajalugu. Mis **sind** huvitab? **Teda** huvitavad vanad autod. **Meid** see ei huvita. Mis **teid** veel huvitab? **Neid** huvitab ainult raha.
+
+| Keda? | Lause |
+|---|---|
+| **Mind** | huvitab ajalugu. |
+| **Sind** | Mis **sind** huvitab? |
+| **Teda** | huvitavad vanad autod. |
+| **Meid** | see ei huvita. |
+| **Teid** | Mis **teid** veel huvitab? |
+| **Neid** | huvitab ainult raha. |
 
 ### 10.7 Kahesõnalised tegusõnad (Phrasal verbs)
-- **kaasa tooma:** Mida me võiksime **kaasa tuua**?
-- **läbi saama:** Ma **saan** oma naabritega hästi **läbi**.
-- **sisse kolima:** Millal me võime **sisse kolida**?
-- **välja kolima:** Me peame kuu aja pärast korterist **välja kolima**.
-- **välja üürima:** Ema **üüris** oma korteri **välja** ja läks maale elama.
+
+| Väljend | Lause |
+|---|---|
+| kaasa tooma | Mida me võiksime **kaasa tuua**? |
+| läbi saama | Ma **saan** oma naabritega hästi **läbi**. |
+| sisse kolima | Millal me võime **sisse kolida**? |
+| välja kolima | Me peame kuu aja pärast korterist **välja kolima**. |
+| välja üürima | Ema **üüris** oma korteri **välja** ja läks maale elama. |
 
 ---
 

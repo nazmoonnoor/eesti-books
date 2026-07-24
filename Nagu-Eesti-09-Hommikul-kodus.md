@@ -166,13 +166,42 @@ andma · anda · annab — helisema · heliseda · heliseb — jooma · juua · 
 
 > 🔹 **eile · üleeile · eelmisel = möödunud nädalal · kaks nädalat tagasi · kolm kuud tagasi · kümme aastat tagasi.** — **vihma / lund sajab** *(olevik)* → **vihma / lund sadas** *(minevik)*.
 
-**2. kuni (-ni):** üks → **ühe/ni**, kaks → **kahe/ni**, viis → **viie/ni**, seitse → **seitsme/ni**. — Lõuna oli (kuni) kella **üheni**. = Lõuna lõppes kell **üks**. · Loeng oli (kuni) kella **kaheni**. = Loeng lõppes kell **kaks**. · Olen koolis **poole viieni**. = Kool lõpeb **pool viis**. · Olin tööl **seitsmeni**. = Läksin töölt koju kell **seitse**.
+**2. Kuni (-ni)**
 
-**3. kelleta? milleta? (ilma …-ta):** Ilma õpetaja**ta** on raske keelt õppida. · Tavaliselt ma joon kohvi ilma suhkru**ta**. · Ma ei saa ilma sinu**ta** elada. · Ära ilma mütsi**ta** välja mine.
+| 1. vorm | 2. vorm + ni | Lause | = |
+|---|---|---|---|
+| üks | ühe**ni** | Lõuna oli (kuni) kella **üheni**. | Lõuna lõppes kell **üks**. |
+| kaks | kahe**ni** | Loeng oli (kuni) kella **kaheni**. | Loeng lõppes kell **kaks**. |
+| viis | viie**ni** | Olen koolis **poole viieni**. | Kool lõpeb **pool viis**. |
+| seitse | seitsme**ni** | Olin tööl **seitsmeni**. | Läksin töölt koju kell **seitse**. |
 
-**4. keda? mida? (osastav — 3. vorm):** puder → Ta sõi **putru**. · vesi → Ma jõin **vett**. · mahl → Ma tahtsin **mahla**. · nägu → Ta pesi **nägu**. · ajaleht → Me lugesime **ajalehte**. · muusika → Nad kuulasid **muusikat**. · võileib → Ma võtsin **võileiba**. · pannkook → Nad tegid **pannkooki**.
+**3. Kelleta? Milleta? (ilma …-ta)**
 
-**5. kohtuma kellega?** Ma **kohtusin** eile oma vana sõbra**ga**. · Ma **kohtun** õhtul Mihkli**ga** ja Mardi**ga**. *(Hommikul ma söön hommikust ja lõuna ajal lõunat.)*
+| Kelle/ta | Mille/ta |
+|---|---|
+| Ma ei saa **ilma** sinu**ta** elada. | **Ilma** õpetaja**ta** on raske keelt õppida. |
+| Ära **ilma** mütsi**ta** välja mine. | Tavaliselt ma joon kohvi **ilma** suhkru**ta**. |
+
+**4. Keda? Mida? (osastav — 3. vorm)**
+
+| Sõna | Lause |
+|---|---|
+| puder | Ta sõi **putru**. |
+| vesi | Ma jõin **vett**. |
+| mahl | Ma tahtsin **mahla**. |
+| nägu | Ta pesi **nägu**. |
+| ajaleht | Me lugesime **ajalehte**. |
+| muusika | Nad kuulasid **muusikat**. |
+| võileib | Ma võtsin **võileiba**. |
+| pannkook | Nad tegid **pannkooki**. |
+
+**5. Kohtuma kellega?**
+
+| Eile | Täna/õhtul |
+|---|---|
+| Ma **kohtusin** eile oma vana sõbra**ga**. | Ma **kohtun** õhtul Mihkli**ga** ja Mardi**ga**. |
+
+> 🔹 Hommikul ma söön **hommikust**, lõuna ajal **lõunat**.
 
 ---
 

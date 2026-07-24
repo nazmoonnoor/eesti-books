@@ -180,37 +180,60 @@ Although all the customer data is in our database and I could work with the comp
 | 1974 | aastal **tuhat üheksasada seitsekümmend neli** | **tuhande üheksasaja seitsekümne neljandal** aastal |
 | 2013 | aastal **kaks tuhat kolmteist** | **kahe tuhande kolmeteistkümnendal** aastal |
 
-**2. MIS SAJANDIL? MILLAL?** — centuries:
+**2. MIS SAJANDIL? MILLAL?** — centuries
 
-- 21. sajandil = **kahekümne esimesel** sajandil
-- 20. sajandil = **kahekümnendal** sajandil
-- 19. sajandil = **üheksateistkümnendal** sajandil
+| Sajand | Millal? |
+|---|---|
+| 21. sajandil | **kahekümne esimesel** sajandil |
+| 20. sajandil | **kahekümnendal** sajandil |
+| 19. sajandil | **üheksateistkümnendal** sajandil |
 
-**3. ALGUS JA LÕPP (beginning and end)** — genitive + **alguses / keskel / lõpus**:
+**3. ALGUS JA LÕPP (beginning and end)** — genitive + **alguses / keskel / lõpus**
 
-*nädala · kuu · aasta · tunni · jaanuari · veebruari · oktoobri · novembri · kursuse · loengu · peo · teksti* → **alguses** (at the start), **keskel** (in the middle), **lõpus** (at the end).
+| Omastav | + alguses / keskel / lõpus |
+|---|---|
+| nädala, kuu, aasta, tunni | jaanuari, veebruari, oktoobri, novembri |
+| kursuse, loengu, peo, teksti | |
+
+> 🔹 omastav + **alguse/s**, **keske/l**, **lõpu/s**.
 
 **4. KÜSIMA kellelt? / VASTAMA kellele? millele?**
 
-- Küsi Peetri**lt**! · Küsige ülemuse**lt**! · Küsi osakonnajuhataja**lt**!
-- Vastame tei**le** kirjalikult. · Kes oskab selle**le** küsimuse**le** vastata? · Vastake nende**le** küsimuste**le**.
+| küsima kellelt? | vastama kellele? millele? |
+|---|---|
+| Küsi Peetri**lt**! | Vastame tei**le** kirjalikult. |
+| Küsige ülemuse**lt**! | Kes oskab selle**le** küsimuse**le** vastata? |
+| Küsi osakonnajuhataja**lt**! | Vastake nende**le** küsimuste**le**. |
 
 **5. SUHTLEMA kellega? / KOHTUMA kellega?**
 
-- Mulle meeldib inimeste**ga** suhelda. · Ta suhtleb palju välisüliõpilaste**ga**.
-- Kohtusin vanade töökaaslaste**ga**. · Kohtusime eile Riina ja Teele**ga**.
+| suhtlema kellega? | kohtuma kellega? |
+|---|---|
+| Mulle meeldib inimeste**ga** suhelda. | Kohtusin vanade töökaaslaste**ga**. |
+| Ta suhtleb palju välisüliõpilaste**ga**. | Kohtusime eile Riina ja Teele**ga**. |
 
 **6. ALGAMA – ALUSTAMA / LÕPPEMA – LÕPETAMA** (intransitive vs transitive)
 
-- Koosolek **algab** kell 11. — Kõik on kohal, **alustame** koosolekut. — Ma **alustasin** siin **tööd** 2009. aastal.
-- Leping **lõpeb** järgmisel aastal. — Ta ei ole veel **aruannet lõpetanud**. — Ma pean selle **artikli** täna **lõpetama**.
+| algama – alustama | lõppema – lõpetama |
+|---|---|
+| Koosolek **algab** kell 11. | Leping **lõpeb** järgmisel aastal. |
+| Kõik on kohal, **alustame** koosolekut. | Ta ei ole veel **aruannet lõpetanud**. |
+| Ma **alustasin** siin **tööd** 2009. aastal. | Ma pean selle **artikli** täna **lõpetama**. |
 
 **7. HAKKAMA + tegusõna (-ma) / ALUSTAMA + nimisõna (mida?)**
 
-- Ma **hakkasin** siin **töötama** 2007. aastal. · **Hakkame minema**, kell on juba palju. · Millal sa **hakkasid** eesti keelt **õppima**?
-- **Alustasin tööd** 2007. aastal. · Homme **alustame tundi** kell 8.15. · **Alustage päeva** naeratusega!
+| hakkama + -ma | alustama + nimisõna |
+|---|---|
+| Ma **hakkasin** siin **töötama** 2007. aastal. | **Alustasin tööd** 2007. aastal. |
+| **Hakkame minema**, kell on juba palju. | Homme **alustame tundi** kell 8.15. |
+| Millal sa **hakkasid** eesti keelt **õppima**? | **Alustage päeva** naeratusega! |
 
-**8. Kahesõnalised tegusõnad (two-word verbs):** kaasas olema · rahul olema. *Mul **on** alati ID-kaart **kaasas**. · Kas sa **oled** oma palgaga **rahul**?*
+**8. Kahesõnalised tegusõnad (two-word verbs)**
+
+| Väljend | Lause |
+|---|---|
+| kaasas olema | Mul **on** alati ID-kaart **kaasas**. |
+| rahul olema | Kas sa **oled** oma palgaga **rahul**? |
 
 ---
 

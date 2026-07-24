@@ -312,17 +312,30 @@ Signs and phrases you hear on public transport:
 
 **3. EDASI / TAGASI**
 
-- **Sõitke** veel natuke **edasi**! · Palun **astuge edasi**! · **Lugege edasi**!
-- Te peate kaks kilomeetrit **tagasi** sõitma. · Millal sa maalt **tagasi tuled**? · Siin on 20 eurot. **Tagasi** pole vaja.
-- *edasi-tagasi pilet* (return ticket)
+| edasi | tagasi |
+|---|---|
+| **Sõitke** veel natuke **edasi**! | Te peate kaks kilomeetrit **tagasi** sõitma. |
+| Palun **astuge edasi**! | Millal sa maalt **tagasi tuled**? |
+| **Lugege edasi**! | Siin on 20 eurot. **Tagasi** pole vaja. |
+
+> 🔹 *edasi-tagasi pilet* (return ticket)
 
 **4. MAHA JÄÄMA millest? · MAHA MINEMA kus?**
 
-- Ma **jäin** bussist **maha**. · Tule ruttu, me **jääme** rongist **maha**!
-- Ma **lähen** siin **maha**. · Te peate järgmises peatuses **maha minema**.
+| maha jääma millest? | maha minema kus? |
+|---|---|
+| Ma **jäin** bussist **maha**. | Ma **lähen** siin **maha**. |
+| Tule ruttu, me **jääme** rongist **maha**! | Te peate järgmises peatuses **maha minema**. |
 
-**5. Kahesõnalised tegusõnad (two-word verbs):** kohale jõudma · maha jääma · maha minema · tähele panema · välja müüma.
-*Mis kell sa eile kohale jõudsid? · Ma jäin lennukist maha. · Mis peatuses me maha läheme? · Ta ei pannud seda keelumärki tähele. · See buss on välja müüdud.*
+**5. Kahesõnalised tegusõnad (two-word verbs)**
+
+| Väljend | Lause |
+|---|---|
+| kohale jõudma | Mis kell sa eile **kohale jõudsid**? |
+| maha jääma | Ma **jäin** lennukist **maha**. |
+| maha minema | Mis peatuses me **maha läheme**? |
+| tähele panema | Ta ei **pannud** seda keelumärki **tähele**. |
+| välja müüma | See buss on **välja müüdud**. |
 
 ---
 

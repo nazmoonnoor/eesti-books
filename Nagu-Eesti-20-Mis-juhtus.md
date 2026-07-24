@@ -248,8 +248,15 @@ Rescue Board news bulletins.
 
 **4. Kahesõnalised tegusõnad (two-word verbs)**
 
-lahti olema · läbi laskma · kinni jääma · kokku põrkama · korda tegema · püsti tõusma · trahvi tegema.
-*Mis teil siin **lahti** on? · Meie katus **laseb läbi**. · Auto **jäi** lumme **kinni**. · Haabersti ringil **põrkasid kokku** Audi ja Fiat. · Ma võin selle veekeetja **korda teha**. · Lapsed, **tõuske püsti**! · Politsei **tegi** mulle parkimise eest **trahvi**.*
+| Väljend | Lause |
+|---|---|
+| lahti olema | Mis teil siin **lahti** on? |
+| läbi laskma | Meie katus **laseb läbi**. |
+| kinni jääma | Auto **jäi** lumme **kinni**. |
+| kokku põrkama | Haabersti ringil **põrkasid kokku** Audi ja Fiat. |
+| korda tegema | Ma võin selle veekeetja **korda teha**. |
+| püsti tõusma | Lapsed, **tõuske püsti**! |
+| trahvi tegema | Politsei **tegi** mulle parkimise eest **trahvi**. |
 
 ---
 

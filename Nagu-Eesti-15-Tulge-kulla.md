@@ -241,31 +241,55 @@
 
 ### 7.2 Visiting verbs
 
-- **külla minema** (kelle**le**?): Ma lähen vanema**te**le külla.
-- **külas käima** (kelle**l**?): Me käisime sugulas**te**l külas.
-- **külla tulema:** Tule meile kindlasti külla!
-- **külastama** (keda?): Saksa delegatsioon **külastas** uut haiglat.
+| külla minema (kellele?) | külas käima (kellel?) |
+|---|---|
+| Ma lähen homme vanema**te**le külla. | Me käisime eile sugulas**te**l külas. |
+| Me läheme Mareti**le** ja Uku**le** külla. | Õhtul käisid mei**l** sõbrad külas. |
+
+| külla tulema (kellele?) | külastama (keda?) |
+|---|---|
+| Millal te mei**le** jälle külla tulete? | Saksa delegatsioon **külastas** uut haiglat. |
+| Tule mul**le** kindlasti külla! | Ruhnut **külastas** suvel umbes 5000 inimest. |
 
 ### 7.3 on + adjective + -da
 
-**on raske / ohtlik / mõnus / huvitavam** + *-da*: Suures linnas **on raske** parkimiskohta leida. Sellel diivanil **on mõnus** istuda. Maal **on huvitavam** elada.
+| Omadussõna | Lause |
+|---|---|
+| on raske | Suures linnas **on raske** sõpru **leida**. |
+| on ohtlik | Maanteel **on ohtlik** **käia**. |
+| on mõnus | Sellel diivanil **on mõnus** **istuda**. |
+| on huvitavam | Maal **on huvitavam** **elada**. |
 
 ### 7.4 rääkima · jutustama · lugema · mõtlema — millest? kellest?
 
-oma päeva**st**, oma sõprade**st**, oma vanemate**st**, töö**st** ja vaba**st** aja**st**, arvutimängude**st**.
+| | |
+|---|---|
+| oma pere**st**, oma sõprade**st**, oma vanemate**st** | võõrkeelte õppimise**st**, töö**st** ja vaba**st** aja**st**, arvutimängude**st** |
 
 ### 7.5 pidama
 
-- **peame** (present): Homme me **peame** Ülo sünnipäeva.
-- **pidasime** (past): Eile me **pidasime** Karli sünnipäeva.
+| pea/me – pidi/me | pea/me – pida/si/me |
+|---|---|
+| Me **peame** veel kaua ootama. | Homme me **peame** Ülo sünnipäeva. |
+| Me **pidime** kaua ootama. | Eile me **pidasime** Karli sünnipäeva. |
 
 ### 7.6 -ki / -gi *(too, even)*
 
-After **g b d k p t s h** → **-ki**: Kook on**gi** valmis. After vowels and **l m n r v** → **-gi**: See ei võtnud eriti palju aega.
+| Kaashäälik + ki | Täishäälik/l m n r v + gi |
+|---|---|
+| See ei võtnud**ki** palju aega. | Kook on**gi** valmis. |
+| *(= See ei võtnud eriti palju aega.)* | *(= Kook on juba valmis.)* |
+
+> 🔹 **g b d k p t s h** + **-ki** · vowels and **l m n r v** + **-gi**.
 
 ### 7.7 Kahesõnalised tegusõnad *(phrasal verbs)*
 
-**edasi astuma:** Palun astuge **edasi**! · **sisse astuma / tulema:** Tere, Mart, tule **sisse**! · **ära võtma:** Palun võtke mantlid **ära**. · **nõus olema:** Ma olen sinuga täiesti **nõus**.
+| Väljend | Lause |
+|---|---|
+| edasi astuma | Palun astuge **edasi**! |
+| nõus olema | Ma olen sinuga täiesti **nõus**. |
+| sisse tulema | Tere, Mart, tule **sisse**! |
+| ära võtma | Palun võtke mantlid **ära**! |
 
 ---
 

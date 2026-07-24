@@ -184,17 +184,54 @@ The margin word forms *(1. / 2. / 3. vorm)*: hapu · hapu · haput — jäätis 
 
 > **AGA (irregular):** pikk → pika → **pikem** → kõige pikem · lai → laia → **laiem** · tark → targa → **targem** · vana → vana → **vanem** · soe → sooja → **soojem** · külm → külma → **külmem** · halb → halva → **halvem** · lühike → lühikese → **lühem** · hea → hea → **parem** · palju → **rohkem** · vähe → **vähem**.
 
-**2. Ainsuse osastav (partitive singular):** **kilo / palju / vähe +** suhkru**t**, vorsti, sinki · soola, juustu · koor**t**, jäätis**t**, või**d** · tee**d**, kohvi. — **pudel** veini, **vett** · **purk** moosi, **mett**.
+**2. Ainsuse osastav (partitive singular)**
 
-**3. Mitmuse osastav (partitive plural):** **-e:** apelsine, banaane, ploome, kirsse, pirne, komme, kurke, ube. · **-u:** õunu, viinamarju. · **-id:** maasika**id**, sibula**id**, herne**id**, küpsise**id**, viinere**id**, porgande**id**, pähkle**id**, kartule**id**.
+| Kilo | Pakk | Pudel | Purk |
+|---|---|---|---|
+| suhkru**t**, vorsti, sinki | koor**t**, jäätis**t**, või**d** | vein**i**, ve**tt** | moosi, me**tt** |
+| soola, juustu | tee**d**, kohvi | | |
 
-**4. otsima kust? · ostma kust?** Otsisin infot interneti**st**. · Otsige sõnu sõnastiku**st**! · Otsi teksti**st** uusi sõnu! — Mida sa poe**st** ostsid? · Ma ostsin turu**lt** lilli. · Ostsime need Soome**st**. *(otsima → otsida → otsin → otsisin; ostma → osta → ostan → ostsin.)*
+**3. Mitmuse osastav (partitive plural)**
 
-**5. mõtlema · ütlema:** Ma ei **mõtelnud/mõelnud** seda nii. · **Mõtelge/mõelge**, kas see on hea idee. — Ma ei **ütelnud/öelnud** talle midagi. · **Ütelge/öelge**, et pidu algab kell 8. *(mõtel/da = mõel/da; ütel/da = öel/da.)*
+| -e | -u | -id |
+|---|---|---|
+| apelsine, banaane, ploome, kirsse | õunu, viinamarju | maasika**id**, sibula**id**, herne**id**, küpsise**id** |
+| pirne, komme, kurke, ube | | viinere**id**, porgande**id**, pähkle**id**, kartule**id** |
 
-**6. ära (tegevuse lõpp) vs ära/ärge (eitus):** **ära sööma** — Sööge supp **ära**! · Ta müüs oma ratta **ära**. — **Ära** mine veel **ära**! · **Ärge** sõitke **ära**!
+**4. otsima kust? / ostma kust?**
 
-**7. kahesõnalised tegusõnad:** **kaasa võtma** — Mitu pudelit vett sa **kaasa võtsid**? · **kirja panema** — Kas sa **panid** kõik sõnad **kirja**? · **otsas olema** — Kohvikoor **on** ka **otsas**. · **vaja olema** — Mida meil veel **vaja on**?
+| otsima kust? | ostma kust? |
+|---|---|
+| Otsisin infot interneti**st**. | Mida sa poe**st** ostsid? |
+| Otsige sõnu sõnastiku**st**! | Ma ostsin turu**lt** lilli. |
+| Otsi teksti**st** uusi sõnu! | Ostsime need Soome**st**. |
+
+> 🔹 otsi/ma – otsi/da – otsi/n – otsi/si/n · ost/ma – ost/a – osta/n – osts/in.
+
+**5. mõtlema · ütlema**
+
+| mõtlema | ütlema |
+|---|---|
+| Ma ei **mõtelnud/mõelnud** seda nii. | Ma ei **ütelnud/öelnud** talle midagi. |
+| **Mõtelge/mõelge**, kas see on hea idee. | **Ütelge/öelge**, et pidu algab kell 8. |
+
+> 🔹 mõtel/da = mõel/da · ütel/da = öel/da.
+
+**6. ära (tegevuse lõpp) vs ära/ärge (eitus)**
+
+| ära = tegevuse lõpp | ära/ärge = eitus |
+|---|---|
+| Sööge supp **ära**! | **Ära** mine veel **ära**! |
+| Ta müüs oma ratta **ära**. | **Ärge** sõitke **ära**! |
+
+**7. Kahesõnalised tegusõnad**
+
+| Väljend | Lause |
+|---|---|
+| kaasa võtma | Mitu pudelit vett sa **kaasa võtsid**? |
+| kirja panema | Kas sa **panid** kõik sõnad **kirja**? |
+| otsas olema | Kohvikoor **on** ka **otsas**. |
+| vaja olema | Mida meil veel **vaja on**? |
 
 ---
 

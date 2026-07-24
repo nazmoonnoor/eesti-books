@@ -219,15 +219,51 @@ alustama · alustada · alustab — ehitama · ehitada · ehitab — kordama · 
 | 11 üksteist | ühe**teist(kümne)aastane** | ühe**teistkümnes** | ühe**teist… kümnendal** |
 | 22 kakskümmend kaks | kahekümne kahe **aastane** | kaheküm**ne** tei**ne** | kaheküm**ne** tei**sel** |
 
-**2. Sünniaeg:** 1. Mis on teie sünniaeg? → 30. mai 1976 — kolmeküm**nes** mai tuhat üheksasada seitsekümmend kuus. · 2. Millal te olete sündinud? → 30. mail 1976 — kolmeküm**nendal** mai**l** tuhat üheksasada seitsekümmend kuus (või: **aastal** tuhat üheksasada seitsekümmend kuus).
+**2. Sünniaeg**
 
-**3. oskama · saama · võima:** Ma **oskan** ujuda. · Ta **oskab** soome keelt. — **Sain** tuttavaks. · Ma **ei saanud** aru. · Ta **ei saa** kohe tulla. — Ma **võin** sind aidata. · Siin **ei või** seista. · Mida ma **võin** võtta?
+| Küsimus | Vastus |
+|---|---|
+| Mis on teie sünniaeg? | 30. mai 1976 → kolmeküm**nes** mai tuhat üheksasada seitsekümmend kuus. |
+| Millal te olete sündinud? | 30. mail 1976 → kolmeküm**nendal** mai**l** tuhat üheksasada seitsekümmend kuus / … **aastal** tuhat üheksasada seitsekümmend kuus. |
 
-**4. algama – lõppema vs alustama – lõpetama:** Kontsert **algab** kell 19. · Millal su töö **lõpeb**? — Kõik on kohal. **Alustame** tundi. · Ma **lõpetasin** kooli viis aastat tagasi. — **hakkama + tegusõna:** **Hakkasime** maja **ehitama**. · Ma **hakkasin** eesti keelt **õppima**. — **alustama + nimisõna:** Ma **alustasin** siin **tööd** aastal 2013. · Me **alustame tundi** 15 minutit hiljem. *(tund / pidu / film **algab**; ma **hakkan + ma**, ma **alustan + …**.)*
+**3. oskama · saama · võima**
 
-**5. kellena? kelleks?** KELLE+**NA**? — Kelle**na** sa töötad? → Politseiniku**na**. — KELLE+**KS**? — Kelle**ks** sa õpid? → Ta õpib arsti**ks**.
+| oskama | saama | võima |
+|---|---|---|
+| Ma **oskan** ujuda. | **Sain** tuttavaks. | Ma **võin** sind aidata. |
+| Ta **oskab** soome keelt. | Ma **ei saanud** aru. | Siin **ei või** seista. |
+| | Ta **ei saa** kohe tulla. | Mida ma **võin** võtta? |
 
-**6. keda? mida? (osastav — 3. vorm):** otsima → Me otsime **uut sekretäri**. · ostma → Me ostsime **saia ja leiba**. · oskama → Nad oskavad **rootsi keelt**. · pakkuma → Pakume **head palka**. · ootama → Ma ootan **sind** Vilde kohvikus. · vaja olema → Sul on **puhkust** vaja.
+**4. algama – lõppema vs alustama – lõpetama**
+
+| algama – lõppema | alustama – lõpetama |
+|---|---|
+| Kontsert **algab** kell 19. | Kõik on kohal. **Alustame** tundi. |
+| Millal su töö **lõpeb**? | Ma **lõpetasin** kooli viis aastat tagasi. |
+
+| hakkama + tegusõna (-ma) | alustama + nimisõna |
+|---|---|
+| **Hakkasime** maja **ehitama**. | Ma **alustasin** siin **tööd** aastal 2013. |
+| Ma **hakkasin** eesti keelt **õppima**. | Me **alustame tundi** 15 minutit hiljem. |
+
+> 🔹 tund / pidu / film **algab**.
+
+**5. Kellena? Kelleks?**
+
+| Kelle+na? | Kelle+ks? |
+|---|---|
+| Kelle**na** sa töötad? → Politseiniku**na**. | Kelle**ks** sa õpid? → Ta õpib arsti**ks**. |
+
+**6. Keda? Mida? (osastav — 3. vorm)**
+
+| Sõna | Lause |
+|---|---|
+| otsima | Me otsime **uut sekretäri**. |
+| ostma | Me ostsime **saia ja leiba**. |
+| oskama | Nad oskavad **rootsi keelt**. |
+| pakkuma | Pakume **head palka**. |
+| ootama | Ma ootan **sind** Vilde kohvikus. |
+| vaja olema | Sul on **puhkust** vaja. |
 
 ---
 

@@ -249,8 +249,17 @@ Compliments to try out:
 | **lp** lugupeetud | **mnt** maantee | **k.a** kaasa arvatud | **vt** vaata |
 | **v.a** väga austatud | **pst** puiestee | **st** see tähendab | **vrd** võrdle |
 
-**6. Kahesõnalised tegusõnad (two-word verbs):** alla kirjutama · asju ajama · kätte saama · posti panema · tagasi saama · tagasi tulema · üle kandma.
-*Palun kirjutage siia alla! · Ma pean täna veel palju asju ajada. · Kas sa said minu meili kätte? · Ole hea, pane need kirjad posti! · Seda raha enam tagasi ei saa. · Ma tulen siis pärast kuut tagasi. · Ma võin sulle raha kohe üle kanda.*
+**6. Kahesõnalised tegusõnad (two-word verbs)**
+
+| Väljend | Lause |
+|---|---|
+| alla kirjutama | Palun kirjutage siia **alla**! |
+| asju ajama | Ma pean täna veel palju **asju ajada**. |
+| kätte saama | Kas sa said minu meili **kätte**? |
+| posti panema | Ole hea, pane need kirjad **posti**! |
+| tagasi saama | Seda raha enam **tagasi** ei saa. |
+| tagasi tulema | Ma tulen siis pärast kuut **tagasi**. |
+| üle kandma | Ma võin sulle raha kohe **üle kanda**. |
 
 ---
 

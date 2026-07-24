@@ -342,15 +342,33 @@ See the box above: three very similar words — **köök** (kitchen), **kook** (
 | Kas te taha**te** täna tulla? | Kas te taha**ks(ite)** täna tulla? |
 | Nad taha**vad** juua. | Nad taha**ks(id)** juua. |
 
-**4. Mida? (partitive objects)** — ostsime sepiku**t**, pähkle**id** · tellisime pitsa**t**, kooki · proovisime salati**t**, torti · tähistasime sõbrapäeva, jõule · säästsime aega, raha, energia**t** · võrdlesime kaupu, hindu.
+**4. Mida? (partitive objects)**
+
+| Verb | Osastav |
+|---|---|
+| ostsime | sepiku**t**, pähkle**id** |
+| tellisime | pitsa**t**, kooki |
+| proovisime | salati**t**, torti |
+| tähistasime | sõbrapäeva, jõule |
+| säästsime | aega, raha, energia**t** |
+| võrdlesime | kaupu, hindu |
 
 **5. Mis kellast mis kellani? (-st → -ni)**
 
-- 8.00–19.00 — Kauplus on lahti hommikul kaheksa**st** õhtul seitsme**ni**.
-- 10.00–23.00 — Kohvik on avatud kümne**st** hommikul üheteistkümne**ni** õhtul.
-- 12.30–14.00 — Mul on loeng poole ühe**st** kahe**ni**.
+| Kellaaeg | Lause |
+|---|---|
+| 8.00–19.00 | Kauplus on lahti hommikul kaheksa**st** õhtul seitsme**ni**. |
+| 10.00–23.00 | Kohvik on avatud kümne**st** hommikul üheteistkümne**ni** õhtul. |
+| 12.30–14.00 | Mul on loeng poole ühe**st** kahe**ni**. |
 
-**6. Kahesõnalised tegusõnad (two-word verbs)** — lahti tegema / kinni panema: *Tehke kohe uks lahti! Kas ma võin ukse kinni panna?* · kokku saama / valmis olema: *Saame täna pärast tööd kokku. Kas olete valmis tellima?*
+**6. Kahesõnalised tegusõnad (two-word verbs)**
+
+| Väljend | Lause |
+|---|---|
+| lahti tegema | Tehke kohe uks **lahti**! |
+| kinni panema | Kas ma võin ukse **kinni** panna? |
+| kokku saama | Saame täna pärast tööd **kokku**. |
+| valmis olema | Kas olete **valmis** tellima? |
 
 ---
 
